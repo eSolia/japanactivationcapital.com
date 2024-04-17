@@ -84,7 +84,8 @@ site.use(decapCMS({
 }));
 
 site.copy("assets");
-site.copy([".pdf"], (file) => "pdf" + file);
+// site.copy([".pdf"], (file) => "pdf" + file);
+site.copy([".pdf"]);
 site.copy("humans.txt");
 site.copy("robots.txt");
 site.copy("3d5f05c39f2742c38468b4f72fb80879.txt");
