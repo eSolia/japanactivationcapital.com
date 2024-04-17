@@ -46,6 +46,7 @@ site.use(multilanguage({
 site.use(picture());
 site.use(transformImages({
   cache: true, // Toggle cache
+  extensions: ["jpg", "jpeg", "png", "webp", "pdf"],
 }));
 site.use(pagefind());
 
