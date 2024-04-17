@@ -46,6 +46,7 @@ site.use(multilanguage({
 site.use(picture());
 site.use(transformImages({
   cache: true, // Toggle cache
+  matches: /\.(jpg|jpeg|png|webp)$/i  // This regex matches only image files
 }));
 site.use(pagefind());
 
