@@ -40,3 +40,5 @@ Japan Activation Capital 1号は、その全額を以下の国内主要金融機
 E-Mail：　NewtonInvestment@kekstcnc.com
 
 本プレスリリースは、情報提供のみを目的としたものであり、特定の取引の推奨または勧誘を目的としたものではなく、金融商品取引法に基づく開示を目的としたものでもありません。
+
+[PDF版はこちらからご覧ください](/media/20240426a.pdf)
