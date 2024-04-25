@@ -11,15 +11,12 @@ date: 2024-04-26T07:00:32.430Z
 img: /media/logo.png
 imgalt: Newton Investment Partners Logo
 ---
-
-
 \
 \
 \
 \
 \
-\
-<div style="text-align: right;">
+\<div style="text-align: right;">
 2024年4月26日<br>ニュートン・インベストメント・パートナーズ株式会社
 </div>
 
