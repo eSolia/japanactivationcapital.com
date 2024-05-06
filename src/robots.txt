@@ -1,5 +1,8 @@
 user-agent: *
 Disallow: /6e77746e/
+Disallow: ntwn_index.html
+Disallow: nwtn_site.zip
+Disallow: ntwn_tree.html
 
 User-agent: CCBot
 Disallow: /
@@ -72,3 +75,5 @@ Disallow: /
 
 User-agent: PetalBot
 Disallow: /
+
+Sitemap: https://newtoninvestment.jp/sitemap.xml
