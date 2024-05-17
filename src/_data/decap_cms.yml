@@ -157,7 +157,7 @@ collections:
         name: tags
         widget: list
         required: false
-        hint: Enter Core, Board and/or Advisor to display the bio in that section in the Our People page. Separate by a space and comma.
+        hint: Enter Core, Board and/or Advisor to display the bio in that section in the Our People page. Enter as half-pitch English, separating with comma and space.
       - label: Content
         name: bio
         widget: markdown
