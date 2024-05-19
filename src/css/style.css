@@ -1324,7 +1324,7 @@ a {
   font-style: normal;
   font-weight: 600;
   line-height: 1.1;
-  font-size: clamp(2rem, 4vw, 3rem) !important;
+  font-size: clamp(1.5rem, 3vw, 2rem) !important;
 }
 
 .bio-position {
