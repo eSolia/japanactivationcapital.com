@@ -1318,6 +1318,15 @@ a {
   font-size: clamp(1rem, 2vw, 1.5rem) !important;
   margin-top: .25em;
 }
+
+.subtitle {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.1;
+  font-size: clamp(1rem, 2vw, 1.5rem) !important;
+}
+
 .bio-position {
   line-height: 1.4;
   margin-bottom: .6em;
