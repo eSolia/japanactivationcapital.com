@@ -5,9 +5,6 @@ containerClass: bios
 <section id="bios">
   <div class="inner">
     <h1 class="new-title">{{ title }}</h1>
-    <span class="bios-update">
-      <time>{{ displaydate }}</time>
-    </span>
   </div>
   <h2 class="subtitle">Core Team</h2>
   <ul id="bios-list">
@@ -31,9 +28,6 @@ containerClass: bios
   </ul>
   <h2 class="subtitle">Board of Directors</h2>
   <ul id="bios-list">
-    <li class="bios-update">
-      <time>{{ displaydate }}</time>
-    </li>
     {{ for item of search.pages(`tags*=Board type=bio lang=${lang}`, "weight") }}
     <li>
       <article id="bio">
@@ -52,7 +46,7 @@ containerClass: bios
   <h2 class="subtitle">Advisors</h2>
   <ul id="bios-list">
     <li class="bios-update">
-      <time>{{ displaydate }}</time>
+      <span>{{ displayorder }}</span>
     </li>
     {{ for item of search.pages(`tags*=Advisor type=bio lang=${lang}`, "weight") }}
     <li>
