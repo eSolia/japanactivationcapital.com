@@ -220,6 +220,10 @@ collections:
             name: displaydate
             widget: string
             hint: Enter the update date to be displayed on the page, in the same language as the content.
+          - label: Display Order
+            name: displayorder
+            widget: string
+            hint: Enter the order in which the team bios are listed on the page, in the same language as the content.
       - label: "チーム紹介"
         name: team-list-ja
         file: src/team.yml
@@ -232,3 +236,7 @@ collections:
             name: displaydate
             widget: string
             hint: Enter the update date to be displayed on the page, in the same language as the content.
+          - label: Display Order
+            name: displayorder
+            widget: string
+            hint: Enter the order in which the team bios are listed on the page, in the same language as the content.
