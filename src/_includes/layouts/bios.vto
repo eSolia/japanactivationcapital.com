@@ -28,6 +28,9 @@ containerClass: bios
   </ul>
   <h2 class="subtitle">Board of Directors</h2>
   <ul id="bios-list">
+    <li class="bios-update">
+      <span>{{ displayorder }}</span>
+    </li>
     {{ for item of search.pages(`tags*=Board type=bio lang=${lang}`, "weight") }}
     <li>
       <article id="bio">
