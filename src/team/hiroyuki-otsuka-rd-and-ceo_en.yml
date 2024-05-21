@@ -11,7 +11,7 @@ ldPerson:
   nationality: Japanese
 lang: en
 id: bio_otsuka
-weight: 1080
+weight: 500
 name: Hiroyuki Otsuka
 position: Representative Director and CEO
 short: " "
