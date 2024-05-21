@@ -10,7 +10,7 @@ ldPerson:
   nationality: Japanese
 lang: en
 id: bio_Nakamura
-weight: 1060
+weight: 560
 name: Yoshi Nakamura
 position: Partner
 short: " "
