@@ -71,7 +71,8 @@ collections:
         name: img
         widget: image
         default: /media/logo.png
-        hint: Upload the featured image for the news post (defaults to the logo). The system will automatically resize it for use in the site.
+        hint: Upload the featured image for the news post (defaults to the logo). The system will automatically resize it for use in the site. You can also opt to remove the image.
+        required: false
       - label: Featured Image Alt Text
         name: imgalt
         widget: string
@@ -220,6 +221,10 @@ collections:
             name: displaydate
             widget: string
             hint: Enter the update date to be displayed on the page, in the same language as the content.
+          - label: Display Order
+            name: displayorder
+            widget: string
+            hint: Enter the order in which the team bios are listed on the page, in the same language as the content.
       - label: "チーム紹介"
         name: team-list-ja
         file: src/team.yml
@@ -232,3 +237,7 @@ collections:
             name: displaydate
             widget: string
             hint: Enter the update date to be displayed on the page, in the same language as the content.
+          - label: Display Order
+            name: displayorder
+            widget: string
+            hint: Enter the order in which the team bios are listed on the page, in the same language as the content.
