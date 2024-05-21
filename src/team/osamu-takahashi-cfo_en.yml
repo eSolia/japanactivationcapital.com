@@ -10,7 +10,7 @@ ldPerson:
   nationality: Japanese
 lang: en
 id: bio_TakahashiO
-weight: 1110
+weight: 600
 name: Osamu Takahashi
 position: Chief Financial Officer
 short: " "
