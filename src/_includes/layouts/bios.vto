@@ -9,6 +9,9 @@ containerClass: bios
   <span class="txt-floatright"><time>{{ displaydate }}</time></span>
   <h2 class="subtitle">Core Team</h2>
   <ul id="bios-list">
+    <li class="bios-update">
+      <span>&nbsp;</span>
+    </li>
     {{ for item of search.pages(`tags*=Core type=bio lang=${lang}`, "weight") }}
     <li>
       <article id="bio">
