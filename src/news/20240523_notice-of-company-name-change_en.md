@@ -14,7 +14,7 @@ imgalt: Newton Investment Partners Logo
 ---
 <div style="text-align: right;">
 <br><br><br><br><br><br>
-2024年4月26日<br>ニュートン・インベストメント・パートナーズ株式会社
+27 May 2024<br>Newton Investment Partners, Inc.
 </div>
 
 \
