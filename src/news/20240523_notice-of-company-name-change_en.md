@@ -33,16 +33,12 @@ The name “Japan Activation Capital” embodies our strong commitment to “act
 　3．URL（Effective after 1 July 2024）: https://japanactivationcapital.com/\
 \
 \
-Media Inquiries\
+**Media Inquiries**\
 Kekst CNC\
 Minako Otani / Andrew Mandel\
 Phone Number：+81-3-5156-0190 / +81-80-4639-9123\
 E-Mail：　JapanActivationCapital@kekstcnc.com \
 \
 This press release is for informational purposes only and is not intended to recommend or solicit any specific transactions, nor is it intended to be a disclosure pursuant to the Financial Instruments and Exchange Act.
-
-
-
-
 
 [PDF版はこちらからご覧ください](/media/20240426a.pdf)
