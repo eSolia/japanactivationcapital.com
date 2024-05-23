@@ -41,4 +41,4 @@ E-Mail：　JapanActivationCapital@kekstcnc.com \
 \
 This press release is for informational purposes only and is not intended to recommend or solicit any specific transactions, nor is it intended to be a disclosure pursuant to the Financial Instruments and Exchange Act.
 
-[PDF版はこちらからご覧ください](/media/20240426a.pdf)
+[Please see PDF File](/media/20240527ae.pdf)
