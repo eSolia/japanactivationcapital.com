@@ -30,7 +30,7 @@ The name “Japan Activation Capital” embodies our strong commitment to “act
 
 　2．Effective Date：1 July 2024
 
-　3．URL（Effective after 1 July 2024）: https://japanactivationcapital.com/\
+　3．URL（Effective after 1 July 2024）: <https://japanactivationcapital.com/>\
 \
 \
 **Media Inquiries**\
