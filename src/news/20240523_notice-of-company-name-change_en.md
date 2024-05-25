@@ -29,6 +29,11 @@ The name “Japan Activation Capital” embodies our strong commitment to “act
 　1．Renewed Company Name： Japan Activation Capital, Inc.
 
 　2．Effective Date：1 July 2024
+<div align="center">
+<br>
+<img src= "/media/2023niplogob.png" width="50%">
+</div>
+<br>
 
 　3．URL（Effective after 1 July 2024）: <https://japanactivationcapital.com/>\
 \
