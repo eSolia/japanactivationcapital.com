@@ -31,7 +31,7 @@ The name “Japan Activation Capital” embodies our strong commitment to “act
 　2．Effective Date：1 July 2024
 <div align="center">
 <br>
-<img src= "/media/JAC_logo_p0_RGB.png" width="50%">
+<img src= "/media/JAC_logo_p0_RGB.png" width="80%">
 </div>
 <br>
 
