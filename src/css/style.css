@@ -671,6 +671,7 @@ a {
         font-weight: 500;
         line-height: 199.5%; }
     .content section.mission {
+      margin-top: 150px;
       margin-bottom: 120px; }
     .content section.ceo .inner h2 {
       font-size: 20px;
