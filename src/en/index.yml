@@ -74,7 +74,7 @@ company: |
   <div class="table table-l">
     <div class="item">
       <div class="head">Company</div>
-      <div class="body">Newton Investment Partners, Inc.</div>
+      <div class="body">Japan Activation Capital, Inc.</div>
     </div>
     <div class="item">
       <div class="head">Representative Director and CEO</div>
@@ -96,8 +96,8 @@ company: |
     <div class="item">
       <div class="head">Contact</div>
       <div class="body">
-        <a href="mailto:contact@newtoninvestment.jp">
-          <div class="label">contact@newtoninvestment.jp</div>
+        <a href="mailto:contact@japanactivationcapital.com">
+          <div class="label">contact@japanactivationcapital.com</div>
           <div class="icon"><img src="/assets/img/icon_arrow.svg" alt="Right-facing arrow icon indicating a link to another page."></div>
         </a>
       </div>
@@ -117,8 +117,8 @@ inquiries: |
     <div class="item">
       <div class="head">E-Mail</div>
       <div class="body">
-        <a href="mailto:NewtonInvestment@kekstcnc.com">
-          <div class="label">NewtonInvestment@kekstcnc.com</div>
+        <a href="mailto:JapanActivationCapital@kekstcnc.com">
+          <div class="label">JapanActivationCapital@kekstcnc.com</div>
           <div class="icon"><img src="/assets/img/icon_arrow.svg" alt="Right-facing arrow icon indicating a link to another page."></div>
         </a>
       </div>
