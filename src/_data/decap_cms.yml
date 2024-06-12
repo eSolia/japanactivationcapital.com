@@ -4,7 +4,7 @@ backend:
 
 site_url: https://newtoninvestment.jp/
 display_url: https://newtoninvestment.jp/
-logo_url: https://newtoninvestment.jp/assets/img/ogp.png
+logo_url: https://newtoninvestment.jp/assets/img/jac_logo.png
 
 media_folder: /src/media
 public_folder: /media
