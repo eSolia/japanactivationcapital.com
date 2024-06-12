@@ -76,7 +76,7 @@ collections:
       - label: Featured Image Alt Text
         name: imgalt
         widget: string
-        default: Newton Investment Partners Logo
+        default: Japan Activation Capital Logo
         hint: Enter the alt text for the featured image, in the same language as the content.
       - label: News Content
         name: body

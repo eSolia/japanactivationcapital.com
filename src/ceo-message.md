@@ -3,7 +3,7 @@ priority: 0.9
 layout: layouts/ceo-message.vto
 name: ご挨拶
 metas:
-  title: 代表取締役社長 CEO ご挨拶 | NEWTON INVESTMENT PARTNERS
+  title: 代表取締役社長 CEO ご挨拶 | JAPAN ACTIVATION CAPITAL
   description: 代表取締役社長 CEO 大塚 博行からのご挨拶
 containerClass: ceo
 title: 代表取締役社長 CEO 大塚 博行からのメッセージ
