@@ -73,6 +73,9 @@ approach: |
 
 company: |
   <h2 class="new-title">Company</h2>
+  <div class="desc">
+    JAPAN ACTIVATION CAPITALはジャパン・アクティベーション・キャピタル株式会社が<br>運営・管理を行うファンドです
+  </div>
   <div class="table table-l">
     <div class="item">
       <div class="head">社名</div>
