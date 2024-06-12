@@ -7,7 +7,7 @@ export const ja = {
 
 export const en = {
   title: "News Listing",
-  description: "Newton Investment Partners News List with internal news pages and links to external news pages.",
+  description: "Japan Activation Capital News List with internal news pages and links to external news pages.",
 };
 
 export default function* ({ search, paginate }: Lume.Data) {
