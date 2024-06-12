@@ -2,7 +2,7 @@ export const layout = "layouts/news_list.vto";
 
 export const ja = {
   title: "ニュース一覧",
-  description: "社内ニュースページや外部ニュースへのリンクを含む、ニュートン・インベストメント・パートナーズ ニュース 一覧",
+  description: "社内ニュースページや外部ニュースへのリンクを含む、ジャパン・アクティベーション・キャピタル ニュース 一覧",
 };
 
 export const en = {
