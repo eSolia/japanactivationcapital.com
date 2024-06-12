@@ -73,13 +73,10 @@ approach: |
 
 company: |
   <h2 class="new-title">Company</h2>
-  <div class="desc">
-    JAPAN ACTIVATION CAPITALはNEWTON INVESTMENT PARTNERSが<br>運営・管理を行うファンドです
-  </div>
   <div class="table table-l">
     <div class="item">
       <div class="head">社名</div>
-      <div class="body">ニュートン・インベストメント・パートナーズ株式会社</div>
+      <div class="body">ジャパン・アクティベーション・キャピタル株式会社</div>
     </div>
     <div class="item">
       <div class="head">代表取締役社長 CEO</div>
@@ -101,8 +98,8 @@ company: |
     <div class="item">
       <div class="head">連絡先</div>
       <div class="body">
-        <a href="mailto:contact@newtoninvestment.jp">
-          <div class="label">contact@newtoninvestment.jp</div>
+        <a href="mailto:contact@japanactivationcapital.com">
+          <div class="label">contact@japanactivationcapital.com</div>
           <div class="icon"><img src="/assets/img/icon_arrow.svg" alt="Right-facing arrow icon indicating a link to another page."></div>
         </a>
       </div>
@@ -122,8 +119,8 @@ inquiries: |
     <div class="item">
       <div class="head">E-Mail</div>
       <div class="body">
-        <a href="mailto:NewtonInvestment@kekstcnc.com">
-          <div class="label">NewtonInvestment@kekstcnc.com</div>
+        <a href="mailto:JapanActivationCapital@kekstcnc.com">
+          <div class="label">JapanActivationCapital@kekstcnc.com</div>
           <div class="icon"><img src="/assets/img/icon_arrow.svg" alt="Right-facing arrow icon indicating a link to another page."></div>
         </a>
       </div>
