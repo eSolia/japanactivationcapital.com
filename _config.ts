@@ -1,4 +1,5 @@
 import lume from "lume/mod.ts";
+import vento from "lume/plugins/vento.ts";
 import multilanguage from "lume/plugins/multilanguage.ts";
 import favicon from "lume/plugins/favicon.ts";
 import metas from "lume/plugins/metas.ts";
@@ -30,9 +31,15 @@ import { getGitDate } from "lume/core/utils/date.ts";
 const site = lume(
   {
     src: "src",
-    location: new URL("https://newtoninvestment.jp"),
+    location: new URL("https://japanactivationcapital.com"),
   },
 );
+
+site.use(vento({
+  filters: {
+    jsonStringify: (value: any) => JSON.stringify(value),
+  },
+}));
 
 site.use(date({
   locales: { enUS, ja },
