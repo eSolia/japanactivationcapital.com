@@ -1,6 +1,8 @@
 ---
 layout: layouts/ceo-message.vto
 id: ceo-message
+lang: en
+unmatchedLangUrl: ja
 priority: 0.9
 title: Message from Hiroyuki Otsuka, R.D. and CEO
 name: Greetings
