@@ -4,7 +4,7 @@
 /* PROJECT TEAM */
 
     Owner: Japan Activation Capital, Inc.
-    Contact: https://newtoninvestment.jp/en#inquiries
+    Contact: https://japanactivationcapital.com/en#inquiries
     Original Design: http://minsak.jp
     Design Updates and Generator Dev: Óscar Otero https://oscarotero.com/
     Infrastructure: Rick Cogley https://esolia.com
