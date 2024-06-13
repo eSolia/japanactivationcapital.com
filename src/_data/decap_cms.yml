@@ -2,9 +2,9 @@ backend:
   name: git-gateway
   branch: main
 
-site_url: https://newtoninvestment.jp/
-display_url: https://newtoninvestment.jp/
-logo_url: https://newtoninvestment.jp/assets/img/jac_logo.png
+site_url: https://japanactivationcapital.com/
+display_url: https://japanactivationcapital.com/
+logo_url: https://japanactivationcapital.com/assets/img/jac_logo.png
 
 media_folder: /src/media
 public_folder: /media
