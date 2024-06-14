@@ -13,6 +13,7 @@ import transformImages from "lume/plugins/transform_images.ts";
 import picture from "lume/plugins/picture.ts";
 import pagefind from "lume/plugins/pagefind.ts";
 import { getGitDate } from "lume/core/utils/date.ts";
+import sourceMaps from "lume/plugins/source_maps.ts";
 
 // import en from "npm:date-fns@2.30.0/locale/en-US/index.js";
 // import ja from "npm:date-fns@2.30.0/locale/ja/index.js";
@@ -57,6 +58,9 @@ site.use(metas());
 site.use(filterPages({
   fn: (page) => !page.data.external_link,
 }));
+
+// Use the source maps plugin to generate the .map files
+site.use(sourceMaps());
 
 site.preprocess([".html"], (pages) => {
   for (const page of pages) {
