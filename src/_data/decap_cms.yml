@@ -188,7 +188,7 @@ collections:
             widget: markdown
             required: false
             hint: Enter the content of the page. 
-      - label: "代表取締役社長 CEO ご挨拶"
+      - label: "代表取締役社長 & CEO ご挨拶"
         name: ceo-message-ja
         file: src/ceo-message.md
         fields: 
