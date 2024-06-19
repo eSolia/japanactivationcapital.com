@@ -97,10 +97,10 @@ site.copy("_redirects");
 site.copy("favicon.svg");
 
 // Create zip and tree scripts
-site.script("zipsite", "zip -r _site/nwtn_site.zip _site");
+site.script("zipsite", "zip -r _site/jac_site.zip _site");
 site.script(
   "maketree",
-  "cd _site && tree -H . -L 5 --charset utf-8 -C -h -o nwtn_tree.html",
+  "cd _site && tree -H . -L 5 --charset utf-8 -C -h -o jac_tree.html",
 );
 // Execute scripts after build
 site.addEventListener("afterBuild", "zipsite");

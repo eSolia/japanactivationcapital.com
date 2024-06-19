@@ -4,20 +4,20 @@
     command = """
       curl -fsSL https://deno.land/x/install/install.sh | sh && \
       /opt/buildhome/.deno/bin/deno task build && \
-      tree . > _site/nwtn_tree.txt
+      tree . > _site/jac_tree.txt
     """
   [context.deploy-preview]
     command = """
       curl -fsSL https://deno.land/x/install/install.sh | sh && \
       /opt/buildhome/.deno/bin/deno task build && \
-      tree . > _site/nwtn_tree.txt && \
+      tree . > _site/jac_tree.txt && \
       cp headers-dev _site/_headers 
     """
   [context.branch-deploy]
     command = """
       curl -fsSL https://deno.land/x/install/install.sh | sh && \
       /opt/buildhome/.deno/bin/deno task build && \
-      tree . > _site/nwtn_tree.txt
+      tree . > _site/jac_tree.txt
       cp headers-dev _site/_headers
     """    
 
