@@ -2,6 +2,7 @@
 <html lang="{{ lang }}">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="10;url=https://japanactivationcapital.com">
   <title> 
   {{ it.title ? `${title} | ${site.title}` : site.title }}
   </title>
@@ -24,9 +25,9 @@
   <script src="https://cdn.usefathom.com/script.js" data-site="EGWBHZIW" defer></script>
   <!-- / Fathom -->
 
-  {{ if "ldPerson" in it }}
+  {{# {{ if "ldPerson" in it }}
     {{ include "templates/ld-person.vto" }}
-  {{ /if }} 
+  {{ /if }} #}}
   
 </head>
 <body>

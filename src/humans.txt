@@ -3,15 +3,15 @@
 
 /* PROJECT TEAM */
 
-    Owner: Newton Investment Partners, Inc.
-    Contact: https://newtoninvestment.jp/en#inquiries
+    Owner: Japan Activation Capital, Inc.
+    Contact: https://japanactivationcapital.com/en#inquiries
     Original Design: http://minsak.jp
     Design Updates and Generator Dev: Óscar Otero https://oscarotero.com/
     Infrastructure: Rick Cogley https://esolia.com
 
 /* SITE */
 
-    Purpose: Marketing site with basic info about NIP's mission and approach, news items and links, personnel pages.
+    Purpose: Marketing site with basic info about JAC's mission and approach, news items and links, personnel pages.
     Languages: English / Japanese
     Build Process: Static Site Generator rebuilds on git push, using templates so that changes do not have to be made on every page manually. 
 
@@ -28,7 +28,10 @@
 
 /* CHANGE LOG */
 
-    2023/10/30 - Original Launch as manual HTML site
-    2024/01/09 - Convert manual to SSG style using Lume generator and decapCMS 
+    20231030 - initial launch using static HTML files
+    20240109 - launch using generator and CMS
+    20240522 - separate team listing page into sections based on singleton page tags
+    20240623 - launch on new domain due to company name change
+    20240701 - forward from old domain to new
 	  
 

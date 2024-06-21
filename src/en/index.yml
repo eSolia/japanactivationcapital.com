@@ -1,6 +1,8 @@
 layout: layouts/index.vto
 date: Git Last Modified
 id: home
+lang: en
+unmatchedLangUrl: ja
 metas:
   title: TOP
   description: Through mid- to long-term minority investments, we support companies with management teams that aspire to transform their businesses by helping them to create expectations of long-term and sustainable growth for their stakeholders.
@@ -15,7 +17,7 @@ news:
 lead: |
   <h2 class="new-title is-smaller">Japan Activation Capital</h2>
   <div class="desc">
-    A solution provided by Newton Investment Partners.
+    A solution provided by Japan Activation Capital.
   </div>
 mission: |
   <h2 class="new-title">Mission</h2>
@@ -74,10 +76,10 @@ company: |
   <div class="table table-l">
     <div class="item">
       <div class="head">Company</div>
-      <div class="body">Newton Investment Partners, Inc.</div>
+      <div class="body">Japan Activation Capital, Inc.</div>
     </div>
     <div class="item">
-      <div class="head">Representative Director and CEO</div>
+      <div class="head">Chief Executive Officer (Founder)</div>
       <div class="body">
         <a href="/en/team/hiroyuki-otsuka-rd-and-ceo_en/">
           <div class="label">Hiroyuki Otsuka</div>
@@ -96,8 +98,8 @@ company: |
     <div class="item">
       <div class="head">Contact</div>
       <div class="body">
-        <a href="mailto:contact@newtoninvestment.jp">
-          <div class="label">contact@newtoninvestment.jp</div>
+        <a href="mailto:contact@japanactivationcapital.com">
+          <div class="label">contact@japanactivationcapital.com</div>
           <div class="icon"><img src="/assets/img/icon_arrow.svg" alt="Right-facing arrow icon indicating a link to another page."></div>
         </a>
       </div>
@@ -117,8 +119,8 @@ inquiries: |
     <div class="item">
       <div class="head">E-Mail</div>
       <div class="body">
-        <a href="mailto:NewtonInvestment@kekstcnc.com">
-          <div class="label">NewtonInvestment@kekstcnc.com</div>
+        <a href="mailto:JapanActivationCapital@kekstcnc.com">
+          <div class="label">JapanActivationCapital@kekstcnc.com</div>
           <div class="icon"><img src="/assets/img/icon_arrow.svg" alt="Right-facing arrow icon indicating a link to another page."></div>
         </a>
       </div>

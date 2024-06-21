@@ -671,6 +671,7 @@ a {
         font-weight: 500;
         line-height: 199.5%; }
     .content section.mission {
+      margin-top: 150px;
       margin-bottom: 120px; }
     .content section.ceo .inner h2 {
       font-size: 20px;
@@ -732,6 +733,9 @@ a {
             clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% calc(100% - 390px)); } }
 
 @media only screen and (max-width: 1300px) {
+  .content section.mission {
+    margin-top: 100px;
+    margin-bottom: 100px; }
   .is-pc {
     display: none !important; }
   html {

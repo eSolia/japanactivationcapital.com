@@ -1,8 +1,10 @@
 layout: layouts/bios.vto
 id: team
+lang: en
+unmatchedLangUrl: ja
 title: Our People
 displaydate: As of May. 2024
 displayorder: Alphabetical order
 metas:
   title: Team Member Biographies
-  description: Newton Investment Partners team member photos and biographies.
+  description: Japan Activation Capital team member photos and biographies.

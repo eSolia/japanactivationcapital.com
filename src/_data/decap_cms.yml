@@ -2,9 +2,9 @@ backend:
   name: git-gateway
   branch: main
 
-site_url: https://newtoninvestment.jp/
-display_url: https://newtoninvestment.jp/
-logo_url: https://newtoninvestment.jp/assets/img/ogp.png
+site_url: https://japanactivationcapital.com/
+display_url: https://japanactivationcapital.com/
+logo_url: https://japanactivationcapital.com/assets/img/jac_logo.png
 
 media_folder: /src/media
 public_folder: /media
@@ -76,7 +76,7 @@ collections:
       - label: Featured Image Alt Text
         name: imgalt
         widget: string
-        default: Newton Investment Partners Logo
+        default: Japan Activation Capital Logo
         hint: Enter the alt text for the featured image, in the same language as the content.
       - label: News Content
         name: body
@@ -188,7 +188,7 @@ collections:
             widget: markdown
             required: false
             hint: Enter the content of the page. 
-      - label: "代表取締役社長 CEO ご挨拶"
+      - label: "代表取締役社長 & CEO ご挨拶"
         name: ceo-message-ja
         file: src/ceo-message.md
         fields: 
