@@ -40,11 +40,6 @@ to = "/brb"
 status = 200
 
 [[redirects]]
-from = "/*"
-to = "/brb"
-status = 200
-
-[[redirects]]
 from = "/en/*"
 to = "/en/404.html"
 status = 404
