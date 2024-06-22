@@ -22,7 +22,7 @@
     Site Generator: Lume, https://lume.land/
     Site Templates: Vento, https://vento.js.org/
     Site CMS: decapCMS, https://decapcms.org/
-    Site Repository: Github, https://github.com/eSolia/newtoninvestment.jp
+    Site Repository: Github, https://github.com/eSolia/japanactivationcapital.com
     Site and DNS Hosting: Netlify
     Registrar: GoDaddy
 
