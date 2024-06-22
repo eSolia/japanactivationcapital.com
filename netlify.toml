@@ -35,6 +35,11 @@
     Permissions-Policy = "autoplay=(), camera=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), publickey-credentials-get=()"
 
 [[redirects]]
+from = "/*"
+to = "/brb.html"
+status = 200
+
+[[redirects]]
 from = "/en/*"
 to = "/en/404.html"
 status = 404
