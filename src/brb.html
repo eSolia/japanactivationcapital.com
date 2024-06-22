@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Keep meta at the top. -->
+    <meta charset="utf-8">
+    <!-- Force IE 8/9/10 to render in the highest available mode. -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Coming Soon</title>
+    <meta name="description" content="This site is coming soon.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.6/tailwind.min.css" rel="stylesheet" />
+    <style>
+      body {
+        
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1rem;
+        line-height: 1.5;
+        text-align: left;
+      }
+      
+      #browser-notice {
+        background: #2C5697;
+        color: white;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 1rem 0;
+        z-index: 1;
+        position: fixed;
+        bottom: 0;
+        height: 3rem
+      }
+      #browser-notice a { color: #FFFF8D; }
+      main {
+        height: 100vh;
+        display: flex;
+        justify-content: center; /* align horizontal */
+        align-items: center; /* align vertical */
+      }
+      svg { width: 70%; max-width: 1080px; }
+    </style>
+  </head>
+  <body class="bg-blue-50">
+    <!-- IE 9 was the last version to support conditional comments -->
+    <!-- http://stackoverflow.com/a/34331225 -->
+    <!--[if lte IE 9]><p id="browser-notice">You are using an outdated browser. <a href="https://browsehappy.com/">Upgrade</a> to improve your web experience and security.</p><![endif]-->
+    <main>
+      <div class="flex items-center justify-center h-screen bg-blue-200">
+        <div class="container">
+          <div class="bg-white rounded-lg shadow-lg p-5 md:p-20 mx-2">
+            <div class="text-center">
+              <h1 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
+                Coming <span class="text-blue-700">Soon</span>
+              </h1>
+              
+              <p class="text-md md:text-xl mt-10 italic"><span class="text-orange-800">Thank you</span> for your patience.</p>
+            </div>
+            <div class="flex justify-center py-3 items-center"><img src="/assets/img/jac_logo.png" alt="New JAC logo"></div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
