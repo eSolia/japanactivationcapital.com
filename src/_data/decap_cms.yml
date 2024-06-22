@@ -33,7 +33,7 @@ collections:
       - label: News Title
         name: title
         widget: string
-        hint: As the news page's metadata title, enter the title of the news item, in the same language as the content. Careful, this becomes the URL slug, so get it right the first time.
+        hint: As the news page's metadata title, enter the title of the news item, in the same language as the content. Careful, this becomes the URL slug, so get it right the first time, and be sure not to enter too long a title.
       - label: News Description
         name: description
         widget: text
