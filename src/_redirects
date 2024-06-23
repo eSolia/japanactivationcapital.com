@@ -1,5 +1,5 @@
-# redirect root to /brb
-/*    /brb.html    200
+# DOES NOT WORK redirect root to /brb
+# /*    /brb.html    200
 
 # redirect ceo to ceo-message due to content being in new bios section
 # SWITCH after actual ceo message is available
