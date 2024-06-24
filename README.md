@@ -8,7 +8,7 @@ coding and help with migrating this site from static HTML to Lume.
 ### Notes:
 
 - Production Site: https://japanactivationcapital.com
-- Branch Deploy Site for "lume" branch: https://lume--newtoninvestment-jp.netlify.app/
+- Branch Deploy Site for a branch called "testing" branch: https://testing--japanactivationcapital.netlify.app/
 - Help Site: https://help.japanactivationcapital.com 
 - Fonts: Google Noto Sans for English and Japanese body text
   - Display font on headings is Adobe "Wedding Gothic ATF" 
