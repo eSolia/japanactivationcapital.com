@@ -3,6 +3,7 @@ Disallow: /6e77746e/
 Disallow: jac_index.html
 Disallow: jac_site.zip
 Disallow: jac_tree.html
+Disallow: jump2jac.html
 
 User-agent: CCBot
 Disallow: /
