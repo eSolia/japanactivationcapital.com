@@ -15,6 +15,8 @@ import pagefind from "lume/plugins/pagefind.ts";
 import { getGitDate } from "lume/core/utils/date.ts";
 import sourceMaps from "lume/plugins/source_maps.ts";
 
+import cache_busting from "https://raw.githubusercontent.com/lumeland/experimental-plugins/c8778bfbf480f57a2357ab94bc22290b8bf11d12/cache_busting/mod.ts";
+
 // import en from "npm:date-fns@2.30.0/locale/en-US/index.js";
 // import ja from "npm:date-fns@2.30.0/locale/ja/index.js";
 // import en from "npm:date-fns@3.2.0/locale/en-US/index.js";
@@ -61,6 +63,8 @@ site.use(filterPages({
 
 // Use the source maps plugin to generate the .map files
 site.use(sourceMaps());
+
+site.use(cache_busting());
 
 site.preprocess([".html"], (pages) => {
   for (const page of pages) {
