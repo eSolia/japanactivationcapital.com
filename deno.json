@@ -11,7 +11,7 @@
     ]
   },
   "imports": {
-    "lume/": "https://deno.land/x/lume@v2.2.3/"
+    "lume/": "https://deno.land/x/lume@v2.2.4/"
   },
   "fmt": {
     "exclude": [
