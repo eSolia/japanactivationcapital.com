@@ -22,7 +22,7 @@ imgalt: Japan Activation Capital
 </div>
 
 \
-We would like to inform you that Japan Activation Capital, Inc. (previously known as Newton Investment Partners, Inc.) will be relocating to our new office, effective on October 1, 2024.\
+Japan Activation Capital, Inc. (formerly known as Newton Investment Partners, Inc.) is pleased to announce that we will be relocating to a new office effective October 1, 2024. \
 The move was necessitated by our growing headcount to manage increasing initiatives. We thank you for all your support and look forward to a continuing and prosperous business relationship.\
 \
 New address:  POLA Aoyama Building 11F, 2-5-17, Minami-Aoyama, Minato-ku, Tokyo 107-0062, Japan\
