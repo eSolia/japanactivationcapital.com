@@ -17,7 +17,7 @@ img: /media/jac_logo_p0_rgb.png
 imgalt: Japan Activation Capital
 ---
 <div style="text-align: right;">
-<br><br>
+<br><br><br>
 30 Sep 2024<br>Japan Activation Capital, Inc.
 </div>
 
