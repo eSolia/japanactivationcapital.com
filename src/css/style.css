@@ -1408,3 +1408,28 @@ a {
     border: 1px solid lavender;
   }
 }
+
+.news-photo img {
+  @media (max-width: 449px) {
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center top;
+    margin: 0 auto 2em;
+    display: block;
+    /* border-radius: 2%; */
+    /* border: 1px solid lavender; */
+  }
+
+  @media (min-width: 450px) {
+    float: right;
+    margin: 0 0 1em 2em;
+    max-width: 40%;
+    /* border-radius: 2%; */
+    /* border: 1px solid lavender; */
+  }
+  @media (min-width: 1301px) {
+    margin: 0 0 2em 3em;
+    /* border-radius: 2%; */
+    /* border: 1px solid lavender; */
+  }
+}
