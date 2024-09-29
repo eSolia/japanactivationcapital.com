@@ -14,7 +14,7 @@ tags:
   - Website
 date: 2024-09-30T10:00:00.000Z
 img: /media/jac_logo_p0_rgb.png
-imgalt: Newton Investment Partners Logo
+imgalt: Japan Activation Capital
 ---
 <div style="text-align: right;">
 <br><br><br><br><br><br>
