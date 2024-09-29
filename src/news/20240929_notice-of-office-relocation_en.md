@@ -17,7 +17,7 @@ img: /media/jac_logo_p0_rgb.png
 imgalt: Japan Activation Capital
 ---
 <div style="text-align: right;">
-<br><br><br>
+<br><br>
 30 Sep 2024<br>Japan Activation Capital, Inc.
 </div>
 
@@ -26,5 +26,5 @@ We would like to inform you that Japan Activation Capital, Inc. (previously know
 The move was necessitated by our growing headcount to manage increasing initiatives. We thank you for all your support and look forward to a continuing and prosperous business relationship.\
 \
 New address:  POLA Aoyama Building 11F, 2-5-17, Minami-Aoyama, Minato-ku, Tokyo 107-0062, Japan\
-
-Website:  <https://japanactivationcapital.com/>\
+\
+Website:  <https://japanactivationcapital.com/>
