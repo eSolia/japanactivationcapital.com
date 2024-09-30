@@ -1411,11 +1411,12 @@ a {
 
 .news-photo img {
   @media (max-width: 449px) {
-    aspect-ratio: 1;
+    /* aspect-ratio: 1; */
     object-fit: cover;
     object-position: center top;
     margin: 0 auto 2em;
     display: block;
+    max-width: 100%;
     /* border-radius: 2%; */
     /* border: 1px solid lavender; */
   }
