@@ -7,17 +7,17 @@ ldPerson:
   alumniOf: ""
   nationality: 日本
 lang: ja
-id: bio_morita
-weight: 675
-name: 森田 純
+id: bio_kobayashi
+weight: 677
+name: 小林 幸輝
 position: <nobr>インベストメント・<wbr>プロフェッショナル</nobr>
 short: "  "
-img: /media/morita2.jpg
+img: /media/kobayashi2.jpg
 tags:
   - Core
-bio: |-
-  A.T. カーニーのマネージャーを経て参画。\
-  産業機械・重工業、素材、ヘルスケアを中心に、事業戦略策定、全社構造改革、組織・業務オペレーション改革、ビジネスデューデリジェンスなど、企業変革を多数支援。\
-  同社入社以前は、IGPI（経営共創基盤）に勤務し、ハンズオンでの事業・組織改革、新規事業立案などを支援。\
+bio: |
+  PAGのPrivate Equityを経て参画。\
+  PAGではエンターテイメント業界及びコンシューマー・リテール業界を中心に多くの投資案件に関与。\
+  それ以前はみずほ証券にてM&Aアドバイザリー業務、IPOアドバイザリー業務に従事。\
   \
-  学歴：慶應義塾大学法学部法律学科卒
+  University of Zurich (LL.M.)、同志社大学法学部法律学科
