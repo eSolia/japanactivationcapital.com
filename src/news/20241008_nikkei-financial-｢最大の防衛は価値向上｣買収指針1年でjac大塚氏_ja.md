@@ -4,7 +4,7 @@ description: 近く数千億円規模で運用を開始する「ジャパン・�
 lang: ja
 id: 20240920a
 date: 2024-09-20T06:10:00.000Z
-external_link: https://toyokeizai.net/articles/-/750866
-img: /media/logo.png
+external_link: https://financial.nikkei.com/article/DGXZQOUB172R70X10C24A9000000?s=1
+img: /media/jac_logo_p0_rgb.png
 imgalt: Newton Investment Partners Logo
 ---
