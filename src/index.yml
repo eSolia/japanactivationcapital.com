@@ -8,7 +8,7 @@ metas:
 priority: 1
 
 news:
-  title: News & Media
+  title: News
   links:
     - text: 全てのニュース
       url: /news/
