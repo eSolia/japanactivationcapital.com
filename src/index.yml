@@ -12,10 +12,10 @@ news:
   links:
     - text: 全てのニュース
       url: /news/
-    - text: ニュースリリース
-      url: /newsrelease/
-    - text: メディア
-      url: /media/
+    # - text: ニュースリリース
+    #   url: /newsrelease/
+    # - text: メディア
+    #   url: /media/
 
 lead: |
   <h2 class="new-title is-smaller">Japan Activation Capital</h2>
