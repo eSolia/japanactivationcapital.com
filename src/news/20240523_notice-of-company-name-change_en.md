@@ -9,7 +9,7 @@ id: 20240527A
 tags:
   - Website
 date: 2024-05-26T21:00:18.283Z
-img: /media/logo.png
+img: ""
 imgalt: Newton Investment Partners Logo
 ---
 <div style="text-align: right;">
