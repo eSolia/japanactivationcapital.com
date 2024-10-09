@@ -11,16 +11,16 @@ metas:
   "twitter:data1": =site.author
 
 menu:
-  - text: Mission
+  - text: Mission & Goal
     url: /#mission
-  - text: Goal
-    url: /#goal
   - text: Approach
     url: /#approach
   - text: Company
     url: /#company
-  - text: News & Media
-    url: /#newslist
+  - text: News Release
+    url: /newsrelease/
+  - text: Media
+    url: /media/
   - text: Our People
     url: /team/
   - text: Inquiries
@@ -59,16 +59,16 @@ en:
     contactPoint:
       contactType: Inquiries
   menu:
-    - text: Mission
+    - text: Mission & Goal
       url: /en/#mission
-    - text: Goal
-      url: /en/#goal
     - text: Approach
       url: /en/#approach
     - text: Company
       url: /en/#company
-    - text: News
-      url: /en/news/
+    - text: News Release
+      url: /en/newsrelease/
+    - text: Media
+      url: /en/media/
     - text: Our People
       url: /en/team/
     - text: Inquiries
