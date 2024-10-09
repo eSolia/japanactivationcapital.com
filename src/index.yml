@@ -9,9 +9,13 @@ priority: 1
 
 news:
   title: News
-  link:
-    text: 全てを見る
-    url: /news/
+  links:
+    - text: 全てのニュース
+      url: /news/
+    - text: メディア
+      url: /media/
+    - text: プレスリリース
+      url: /press/
 
 lead: |
   <h2 class="new-title is-smaller">Japan Activation Capital</h2>

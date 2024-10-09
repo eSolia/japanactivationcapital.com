@@ -19,8 +19,8 @@ menu:
     url: /#approach
   - text: Company
     url: /#company
-  - text: News
-    url: /news/
+  - text: News & Media
+    url: /#newslist
   - text: Our People
     url: /team/
   - text: Inquiries
