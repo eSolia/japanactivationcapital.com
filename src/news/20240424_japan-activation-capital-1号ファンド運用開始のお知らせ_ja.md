@@ -6,7 +6,7 @@ description: この度、ニュートン・インベストメント・パート�
 lang: ja
 id: 20240426A
 tags:
-  - Website
+  - News
 date: 2024-04-26T07:00:32.430Z
 img: /media/logo.png
 imgalt: Newton Investment Partners Logo

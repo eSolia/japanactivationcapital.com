@@ -7,7 +7,7 @@ description: "Newton Investment Partners, Inc. (Headquarter: Minato-ku, Tokyo;
 lang: en
 id: 20240527A
 tags:
-  - Website
+  - News
 date: 2024-05-26T21:00:18.283Z
 img: /media/logo.png
 imgalt: Newton Investment Partners Logo

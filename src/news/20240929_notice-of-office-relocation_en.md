@@ -11,7 +11,7 @@ description: >-
 lang: en
 id: 20240930A
 tags:
-  - Website
+  - News
 date: 2024-09-30T09:00:00.000Z
 img: /media/jac_logo_p0_rgb.png
 imgalt: Japan Activation Capital
