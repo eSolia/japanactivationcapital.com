@@ -17,12 +17,10 @@ menu:
     url: /#approach
   - text: Company
     url: /#company
-  - text: News
-    url: /news/
-  # - text: News Release
-  #   url: /newsrelease/
-  # - text: Media
-  #   url: /media/
+  - text: News Release
+    url: /news/#jac-news-releases
+  - text: Media
+    url: /news/#media
   - text: Our People
     url: /team/
   - text: Inquiries
@@ -67,12 +65,10 @@ en:
       url: /en/#approach
     - text: Company
       url: /en/#company
-    - text: News
-      url: /en/news/
-    # - text: News Release
-    #   url: /en/newsrelease/
-    # - text: Media
-    #   url: /en/media/
+    - text: News Release
+      url: /en/news/#jac-news-releases
+    - text: Media
+      url: /en/news/#media
     - text: Our People
       url: /en/team/
     - text: Inquiries

@@ -10,9 +10,13 @@ priority: 1
 
 news:
   title: News
-  link:
-    text: View more
-    url: /en/news/
+  links:
+    - text: All News
+      url: /en/news/#all-news
+    - text: News Releases
+      url: /en/news/#jac-news-releases
+    - text: Media
+      url: /en/news/#media
 
 lead: |
   <h2 class="new-title is-smaller">Japan Activation Capital</h2>

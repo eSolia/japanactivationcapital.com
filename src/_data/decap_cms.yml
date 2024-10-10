@@ -53,7 +53,8 @@ collections:
       - label: Tags
         name: tags
         widget: list
-        required: false
+        required: true
+        hint: Enter the tag for the news item (News or Media), as half-pitch English. 
       - label: Draft
         name: draft
         widget: boolean
