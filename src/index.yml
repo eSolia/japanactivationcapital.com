@@ -8,14 +8,14 @@ metas:
 priority: 1
 
 news:
-  title: News
+  title: News & Media
   links:
     - text: 全てのニュース
-      url: /news/
-    # - text: ニュースリリース
-    #   url: /newsrelease/
-    # - text: メディア
-    #   url: /media/
+      url: /news/#all-news
+    - text: ニュースリリース
+      url: /news/#jac-news-releases
+    - text: メディア
+      url: /news/#media
 
 lead: |
   <h2 class="new-title is-smaller">Japan Activation Capital</h2>

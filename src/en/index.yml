@@ -10,9 +10,9 @@ priority: 1
 
 news:
   title: News
-  link:
-    text: View more
-    url: /en/news/
+  links:
+    - text: View more
+      url: /en/news/
 
 lead: |
   <h2 class="new-title is-smaller">Japan Activation Capital</h2>

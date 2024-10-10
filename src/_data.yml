@@ -17,12 +17,10 @@ menu:
     url: /#approach
   - text: Company
     url: /#company
-  - text: News
-    url: /news/
-  # - text: News Release
-  #   url: /newsrelease/
-  # - text: Media
-  #   url: /media/
+  - text: News Release
+    url: /news/#jac-news-releases
+  - text: Media
+    url: /news/#media
   - text: Our People
     url: /team/
   - text: Inquiries
