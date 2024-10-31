@@ -1,12 +1,14 @@
-<footer>
-  <div class="inner">
-    <div class="links">
-      {{ for item of footer.links }}
-        <a class="menu-link" href="{{ item.url }}" aria-label="Nav link in footer">{{ item.text }}</a>
-      {{ /for }}
-    </div>
-    <div class="copy">©{{ "now" |> date("y") }} {{ footer.copy }} </div>
+<!-- l-footer -->
+<footer class="l-footer">
+  <div class="l-footer__inner l-inner">
+    <nav class="l-footer__nav">
+      <ul class="l-footer__nav-list">
+        {{ for item of footer.links }}
+        <li class="l-footer__nav-item"><a href="{{ item.url }}" aria-label="Nav link in footer">{{ item.text }}</a></li>
+        {{ /for }}
+      </ul>
+    </nav>
+    <small class="l-footer__copy">©{{ "now" |> date("y") }} {{ footer.copy }} </small>
   </div>
 </footer>
-
-<script src="/assets/js/app.js"></script>
+<!-- /l-footer -->

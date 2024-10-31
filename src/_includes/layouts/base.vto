@@ -8,15 +8,19 @@
   <meta http-equiv="Content-Language" content="{{ lang }}">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta name="format-detection" content="telephone=no">
-
-  <link rel="stylesheet" href="/css/styles.css?cb={{ cacheBuster }}" type="text/css">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  
-  <!-- Adobe TypeKit for Accent Font -->
-  <!-- <link rel="stylesheet" href="https://use.typekit.net/pmc0ikl.css">-->
-  <script src="//use.typekit.net/pmc0ikl.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-  <!-- / Adobe -->
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/css/styles.css?cb={{ cacheBuster }}" type="text/css">
+  <!-- JavaScript -->
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.7.0/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.7.0/dist/ScrollTrigger.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/simple-parallax-js@5.6.2/dist/simpleParallax.min.js"></script>
+  <script defer src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script type="module" src="/assets/js/script.js?2"></script>
+  <script type="module" src="/assets/js/index.js?2"></script>
 
   <!-- Fathom - beautiful, simple website analytics -->
   <script src="https://cdn.usefathom.com/script.js" data-site="EGWBHZIW" defer></script>
@@ -27,17 +31,15 @@
   {{ /if }} 
   
 </head>
-<body>
-  <div class="container {{ it.containerClass }}">
-    {{ include "templates/header.vto" }}
-
-    <div class="content">
-      {{ content }}
-    </div>
+<body class="{{ it.bodyclass }}">
+  {{ it.url == '/'||'/en/' ? '<div class="l-index__mask"></div>' : '' }}
+  <div class="l-wrapper">
+  {{ include "templates/header.vto" }}
+  {{ include "templates/global.vto" }}
+  
+  {{ content }}
   </div>
-
   {{ include "templates/footer.vto" }}
-
   {{ include "templates/fathom-menu-track.vto"}}
 </body>
 </html>
