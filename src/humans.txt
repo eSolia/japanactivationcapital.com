@@ -5,8 +5,8 @@
 
     Owner: Japan Activation Capital, Inc.
     Contact: https://japanactivationcapital.com/en#inquiries
-    Original Design: http://minsak.jp
-    Design Updates and Generator Dev: Óscar Otero https://oscarotero.com/
+    Design: https://honehone-rock.com/
+    Lume SSG Generator Dev: Óscar Otero https://oscarotero.com/
     Infrastructure: Rick Cogley https://esolia.com
 
 /* SITE */
@@ -33,5 +33,5 @@
     20240522 - separate team listing page into sections based on singleton page tags
     20240623 - launch on new domain due to company name change
     20240701 - forward from old domain to new
-	  
+	202411 - launch new Bone design
 
