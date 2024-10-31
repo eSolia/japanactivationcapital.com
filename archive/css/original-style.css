@@ -1,5 +1,5 @@
-/* Todo: remove when we have the final font */
-/* @import url('https://use.typekit.net/pmc0ikl.css'); */
+/* Import the SCSS file from _includes/sass/styles.scss */
+@import "sass/styles.scss";
 
 /* noto-sans-jp-regular - japanese */
 @font-face {
