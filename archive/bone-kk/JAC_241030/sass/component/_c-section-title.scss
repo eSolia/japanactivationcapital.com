@@ -1,0 +1,55 @@
+@use "../global" as *;
+
+.c-section-title {
+  width: fit-content;
+}
+
+.c-section-title span {
+  display: inline-block;
+  font-family: var(--second-font);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: var(--c-primary);
+  position: relative;
+
+  @include mq(md) {
+    font-size: min(100px, calc(100 / 1190 * 100vw));
+  }
+}
+
+.c-section-title span::before {
+  content: "";
+  width: 100vw;
+  height: 2px;
+  background-color: currentColor;
+  position: absolute;
+  bottom: 0.35em;
+  right: -0.05em;
+}
+
+// c-section-title--reverse
+.c-section-title--reverse {
+  margin-left: auto;
+}
+
+.c-section-title--reverse span::before {
+  right: auto;
+  left: -0.05em;
+}
+
+.c-section-title--white span {
+  color: var(--c-text-white);
+}
+
+// c-section-title--small
+.c-section-title--small span {
+  font-size: 40px;
+
+  @include mq(md) {
+    font-size: min(100px, calc(100 / 1190 * 100vw));
+  }
+}
