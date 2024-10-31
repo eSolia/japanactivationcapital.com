@@ -1,3 +1,126 @@
+/* zen-kaku-gothic-new-300 - japanese_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Zen Kaku Gothic New';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/zen-kaku-gothic-new-v16-japanese_latin_latin-ext-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* zen-kaku-gothic-new-regular - japanese_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Zen Kaku Gothic New';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/zen-kaku-gothic-new-v16-japanese_latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* zen-kaku-gothic-new-500 - japanese_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Zen Kaku Gothic New';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/zen-kaku-gothic-new-v16-japanese_latin_latin-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* zen-kaku-gothic-new-700 - japanese_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Zen Kaku Gothic New';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/zen-kaku-gothic-new-v16-japanese_latin_latin-ext-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* zen-kaku-gothic-new-900 - japanese_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Zen Kaku Gothic New';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/zen-kaku-gothic-new-v16-japanese_latin_latin-ext-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* josefin-sans-300 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../assets/fonts/josefin-sans-v32-latin_latin-ext-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-300italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: url('../assets/fonts/josefin-sans-v32-latin_latin-ext-300italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-regular - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/josefin-sans-v32-latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../assets/fonts/josefin-sans-v32-latin_latin-ext-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-500 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../assets/fonts/josefin-sans-v32-latin_latin-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-500italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 500;
+  src: url('../assets/fonts/josefin-sans-v32-latin_latin-ext-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-600 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../assets/fonts/josefin-sans-v32-latin_latin-ext-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-600italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: url('../assets/fonts/josefin-sans-v32-latin_latin-ext-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-700 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../assets/fonts/josefin-sans-v32-latin_latin-ext-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-700italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../assets/fonts/josefin-sans-v32-latin_latin-ext-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
 :root {
   --inner: 1140px;
   --inner-s: 800px;
@@ -159,7 +282,8 @@ summary,
 }
 
 body {
-  font-family: var(--base-font);
+  /* font-family: var(--base-font); */
+  font-family: "Zen Kaku Gothic New", sans-serif;
   font-size: 16px;
   color: var(--c-text);
   background-color: var(--c-base);
@@ -178,7 +302,7 @@ html[lang=en] body {
 
 .c-section-title span {
   display: inline-block;
-  font-family: var(--second-font);
+  font-family: "Josefin Sans", sans-serif;
   font-style: italic;
   font-weight: 300;
   font-size: 50px;
@@ -227,7 +351,7 @@ html[lang=en] body {
 }
 
 .c-section-sub-title {
-  font-family: var(--second-font);
+  font-family: "Josefin Sans", sans-serif;
   font-style: italic;
   font-weight: 300;
   font-size: 32px;
@@ -311,8 +435,8 @@ html[lang=en] .c-text-list::before {
   width: 9px;
   aspect-ratio: 8/4;
   background-color: currentColor;
-  -webkit-mask-image: url(../img/common/icon_arrow_small.svg);
-          mask-image: url(../img/common/icon_arrow_small.svg);
+  -webkit-mask-image: url(/assets/img/common/icon_arrow_small.svg);
+          mask-image: url(/assets/img/common/icon_arrow_small.svg);
   -webkit-mask-size: contain;
           mask-size: contain;
   -webkit-mask-repeat: no-repeat;
@@ -325,8 +449,8 @@ html[lang=en] .c-text-list::before {
 @media screen and (min-width: 768px) {
   .c-circle-arrow::before {
     width: 16px;
-    -webkit-mask-image: url(../img/common/icon_arrow.svg);
-            mask-image: url(../img/common/icon_arrow.svg);
+    -webkit-mask-image: url(/assets/img/common/icon_arrow.svg);
+            mask-image: url(/assets/img/common/icon_arrow.svg);
     top: calc(50% - 1px);
   }
 }
@@ -386,7 +510,7 @@ html[lang=en] .c-text-list::before {
 .c-button-arrow span {
   --_x: 40px;
   display: inline-block;
-  font-family: var(--second-font);
+  font-family: "Josefin Sans", sans-serif;
   font-style: italic;
   font-size: 18px;
   font-weight: 300;
@@ -401,8 +525,8 @@ html[lang=en] .c-text-list::before {
   width: 29px;
   aspect-ratio: 29/6;
   background-color: currentColor;
-  -webkit-mask-image: url(../img/common/icon_arrow_long.svg);
-          mask-image: url(../img/common/icon_arrow_long.svg);
+  -webkit-mask-image: url(/assets/img/common/icon_arrow_long.svg);
+          mask-image: url(/assets/img/common/icon_arrow_long.svg);
   -webkit-mask-size: contain;
           mask-size: contain;
   -webkit-mask-repeat: no-repeat;
@@ -451,8 +575,8 @@ html[lang=en] .c-text-list::before {
 .c-button-arrow--small span::before {
   width: 19px;
   aspect-ratio: 19/7;
-  -webkit-mask-image: url(../img/common/icon_arrow.svg);
-          mask-image: url(../img/common/icon_arrow.svg);
+  -webkit-mask-image: url(/assets/img/common/icon_arrow.svg);
+          mask-image: url(/assets/img/common/icon_arrow.svg);
 }
 
 .c-button-arrow--small.c-button-arrow--reverse span {
@@ -560,7 +684,7 @@ html[lang=en] .c-text-list::before {
 
 .c-lang-switch__link {
   display: inline-block;
-  font-family: var(--second-font);
+  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   color: var(--_theme-font-color);
@@ -701,7 +825,7 @@ html[lang=en] .c-text-list::before {
 
 .c-card-member__team {
   margin-top: 15px;
-  font-family: var(--second-font);
+  font-family: "Josefin Sans", sans-serif;
   font-style: italic;
   font-weight: 300;
 }
@@ -766,7 +890,7 @@ html[lang=en] .c-card-member__name {
 .c-pagination__item a,
 .c-pagination__item span {
   display: inline-block;
-  font-family: var(--second-font);
+  font-family: "Josefin Sans", sans-serif;
   font-style: italic;
   font-weight: 300;
   text-transform: uppercase;
@@ -816,7 +940,7 @@ html[lang=en] .c-card-member__name {
 }
 
 .l-header {
-  background-image: url(../img/common/bg_header.jpg);
+  background-image: url(/assets/img/common/bg_header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: right;
@@ -829,7 +953,7 @@ html[lang=en] .c-card-member__name {
 }
 @media screen and (min-width: 768px) {
   .l-header {
-    background-image: url(../img/common/bg_header_pc.jpg);
+    background-image: url(/assets/img/common/bg_header_pc.jpg);
     height: 80px;
   }
 }
@@ -1113,7 +1237,7 @@ body.is-loaded .l-index__mask {
 
 .p-global-menu__nav-item a {
   display: block;
-  font-family: var(--second-font);
+  font-family: "Josefin Sans", sans-serif;
   font-style: italic;
   font-weight: 300;
   font-size: 22px;
@@ -1289,7 +1413,7 @@ html[lang=en] .p-index-about__lead {
 }
 
 .p-index-contact__sub-title {
-  font-family: var(--second-font);
+  font-family: "Josefin Sans", sans-serif;
   font-size: 26px;
   font-style: italic;
   font-weight: 300;
@@ -1493,7 +1617,7 @@ html[lang=en] .p-index-office__text {
 }
 
 .p-index-strategy {
-  background-image: url(../img/index/bg_strategy.png?2);
+  background-image: url(/assets/img/index/bg_strategy.png?2);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 150px 0 52px;
@@ -1501,7 +1625,7 @@ html[lang=en] .p-index-office__text {
 }
 @media screen and (min-width: 768px) {
   .p-index-strategy {
-    background-image: url(../img/index/bg_strategy_pc.png?2);
+    background-image: url(/assets/img/index/bg_strategy_pc.png?2);
     padding: 240px 0 125px;
   }
 }
@@ -1530,7 +1654,7 @@ html[lang=en] .p-index-office__text {
 .p-index-strategy__number {
   display: block;
   text-align: center;
-  font-family: var(--second-font);
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 500;
   letter-spacing: 0;
   color: var(--c-text-white);
@@ -1662,7 +1786,7 @@ html[lang=en] .p-index-office__text {
 }
 
 .p-index-mission__number {
-  font-family: var(--second-font);
+  font-family: "Josefin Sans", sans-serif;
   text-align: center;
   color: var(--c-primary);
 }
@@ -1950,7 +2074,7 @@ html[lang=en] .p-index-office__text {
 }
 
 .p-index-mv__texts {
-  font-family: var(--second-font);
+  font-family: "Josefin Sans", sans-serif;
   color: var(--c-text-white);
   padding: 0 20px;
   position: absolute;
@@ -2087,7 +2211,7 @@ html[lang=en] .p-index-office__text {
   content: "";
   width: 323px;
   aspect-ratio: 323/300;
-  background-image: url(../img/index/bg_approach.svg);
+  background-image: url(/assets/img/index/bg_approach.svg);
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -2127,7 +2251,7 @@ html[lang=en] .p-index-office__text {
 }
 
 .p-index-approach__item-title {
-  font-family: var(--second-font);
+  font-family: "Josefin Sans", sans-serif;
   font-style: italic;
   font-size: 36px;
   font-weight: 300;
@@ -2160,7 +2284,7 @@ html[lang=en] .p-index-office__text {
 .p-index-approach__item--business .p-index-approach__item-title::before {
   width: 60px;
   aspect-ratio: 60/35;
-  background-image: url(../img/index/icon_business.svg);
+  background-image: url(/assets/img/index/icon_business.svg);
 }
 @media screen and (min-width: 768px) {
   .p-index-approach__item--business .p-index-approach__item-title::before {
@@ -2172,7 +2296,7 @@ html[lang=en] .p-index-office__text {
 .p-index-approach__item--sustainability .p-index-approach__item-title::before {
   width: 59px;
   aspect-ratio: 59/56;
-  background-image: url(../img/index/icon_sustainability.svg);
+  background-image: url(/assets/img/index/icon_sustainability.svg);
 }
 @media screen and (min-width: 768px) {
   .p-index-approach__item--sustainability .p-index-approach__item-title::before {
@@ -2184,7 +2308,7 @@ html[lang=en] .p-index-office__text {
 .p-index-approach__item--dx .p-index-approach__item-title::before {
   width: 46px;
   aspect-ratio: 46/56;
-  background-image: url(../img/index/icon_dx.svg);
+  background-image: url(/assets/img/index/icon_dx.svg);
 }
 @media screen and (min-width: 768px) {
   .p-index-approach__item--dx .p-index-approach__item-title::before {
@@ -2196,7 +2320,7 @@ html[lang=en] .p-index-office__text {
 .p-index-approach__item--ir .p-index-approach__item-title::before {
   width: 40px;
   aspect-ratio: 40/48;
-  background-image: url(../img/index/icon_ir.svg);
+  background-image: url(/assets/img/index/icon_ir.svg);
 }
 @media screen and (min-width: 768px) {
   .p-index-approach__item--ir .p-index-approach__item-title::before {
@@ -2208,7 +2332,7 @@ html[lang=en] .p-index-office__text {
 .p-index-approach__item--hr .p-index-approach__item-title::before {
   width: 40px;
   aspect-ratio: 40/48;
-  background-image: url(../img/index/icon_hr.svg);
+  background-image: url(/assets/img/index/icon_hr.svg);
 }
 @media screen and (min-width: 768px) {
   .p-index-approach__item--hr .p-index-approach__item-title::before {
@@ -2339,7 +2463,7 @@ html[lang=en] .p-index-office__text {
 }
 
 .p-index-team__tab {
-  font-family: var(--second-font);
+  font-family: "Josefin Sans", sans-serif;
   font-style: italic;
   font-weight: 300;
   font-size: 22px;
@@ -2621,7 +2745,7 @@ html[lang=en] .p-sub-page-body__items {
 
 .p-archive-news__tab-button {
   --_theme-font-color: #b3b3b3;
-  font-family: var(--second-font);
+  font-family: "Josefin Sans", sans-serif;
   font-style: italic;
   font-weight: 300;
   color: var(--_theme-font-color);
@@ -2787,7 +2911,7 @@ html[lang=en] .p-sub-page-body__items {
 }
 
 .u-font-en {
-  font-family: var(--second-font);
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .u-font-bold {
