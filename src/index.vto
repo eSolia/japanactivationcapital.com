@@ -384,76 +384,18 @@ bodyclass: l-index
               <div class="p-index-team__carousel" data-carousel="member">
                 <div class="swiper">
                   <ul class="swiper-wrapper">
-                    <li class="p-index-team__carousel-slide swiper-slide">
-                      <a href="/" class="c-card-member">
-                        <p class="c-card-member__role">代表取締役社長 & CEO</p>
-                        <p class="c-card-member__name">大塚 博行</p>
-                        <figure class="c-card-member__img c-shadow-item">
-                          <img src="/assets/img/index/pic_otsuka.jpg" alt="大塚 博行" width="240" height="300"
-                            decoding="async">
-                        </figure>
-                      </a>
-                    </li>
-                    <li class="p-index-team__carousel-slide swiper-slide">
-                      <a href="/" class="c-card-member">
-                        <p class="c-card-member__role">取締役会長</p>
-                        <p class="c-card-member__name">永松 昌一</p>
-                        <figure class="c-card-member__img c-shadow-item">
-                          <img src="https://placehold.jp/240x300.png" alt="永松 昌一" width="240" height="300"
-                            decoding="async">
-                        </figure>
-                      </a>
-                    </li>
-                    <li class="p-index-team__carousel-slide swiper-slide">
-                      <a href="/" class="c-card-member">
-                        <p class="c-card-member__role">パートナー</p>
-                        <p class="c-card-member__name">野田 努</p>
-                        <figure class="c-card-member__img c-shadow-item">
-                          <img src="https://placehold.jp/240x300.png" alt="野田 努" width="240" height="300"
-                            decoding="async">
-                        </figure>
-                      </a>
-                    </li>
-                    <li class="p-index-team__carousel-slide swiper-slide">
-                      <a href="/" class="c-card-member">
-                        <p class="c-card-member__role">役職</p>
-                        <p class="c-card-member__name">氏名</p>
-                        <figure class="c-card-member__img c-shadow-item">
-                          <img src="https://placehold.jp/240x300.png" alt="氏名" width="240" height="300"
-                            decoding="async">
-                        </figure>
-                      </a>
-                    </li>
-                    <li class="p-index-team__carousel-slide swiper-slide">
-                      <a href="/" class="c-card-member">
-                        <p class="c-card-member__role">役職</p>
-                        <p class="c-card-member__name">氏名</p>
-                        <figure class="c-card-member__img c-shadow-item">
-                          <img src="https://placehold.jp/240x300.png" alt="氏名" width="240" height="300"
-                            decoding="async">
-                        </figure>
-                      </a>
-                    </li>
-                    <li class="p-index-team__carousel-slide swiper-slide">
-                      <a href="/" class="c-card-member">
-                        <p class="c-card-member__role">役職</p>
-                        <p class="c-card-member__name">氏名</p>
-                        <figure class="c-card-member__img c-shadow-item">
-                          <img src="https://placehold.jp/240x300.png" alt="氏名" width="240" height="300"
-                            decoding="async">
-                        </figure>
-                      </a>
-                    </li>
-                    <li class="p-index-team__carousel-slide swiper-slide">
-                      <a href="/" class="c-card-member">
-                        <p class="c-card-member__role">役職</p>
-                        <p class="c-card-member__name">氏名</p>
-                        <figure class="c-card-member__img c-shadow-item">
-                          <img src="https://placehold.jp/240x300.png" alt="氏名" width="240" height="300"
-                            decoding="async">
-                        </figure>
-                      </a>
-                    </li>
+                    {{ for item of search.pages(`tags*=Core type=bio lang=${lang}`, "weight") }}
+                      <li class="p-index-team__carousel-slide swiper-slide">
+                        <a href="{{ item.url }}" class="c-card-member">
+                          <p class="c-card-member__role">{{ item.position }}</p>
+                          <p class="c-card-member__name">{{ item.name }}</p>
+                          <figure class="c-card-member__img c-shadow-item">
+                            <img src="{{ item.img }}" alt="Bio page list thumbnail for {{ item.name }}, {{ item.position }}" width="240" height="300"
+                              decoding="async" transform-images="avif webp jpg 240@2">
+                          </figure>
+                        </a>
+                      </li>
+                    {{ /for }}
                   </ul>
                 </div>
                 <div class="p-index-team__carousel-prev swiper-button-prev">
