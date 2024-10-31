@@ -384,7 +384,7 @@ bodyclass: l-index
               <div class="p-index-team__carousel" data-carousel="member">
                 <div class="swiper">
                   <ul class="swiper-wrapper">
-                    {{ for item of search.pages(`tags*=Core type=bio lang=${lang}`, "weight") }}
+                    {{ for item of search.pages(`tags*=Investment type=bio lang=${lang}`, "weight") }}
                       <li class="p-index-team__carousel-slide swiper-slide">
                         <a href="{{ item.url }}" class="c-card-member">
                           <p class="c-card-member__role">{{ item.position }}</p>
