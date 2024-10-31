@@ -32,7 +32,10 @@
   
 </head>
 <body class="{{ it.bodyclass }}">
-  {{ it.url == '/'||'/en/' ? '<div class="l-index__mask"></div>' : '' }}
+  {{ if it.id == "home" }}
+    <div class="l-index__mask"></div>
+  {{ /if }}
+  {{# {{ it.url == '/'||'/en/' ? '<div class="l-index__mask"></div>' : '' }} #}}
   <div class="l-wrapper">
   {{ include "templates/header.vto" }}
   {{ include "templates/global.vto" }}
