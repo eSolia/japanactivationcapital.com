@@ -8,6 +8,7 @@ import date from "lume/plugins/date.ts";
 import { enUS } from "npm:date-fns/locale/en-US";
 import { ja } from "npm:date-fns/locale/ja";
 import filterPages from "lume/plugins/filter_pages.ts";
+import sass from "lume/plugins/sass.ts";
 import lightningcss from "lume/plugins/lightningcss.ts";
 import transformImages from "lume/plugins/transform_images.ts";
 import picture from "lume/plugins/picture.ts";
@@ -55,7 +56,7 @@ site.use(transformImages({
 site.use(pagefind());
 
 site.use(favicon());
-
+site.use(sass());
 site.use(lightningcss());
 site.use(metas());
 site.use(filterPages({
