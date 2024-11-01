@@ -1,0 +1,133 @@
+layout: layouts/index.vto
+date: Git Last Modified
+id: home
+lang: en
+unmatchedLangUrl: ja
+metas:
+  title: TOP
+  description: Through mid- to long-term minority investments, we support companies with management teams that aspire to transform their businesses by helping them to create expectations of long-term and sustainable growth for their stakeholders.
+priority: 1
+
+news:
+  title: News
+  links:
+    - text: All News
+      url: /en/news/#all-news
+    - text: News Releases
+      url: /en/news/#jac-news-releases
+    - text: Media
+      url: /en/news/#media
+
+lead: |
+  <h2 class="new-title is-smaller">Japan Activation Capital</h2>
+  <div class="desc">
+    A solution provided by Japan Activation Capital.
+  </div>
+mission: |
+  <h2 class="new-title">Mission</h2>
+  <div class="desc">
+    Japan Activation Capital, through its JAC funds, aims to support company management teams that are aspiring to elevate their businesses, instilling sustainable expectations for growth and persistent appreciation of market capitalization. Japan Activation Capital achieves this through constructive dialogue based on relationships of mutual trust, as well as by supporting the execution of strategic initiatives.
+  </div>
+goal: |
+  <h2 class="new-title">Goal</h2>
+  <div class="items">
+    <div class="item">
+      <div class="head">
+        <div class="numb">1.</div>
+        <div class="txt">Through our investments, we aim to increase the number of listed companies with a strong reputation for growth and to ensure that these companies maintain a sustainable valuation that supports their stock price. </div>
+      </div>
+      <div class="desc">
+        Help portfolio companies raise the expectations of stakeholders (customers, employees, etc.) as well as capital markets.
+      </div>
+    </div>
+    <div class="item">
+      <div class="head">
+        <div class="numb">2.</div>
+        <div class="txt">We aim not only to transform our portfolio companies, but also to make a positive impact on their related industries and ultimately the entire Japanese economy.</div>
+      </div>
+      <div class="desc">
+        Through the transformation of portfolio companies, extend the positive impact to related industries that could eventually lead to higher growth for the Japanese economy. 
+      </div>
+    </div>
+    <div class="item">
+      <div class="head">
+        <div class="numb">3.</div>
+        <div class="txt">We aim to foster a virtuous economic cycle for all Japanese society.</div>
+      </div>
+      <div class="desc">
+        Strive to make a positive impact on society. On top of supporting the sustainability initiatives of our portfolio companies, create a virtuous cycle that will benefit their employees as well as SME business partners throughout their supply chains, which will further stimulate growth.
+      </div>
+    </div>
+  </div>
+
+approach: |
+  <h2 class="new-title">Approach</h2>
+  <div class="desc">
+    Through mid- to long-term minority investment as a significant shareholder, we support the management of listed companies aspiring to transform their businesses by helping to create long-term, sustainable expectations for excellence.
+  </div>
+  <ul>
+    <li>Target mid- to large-cap companies listed on the TSE</li>
+    <li>Based on relationships of mutual trust, support company management committed to transformation and growth by helping to shape their strategies, as well as facilitating the execution of their initiatives.</li>
+    <li>Support management teams in taking risks and implementing bold strategic initiatives that fundamentally and sustainably improve their company’s growth profile and create additional value for shareholders through improved multiple valuations, without resorting to short-term solutions like share buybacks.</li>
+  </ul>
+  <div class="desc">
+    Japan Activation Capital was founded by an investment professional from a leading global private equity firm who has a strong track record of supporting the successful transformation of a number of Japanese companies. Together with senior professionals hailing from consulting firms, private and public equity funds, investment banks, and corporates, as well as senior executives from large corporations and financial institutions who have experience driving change as operating executives and senior advisors, we intend to leverage our diverse knowledge base and broad network to provide high value-added solutions to portfolio companies. <br><br>
+    Additionally, our board of directors and investment advisory committee members are comprised of experienced professionals from a variety of backgrounds, who can provide an outside perspective on strategy planning as well as management and investment decisions in order to maximize value added to our portfolio companies and maintain management objectivity.
+  </div>
+
+company: |
+  <h2 class="new-title">Company</h2>
+  <div class="table table-l">
+    <div class="item">
+      <div class="head">Company</div>
+      <div class="body">Japan Activation Capital, Inc.</div>
+    </div>
+    <div class="item">
+      <div class="head">Chief Executive Officer (Founder)</div>
+      <div class="body">
+        <a href="/en/team/hiroyuki-otsuka-rd-and-ceo_en/">
+          <div class="label">Hiroyuki Otsuka</div>
+          <div class="icon"><img src="/assets/img/icon_arrow.svg" alt="Right-facing arrow icon indicating a link to another page."></div>
+        </a>
+      </div>
+    </div>
+    <div class="item">
+      <div class="head">Business</div>
+      <div class="body">Discretionary Investment Management and Type II Financial Instruments Business</div>
+    </div>
+    <div class="item">
+      <div class="head">Address</div>
+      <div class="body">POLA Aoyama Building 11F, 2-5-17, Minami-Aoyama, Minato-ku, Tokyo 107-0062, Japan
+      </div>
+    </div>
+    <div class="item">
+      <div class="head">Contact</div>
+      <div class="body">
+        <a href="mailto:contact@japanactivationcapital.com">
+          <div class="label">contact@japanactivationcapital.com</div>
+          <div class="icon"><img src="/assets/img/icon_arrow.svg" alt="Right-facing arrow icon indicating a link to another page."></div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+inquiries: |
+  <h2 class="new-title">Inquiries</h2>
+  <div class="desc2">
+    Media Inquiries
+  </div>
+  <div class="table">
+    <div class="item">
+      <div class="head">Kekst CNC</div>
+      <div class="body">Minako Otani / Andrew Mandel</div>
+    </div>
+    <div class="item">
+      <div class="head">E-Mail</div>
+      <div class="body">
+        <a href="mailto:JapanActivationCapital@kekstcnc.com">
+          <div class="label">JapanActivationCapital@kekstcnc.com</div>
+          <div class="icon"><img src="/assets/img/icon_arrow.svg" alt="Right-facing arrow icon indicating a link to another page."></div>
+        </a>
+      </div>
+    </div>
+  </div>
