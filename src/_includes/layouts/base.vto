@@ -32,9 +32,9 @@
   <script type="module" src="/assets/js/script.js?2"></script>
   <script type="module" src="/assets/js/index.js?5"></script>
 
-  <!-- Fathom - beautiful, simple website analytics -->
+  {{# <!-- Fathom - beautiful, simple website analytics -->
   <script src="https://cdn.usefathom.com/script.js" data-site="EGWBHZIW" defer></script>
-  <!-- / Fathom -->
+  <!-- / Fathom --> #}}
 
   {{ if "ldPerson" in it }}
     {{ include "templates/ld-person.vto" }}
@@ -53,6 +53,6 @@
   {{ content }}
   </div>
   {{ include "templates/footer.vto" }}
-  {{ include "templates/fathom-menu-track.vto"}}
+  {{# {{ include "templates/fathom-menu-track.vto"}} #}}
 </body>
 </html>
