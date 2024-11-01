@@ -80,6 +80,20 @@ site.preprocess([".html"], (pages) => {
   }
 });
 
+// site.process([".html"], (page) => {
+//   page.content = page.content.replace('defer=""', 'defer');
+// });
+
+// site.process([".html"], (pages) => pages.forEach((page) => {
+//   page.content = page.content.replace('defer=""', 'defer');
+// }));
+
+// site.process(['.html'], (pages) => pages.forEach(page => {
+//   if (page.data.doctype === false) {
+//     page.content = page.content.replace('<!DOCTYPE html>\n', '')
+//   }
+// }))
+
 site.use(sitemap({
   query: "external_link=undefined",
   lastmod: "lastmod",
