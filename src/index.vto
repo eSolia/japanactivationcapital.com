@@ -3,6 +3,7 @@ layout: layouts/base.vto
 date: Git Last Modified
 id: home
 lang: ja
+unmatchedLangUrl: en
 metas:
   title: トップ
   description: 長期的かつ持続的な「期待感」を生める企業への変革を意図する経営陣を有する企業を、中長期でのマイノリティー投資を通じて、主要株主として支援します
@@ -16,19 +17,26 @@ bodyclass: l-index
     <div class="p-index-mv__inner">
       <div class="p-index-mv__cols">
         <h1 class="p-index-mv__logo">
-          <a href="/">
-            <img src="/assets/img/common/logo.svg" alt="ジャパン・アクティベーション・キャピタル株式会社" width="155" height="48"
+          <a href="{{ lang === 'ja' ? '/' : '/en/' }}" aria-label="{{ site.index.logoaria }}">
+            <img src="/assets/img/common/logo.svg" alt="{{ site.index.logoalt }}" width="155" height="48"
               decoding="async">
           </a>
         </h1>
         <div class="p-index-mv__control">
           <div class="c-lang-switch">
-            <a href="/" class="c-lang-switch__link is-active">jp</a>
-            <a href="/en/" class="c-lang-switch__link">en</a>
+            {{- if lang === 'ja' -}}
+            {{- set alt = alternates.find((data) => data.lang === 'en') }}
+            <a href="{{ url }}" class="c-lang-switch__link is-active">jp</a>
+            <a href="{{ alt?.url || '/en/' }}" class="c-lang-switch__link">en</a>
+            {{ else }}
+            {{- set alt = alternates.find((data) => data.lang === 'ja') }}
+            <a href="{{ alt?.url || '/' }}" class="c-lang-switch__link">jp</a>
+            <a href="{{ url }}" class="c-lang-switch__link is-active">en</a>
+            {{- /if -}}
           </div>
           <div class="p-index-mv__button">
             <button type="button" class="c-hamburger js-hamburger-button" aria-controls="js-global-menu"
-              aria-expanded="false" aria-label="グローバルメニューを開閉する">
+              aria-expanded="false" aria-label="{{ site.index.hamburgeraria }}">
               <span class="c-hamburger__line">
               </span>
             </button>
@@ -46,7 +54,7 @@ bodyclass: l-index
     <div class="p-index-mv__bg">
       <picture>
         <source srcset="/assets/img/index/bg_mv_pc.jpg" media="(min-width: 768px)" />
-        <img src="/assets/img/index/bg_mv.jpg" alt="上空から撮影した富士山。雪が積もっている。" width="390" height="700" decoding="async">
+        <img src="/assets/img/index/bg_mv.jpg" alt="{{ site.index.fujialt }}" width="390" height="700" decoding="async">
       </picture>
     </div>
   </div>

@@ -28,6 +28,7 @@ menu:
 
 footer:
   copy: JAPAN ACTIVATION CAPITAL
+  linkaria: サイト内リンク
   links:
     - text: 利用規約
       url: /terms/
@@ -46,6 +47,8 @@ site:
     logoaria: トップページへリンクするロゴ
     logoalt: ジャパン・アクティベーション・キャピタル株式会社のロゴ（svg形式）
     hamburgeraria: グローバルメニューを開閉するハンバーガーメニュー
+    fujialt: 上空から撮影した富士山。雪が積もっている。
+
 ldDefaults:
     worksFor: 
       name: ジャパン・アクティベーション・キャピタル
@@ -62,6 +65,7 @@ en:
       logoaria: Logo linking to home page
       logoalt: Logo for Japan Activation Capital, Inc. in svg format
       hamburgeraria: Hamburger menu to open and close global navigation
+      fujialt: Aerial view of the symbol of Japan, Mt. Fuji, with snow on top
   ldDefaults:
     worksFor: 
       name: Japan Activation Capital
@@ -86,6 +90,7 @@ en:
 
   footer:
     copy: JAPAN ACTIVATION CAPITAL
+    linkaria: Site Internal Links
     links:
       - text: Terms of Use
         url: /en/terms/

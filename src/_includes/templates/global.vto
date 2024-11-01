@@ -13,8 +13,8 @@
   </div>
   <div class="p-global-menu__body">
     <div class="p-global-menu__logo">
-      <a href="/">
-        <img src="/assets/img/common/logo_white.svg" alt="ジャパン・アクティベーション・キャピタル株式会社" width="260" height="80"
+      <a href="{{ lang === 'ja' ? '/' : '/en/' }}" aria-label="{{ site.index.logoaria }}">
+        <img src="/assets/img/common/logo_white.svg" alt="{{ site.index.logoalt }}" width="260" height="80"
           decoding="async">
       </a>
     </div>
@@ -22,25 +22,24 @@
       <div class="p-global-menu__nav-cols">
         <div>
           <ul class="p-global-menu__nav-list">
-            <li class="p-global-menu__nav-item"><a href="/#about">about</a></li>
-            <li class="p-global-menu__nav-item"><a href="/#message">message</a></li>
-            <li class="p-global-menu__nav-item"><a href="/#mission">mission& goal</a></li>
-            <li class="p-global-menu__nav-item"><a href="/#strategy">strategy</a></li>
-            <li class="p-global-menu__nav-item"><a href="/#approach">approach</a></li>
-            <li class="p-global-menu__nav-item"><a href="/team/">team</a></li>
+            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}#about">about</a></li>
+            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}#message">message</a></li>
+            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}#mission">mission & goal</a></li>
+            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}#strategy">strategy</a></li>
+            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}#approach">approach</a></li>
+            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}team/">team</a></li>
           </ul>
         </div>
         <div>
           <ul class="p-global-menu__nav-list">
-            <li class="p-global-menu__nav-item"><a href="/news/">news</a></li>
-            <li class="p-global-menu__nav-item"><a href="/#office">office</a></li>
-            <li class="p-global-menu__nav-item"><a href="/#contact">contact</a></li>
+            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}news/">news</a></li>
+            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}#office">office</a></li>
+            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}#contact">contact</a></li>
           </ul>
           <ul class="p-global-menu__sub-list">
-            <li class="p-global-menu__sub-item"><a href="/terms/">利用規約</a></li>
-            <li class="p-global-menu__sub-item"><a href="/privacy/">プライバシーポリシー</a></li>
-            <li class="p-global-menu__sub-item"><a href="/antisocial/">反社ポリシー</a></li>
-            <li class="p-global-menu__sub-item"><a href="/esg/">ESGポリシー</a></li>
+          {{ for item of footer.links }}
+            <li class="p-global-menu__sub-item"><a href="{{ item.url }}" aria-label="{{ footer.linkaria }}">{{ item.text }}</a></li>
+          {{ /for }}
           </ul>
         </div>
       </div>
