@@ -102,7 +102,7 @@ site.use(sitemap({
   sort: "lastmod=desc",
 }));
 
-// site.loadPages([".tmpl.js"]);
+site.loadPages([".tmpl.js"]);
 
 site.use(decapCMS({
   identity: "netlify",
