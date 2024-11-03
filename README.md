@@ -47,3 +47,15 @@ Transform images at end of img tag:
 ```
 <img src="{{ item.img }}" alt="Bio page list thumbnail for {{ item.name }}, {{ item.position }}" width="240" height="300" decoding="async" transform-images="avif webp jpg 240@2">
 ```
+
+Get the first tag like this specifying the 0th element: 
+
+```
+<p class="p-entry-news__tag c-tag">{{ it.tags[0] }}</p>
+```
+
+This works but it's not elegant: 
+
+```
+<p class="p-entry-news__tag c-tag">{{ set firstKey = 0 }}{{ for key, item of it.tags }}{{ if key == firstKey }}{{ item }}{{ /if }}{{ /for }}</p>
+```
