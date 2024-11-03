@@ -48,6 +48,9 @@ site:
     logoalt: ジャパン・アクティベーション・キャピタル株式会社のロゴ（svg形式）
     hamburgeraria: グローバルメニューを開閉するハンバーガーメニュー
     fujialt: 上空から撮影した富士山。雪が積もっている。
+  news: 
+    prev: 前へ
+    next: 次へ
 
 ldDefaults:
     worksFor: 
@@ -66,6 +69,9 @@ en:
       logoalt: Logo for Japan Activation Capital, Inc. in svg format
       hamburgeraria: Hamburger menu to open and close global navigation
       fujialt: Aerial view of the symbol of Japan, Mt. Fuji, with snow on top
+    news: 
+      prev: Previous
+      next: Next
   ldDefaults:
     worksFor: 
       name: Japan Activation Capital
