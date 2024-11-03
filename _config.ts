@@ -111,13 +111,15 @@ site.use(decapCMS({
 
 site.copy("assets");
 // site.copy([".pdf"], (file) => "pdf" + file);
-site.copy([".pdf"]);
+site.copy([".pdf",".jpg",".avif",".png"]);
 site.copy("humans.txt");
 site.copy("robots.txt");
 site.copy("3d5f05c39f2742c38468b4f72fb80879.txt");
 site.copy("_redirects");
 site.copy("favicon.svg");
 site.copy("brb.html");
+
+site.copyRemainingFiles();
 
 // Create zip and tree scripts
 site.script("zipsite", "zip -r _site/jac_site.zip _site");
