@@ -3,6 +3,7 @@
 .c-card-member {
   display: grid;
   color: var(--c-primary);
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .c-card-member__role {
