@@ -24,6 +24,7 @@ export default function* ({ search, paginate }: Lume.Data) {
         data.id = `news_list_${n}`;
         data.lang = lang;
       },
+      size: 5, // Default paginator size is 10
     });
 
     for (const page of result) {
