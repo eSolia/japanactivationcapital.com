@@ -51,6 +51,8 @@ site:
   news: 
     prev: 前へ
     next: 次へ
+  team:
+    topcopy: JAPAN ACTIVATION CAPITALのメンバーをご紹介します
 
 ldDefaults:
     worksFor: 
@@ -72,6 +74,8 @@ en:
     news: 
       prev: Previous
       next: Next
+    team:
+      topcopy: Introducing JAPAN ACTIVATION CAPITAL team members
   ldDefaults:
     worksFor: 
       name: Japan Activation Capital
