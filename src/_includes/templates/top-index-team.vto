@@ -33,16 +33,14 @@
         <!-- Investment Teamここから -->
         <div id="tab-1" class="c-tab__content c-tab__content--hidden" aria-hidden="false">
           <div class="p-index-team__list-wrapper" data-team-list>
-              {{ set investmentcount = search.pages(`tags*=Investment type=bio lang=${lang}`, "weight").length }}
-              <ul class="p-index-team__list" data-investmentcount="{{ investmentcount }}">
+              <ul class="p-index-team__list">
                 {{ for item of search.pages(`tags*=Investment type=bio lang=${lang}`, "weight") }}
                   <li class="p-index-team__item">
                     <a href="{{ item.url }}" class="c-card-member">
                       <p class="c-card-member__role">{{ item.position }}</p>
                       <p class="c-card-member__name">{{ item.name }}</p>
                       <figure class="c-card-member__img c-shadow-item">
-                        <img src="{{ item.img }}" alt="Bio page list thumbnail for {{ item.name }}, {{ item.position }}" width="240" height="300"
-                          decoding="async" transform-images="avif webp jpg 240@2">
+                        <img src="{{ item.img }}" alt="Bio page list thumbnail for {{ item.name }}, {{ item.position }}" width="240" height="300" decoding="async">
                       </figure>
                     </a>
                   </li>
@@ -54,8 +52,7 @@
         <!-- Special Value Creation Teamここから -->
         <div id="tab-2" class="c-tab__content c-tab__content--hidden" aria-hidden="true">
           <div class="p-index-team__list-wrapper" data-team-list>
-              {{ set valuecount = search.pages(`tags*=ValueCreate type=bio lang=${lang}`, "weight").length }}
-              <ul class="p-index-team__list" data-valuecount="{{ valuecount }}">
+              <ul class="p-index-team__list">
                 {{ for item of search.pages(`tags*=ValueCreate type=bio lang=${lang}`, "weight") }}
                   <li class="p-index-team__item">
                     <a href="{{ item.url }}" class="c-card-member">
@@ -63,7 +60,7 @@
                       <p class="c-card-member__name">{{ item.name }}</p>
                       <figure class="c-card-member__img c-shadow-item">
                         <img src="{{ item.img }}" alt="Bio page list thumbnail for {{ item.name }}, {{ item.position }}" width="240" height="300"
-                          decoding="async" transform-images="avif webp jpg 240@2">
+                          decoding="async">
                       </figure>
                     </a>
                   </li>
@@ -75,8 +72,7 @@
         <!-- CEO Officeここから -->
         <div id="tab-3" class="c-tab__content c-tab__content--hidden" aria-hidden="true">
           <div class="p-index-team__list-wrapper" data-team-list>
-              {{ set cocount = search.pages(`tags*=CEOOffice type=bio lang=${lang}`, "weight").length }}
-              <ul class="p-index-team__list" data-cocount="{{ cocount }}">
+              <ul class="p-index-team__list">
                 {{ for item of search.pages(`tags*=CEOOffice type=bio lang=${lang}`, "weight") }}
                   <li class="p-index-team__item">
                     <a href="{{ item.url }}" class="c-card-member">
@@ -84,7 +80,7 @@
                       <p class="c-card-member__name">{{ item.name }}</p>
                       <figure class="c-card-member__img c-shadow-item">
                         <img src="{{ item.img }}" alt="Bio page list thumbnail for {{ item.name }}, {{ item.position }}" width="240" height="300"
-                          decoding="async" transform-images="avif webp jpg 240@2">
+                          decoding="async">
                       </figure>
                     </a>
                   </li>
@@ -96,8 +92,7 @@
         <!-- Corporate Teamここから -->
         <div id="tab-4" class="c-tab__content c-tab__content--hidden" aria-hidden="true">
           <div class="p-index-team__list-wrapper" data-team-list>
-              {{ set corpcount = search.pages(`tags*=Corporate type=bio lang=${lang}`, "weight").length }}
-              <ul class="p-index-team__list" data-corpcount="{{ corpcount }}">
+              <ul class="p-index-team__list">
                 {{ for item of search.pages(`tags*=Corporate type=bio lang=${lang}`, "weight") }}
                   <li class="p-index-team__item">
                     <a href="{{ item.url }}" class="c-card-member">
@@ -105,7 +100,7 @@
                       <p class="c-card-member__name">{{ item.name }}</p>
                       <figure class="c-card-member__img c-shadow-item">
                         <img src="{{ item.img }}" alt="Bio page list thumbnail for {{ item.name }}, {{ item.position }}" width="240" height="300"
-                          decoding="async" transform-images="avif webp jpg 240@2">
+                          decoding="async">
                       </figure>
                     </a>
                   </li>
@@ -117,8 +112,7 @@
         <!-- Board Membersここから -->
         <div id="tab-5" class="c-tab__content c-tab__content--hidden" aria-hidden="true">
           <div class="p-index-team__list-wrapper" data-team-list>
-              {{ set boardcount = search.pages(`tags*=Board type=bio lang=${lang}`, "weight").length }}
-              <ul class="p-index-team__list" data-boardcount="{{ boardcount }}">
+              <ul class="p-index-team__list">
                 {{ for item of search.pages(`tags*=Board type=bio lang=${lang}`, "weight") }}
                   <li class="p-index-team__item">
                     <a href="{{ item.url }}" class="c-card-member">
@@ -126,7 +120,7 @@
                       <p class="c-card-member__name">{{ item.name }}</p>
                       <figure class="c-card-member__img c-shadow-item">
                         <img src="{{ item.img }}" alt="Bio page list thumbnail for {{ item.name }}, {{ item.position }}" width="240" height="300"
-                          decoding="async" transform-images="avif webp jpg 240@2">
+                          decoding="async">
                       </figure>
                     </a>
                   </li>
@@ -138,8 +132,7 @@
         <!-- Advisorsここから -->
         <div id="tab-6" class="c-tab__content c-tab__content--hidden" aria-hidden="true">
           <div class="p-index-team__list-wrapper" data-team-list>
-              {{ set advisorcount = search.pages(`tags*=Advisor type=bio lang=${lang}`, "weight").length }}
-              <ul class="p-index-team__list" data-advisorcount="{{ advisorcount }}">
+              <ul class="p-index-team__list">
                 {{ for item of search.pages(`tags*=Advisor type=bio lang=${lang}`, "weight") }}
                   <li class="p-index-team__item">
                     <a href="{{ item.url }}" class="c-card-member">
@@ -147,7 +140,7 @@
                       <p class="c-card-member__name">{{ item.name }}</p>
                       <figure class="c-card-member__img c-shadow-item">
                         <img src="{{ item.img }}" alt="Bio page list thumbnail for {{ item.name }}, {{ item.position }}" width="240" height="300"
-                          decoding="async" transform-images="avif webp jpg 240@2">
+                          decoding="async">
                       </figure>
                     </a>
                   </li>
