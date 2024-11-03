@@ -12,7 +12,7 @@ id: bio_isogai
 weight: 630
 name: 磯貝 友紀
 position: <nobr>チーフ・サステナビリティ・<wbr>オフィサー</nobr>
-short: "  "
+team: "  "
 img: /media/isogaig.jpg
 tags:
   - ValueCreate

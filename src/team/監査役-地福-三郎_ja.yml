@@ -10,7 +10,7 @@ id: bio_Jifuku
 weight: 830
 name: 地福 三郎
 position: 監査役
-short: "  "
+team: "  "
 img: /media/jifuku2.jpg
 tags:
   - Board
