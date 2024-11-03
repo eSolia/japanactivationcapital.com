@@ -1,5 +1,5 @@
 <!-- l-header -->
-<header class="l-header" data-following-header>
+<header class="l-header" {{ if it.id == "home" }}data-following-header{{ /if }}>
   <div class="l-header__inner">
     <div class="l-header__logo">
       <a href="{{ lang === 'ja' ? '/' : '/en/' }}" aria-label="{{ site.index.logoaria }}">
