@@ -84,6 +84,11 @@ site.preprocess([".html"], (pages) => {
 //   page.content = page.content.replace('defer=""', 'defer');
 // });
 
+
+// site.process([".html"], (page) => {
+//   page.content = page.content.replace(/[“”]/g, '"').replace(/[‘’]/g, "'");
+// });
+
 // site.process([".html"], (pages) => pages.forEach((page) => {
 //   page.content = page.content.replace('defer=""', 'defer');
 // }));
