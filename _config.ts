@@ -85,11 +85,11 @@ site.preprocess([".html"], (pages) => {
 // });
 
 
-site.process([".html"], (pages) => {
-  for (const page of pages) {
-    page.content = page.content.replaceAll(/[“”]/g, '"').replaceAll(/[‘’]/g, "'");
-  }
-});
+// site.process([".html"], (pages) => {
+//   for (const page of pages) {
+//     page.content = page.content.replaceAll(/[“”]/g, '"').replaceAll(/[‘’]/g, "'");
+//   }
+// });
 
 // site.process([".html"], (pages) => pages.forEach((page) => {
 //   page.content = page.content.replace('defer=""', 'defer');
