@@ -37,7 +37,7 @@
     "button" auto / 1fr;
 
   @include mq(lg) {
-    width: min((1240px + var(--padding-pc) * 2), 100%);
+    width: min(1240px + var(--padding-pc) * 2, 100%);
     padding: 0 var(--padding-pc) 0 75px;
     grid-template:
       "title . ." 80px

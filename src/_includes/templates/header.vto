@@ -2,28 +2,40 @@
 <header class="l-header" {{ if it.id == "home" }}data-following-header{{ /if }}>
   <div class="l-header__inner">
     <div class="l-header__logo">
-      <a href="{{ lang === 'ja' ? '/' : '/en/' }}" aria-label="{{ site.index.logoaria }}">
-        <img src="/assets/img/common/logo_header.svg" alt="{{ site.index.logoalt }}" width="286" height="40"
-          decoding="async">
+      <a
+        href="{{ lang === 'ja' ? '/' : '/en/' }}"
+        aria-label="{{ site.index.logoaria }}"
+      >
+        <img
+          src="/assets/img/common/logo_header.svg"
+          alt="{{ site.index.logoalt }}"
+          width="286"
+          height="40"
+          decoding="async"
+        />
       </a>
     </div>
     <div class="l-header__control">
       <div class="c-lang-switch c-lang-switch--primary">
-      {{- if lang === 'ja' -}}
-        {{- set alt = alternates.find((data) => data.lang === 'en') }}
-        <a href="{{ url }}" class="c-lang-switch__link is-active">jp</a>
-        <a href="{{ alt?.url || '/en/' }}" class="c-lang-switch__link">en</a>
-      {{ else }}
-        {{- set alt = alternates.find((data) => data.lang === 'ja') }}
-        <a href="{{ alt?.url || '/' }}" class="c-lang-switch__link">jp</a>
-        <a href="{{ url }}" class="c-lang-switch__link is-active">en</a>
-      {{- /if -}}
+        {{- if lang === "ja" -}}
+          {{- set alt = alternates.find((data) => data.lang === "en") }}
+          <a href="{{ url }}" class="c-lang-switch__link is-active">jp</a>
+          <a href="{{ alt?.url || '/en/' }}" class="c-lang-switch__link">en</a>
+        {{ else }}
+          {{- set alt = alternates.find((data) => data.lang === "ja") }}
+          <a href="{{ alt?.url || '/' }}" class="c-lang-switch__link">jp</a>
+          <a href="{{ url }}" class="c-lang-switch__link is-active">en</a>
+        {{- /if -}}
       </div>
       <div class="l-header__button">
-        <button type="button" class="c-hamburger c-hamburger--primary js-hamburger-button"
-          aria-controls="js-global-menu" aria-expanded="false" aria-label="{{ site.index.hamburgeraria }}">
-          <span class="c-hamburger__line">
-          </span>
+        <button
+          type="button"
+          class="c-hamburger c-hamburger--primary js-hamburger-button"
+          aria-controls="js-global-menu"
+          aria-expanded="false"
+          aria-label="{{ site.index.hamburgeraria }}"
+        >
+          <span class="c-hamburger__line"> </span>
         </button>
       </div>
     </div>

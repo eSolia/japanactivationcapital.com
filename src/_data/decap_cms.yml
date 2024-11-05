@@ -13,22 +13,22 @@ publish_mode: editorial_workflow
 
 show_preview_links: true
 
-slug: 
+slug:
   encoding: unicode
   clean_accents: true
-  sanitize_replacement: '-'
+  sanitize_replacement: "-"
 
 collections:
   - label: News
     name: news
-    description: Create or edit news items here. 
+    description: Create or edit news items here.
     folder: src/news
     preview_path: news/{{slug}}/
     extension: md
     create: true
     view_filter: draft
     slug: "{{year}}{{month}}{{day}}_{{title}}_{{lang}}"
-    sortable_fields: ['commit_date', 'title', 'commit_author', 'lang', 'id']
+    sortable_fields: ["commit_date", "title", "commit_author", "lang", "id"]
     fields:
       - label: News Title
         name: title
@@ -49,12 +49,12 @@ collections:
         name: id
         widget: string
         default: YYYYMMDDA
-        hint: This links the languages of a news item, so use e.g. 20231215A for both Japanese and English, then 20231215B, ...C, etc, for subsequent news items on that day.  
+        hint: This links the languages of a news item, so use e.g. 20231215A for both Japanese and English, then 20231215B, ...C, etc, for subsequent news items on that day.
       - label: Tags
         name: tags
         widget: list
         required: true
-        hint: Enter the tag for the news item (News or Media), as half-pitch English. 
+        hint: Enter the tag for the news item (News or Media), as half-pitch English.
       - label: Draft
         name: draft
         widget: boolean
@@ -67,7 +67,7 @@ collections:
         name: external_link
         widget: string
         required: false
-        hint: If the news item is to be a link to an external site or PDF, enter the link here. The title of the news item will be used as the link text in the news list. 
+        hint: If the news item is to be a link to an external site or PDF, enter the link here. The title of the news item will be used as the link text in the news list.
       - label: Featured Image
         name: img
         widget: image
@@ -92,12 +92,19 @@ collections:
     create: true
     view_filter: draft
     slug: "{{title}}_{{lang}}"
-    sortable_fields: ['commit_date', 'title', 'commit_author', 'weight', 'lang', 'id']
+    sortable_fields: [
+      "commit_date",
+      "title",
+      "commit_author",
+      "weight",
+      "lang",
+      "id",
+    ]
     fields:
       - label: Page Title
         name: title
         widget: string
-        hint: As the page metadata title, enter the person’s name and job title, separated by a comma, in the same language as the content. 
+        hint: As the page metadata title, enter the person’s name and job title, separated by a comma, in the same language as the content.
       - label: Page Description
         name: description
         widget: text
@@ -107,7 +114,7 @@ collections:
         widget: object
         required: false
         hint: These fields must be filled in for the team bio item to appear in the Google search results as an InfoCard.
-        fields: 
+        fields:
           - label: Alma Mater
             name: alumniOf
             widget: string
@@ -117,7 +124,7 @@ collections:
             name: nationality
             widget: string
             required: false
-            hint: Enter the person’s nationality, in the same language as the content. 
+            hint: Enter the person’s nationality, in the same language as the content.
       - label: Language
         name: lang
         widget: select
@@ -130,7 +137,7 @@ collections:
         name: id
         widget: string
         default: bio_person
-        hint: This links the languages of a bio item, so use e.g. bio_sato for both Japanese and English, then bio_sato1, ...2 and so on, for other people with that name. 
+        hint: This links the languages of a bio item, so use e.g. bio_sato for both Japanese and English, then bio_sato1, ...2 and so on, for other people with that name.
       - label: Sort Order
         name: weight
         widget: number
@@ -150,7 +157,7 @@ collections:
       - label: Short Introduction
         name: short
         widget: text
-        hint: Enter a short biographical sentence about the person. 
+        hint: Enter a short biographical sentence about the person.
       - label: Image
         name: img
         widget: image
@@ -167,11 +174,11 @@ collections:
   - label: Pages
     name: pages
     create: false
-    files: 
+    files:
       - label: "CEO Message"
         name: ceo-message-en
         file: src/en/ceo-message.md
-        fields: 
+        fields:
           - label: Page Title
             name: title
             widget: string
@@ -188,11 +195,11 @@ collections:
             name: body
             widget: markdown
             required: false
-            hint: Enter the content of the page. 
+            hint: Enter the content of the page.
       - label: "代表取締役社長 & CEO ご挨拶"
         name: ceo-message-ja
         file: src/ceo-message.md
-        fields: 
+        fields:
           - label: Page Title
             name: title
             widget: string
@@ -209,11 +216,11 @@ collections:
             name: body
             widget: markdown
             required: false
-            hint: Enter the content of the page. 
+            hint: Enter the content of the page.
       - label: "Team List"
         name: team-list-en
         file: src/en/team.yml
-        fields: 
+        fields:
           - label: Page Title
             name: title
             widget: string
@@ -229,7 +236,7 @@ collections:
       - label: "チーム紹介"
         name: team-list-ja
         file: src/team.yml
-        fields: 
+        fields:
           - label: Page Title
             name: title
             widget: string

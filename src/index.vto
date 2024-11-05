@@ -17,44 +17,66 @@ bodyclass: l-index
     <div class="p-index-mv__inner">
       <div class="p-index-mv__cols">
         <h1 class="p-index-mv__logo">
-          <a href="{{ lang === 'ja' ? '/' : '/en/' }}" aria-label="{{ site.index.logoaria }}">
-            <img src="/assets/img/common/logo.svg" alt="{{ site.index.logoalt }}" width="155" height="48"
-              decoding="async">
+          <a
+            href="{{ lang === 'ja' ? '/' : '/en/' }}"
+            aria-label="{{ site.index.logoaria }}"
+          >
+            <img
+              src="/assets/img/common/logo.svg"
+              alt="{{ site.index.logoalt }}"
+              width="155"
+              height="48"
+              decoding="async"
+            />
           </a>
         </h1>
         <div class="p-index-mv__control">
           <div class="c-lang-switch">
-            {{- if lang === 'ja' -}}
-            {{- set alt = alternates.find((data) => data.lang === 'en') }}
-            <a href="{{ url }}" class="c-lang-switch__link is-active">jp</a>
-            <a href="{{ alt?.url || '/en/' }}" class="c-lang-switch__link">en</a>
+            {{- if lang === "ja" -}}
+              {{- set alt = alternates.find((data) => data.lang === "en") }}
+              <a href="{{ url }}" class="c-lang-switch__link is-active">jp</a>
+              <a href="{{ alt?.url || '/en/' }}" class="c-lang-switch__link"
+              >en</a>
             {{ else }}
-            {{- set alt = alternates.find((data) => data.lang === 'ja') }}
-            <a href="{{ alt?.url || '/' }}" class="c-lang-switch__link">jp</a>
-            <a href="{{ url }}" class="c-lang-switch__link is-active">en</a>
+              {{- set alt = alternates.find((data) => data.lang === "ja") }}
+              <a href="{{ alt?.url || '/' }}" class="c-lang-switch__link">jp</a>
+              <a href="{{ url }}" class="c-lang-switch__link is-active">en</a>
             {{- /if -}}
           </div>
           <div class="p-index-mv__button">
-            <button type="button" class="c-hamburger js-hamburger-button" aria-controls="js-global-menu"
-              aria-expanded="false" aria-label="{{ site.index.hamburgeraria }}">
-              <span class="c-hamburger__line">
-              </span>
+            <button
+              type="button"
+              class="c-hamburger js-hamburger-button"
+              aria-controls="js-global-menu"
+              aria-expanded="false"
+              aria-label="{{ site.index.hamburgeraria }}"
+            >
+              <span class="c-hamburger__line"> </span>
             </button>
           </div>
         </div>
       </div>
       <div class="p-index-mv__texts">
         <p class="p-index-mv__main-text">
-          Activating and Unlocking<br>
-          Japan’s Sustainable Growth<br>
+          Activating and Unlocking<br />
+          Japan’s Sustainable Growth<br />
           Potential Together
         </p>
       </div>
     </div>
     <div class="p-index-mv__bg">
       <picture>
-        <source srcset="/assets/img/index/bg_mv_pc.jpg" media="(min-width: 768px)" />
-        <img src="/assets/img/index/bg_mv.jpg" alt="{{ site.index.fujialt }}" width="390" height="700" decoding="async">
+        <source
+          srcset="/assets/img/index/bg_mv_pc.jpg"
+          media="(min-width: 768px)"
+        />
+        <img
+          src="/assets/img/index/bg_mv.jpg"
+          alt="{{ site.index.fujialt }}"
+          width="390"
+          height="700"
+          decoding="async"
+        />
       </picture>
     </div>
   </div>
@@ -66,21 +88,43 @@ bodyclass: l-index
         <h2 class="c-section-title"><span>about</span></h2>
         <div class="p-index-about__body">
           <p class="p-index-about__lead">
-            ジャパン・アクティベーション・キャピタル(略称JAC)は、国内上場企業への<br class="u-mobile">マイノリティー投資を通じて、<br class="u-mobile">投資先企業の経営陣との<br class="u-mobile">信頼関係をベースに、<br class="u-mobile">長期的かつ持続的な成長と<br class="u-mobile">企業価値創造を<br class="u-mobile">支援する投資家です
+            ジャパン・アクティベーション・キャピタル(略称JAC)は、国内上場企業への<br
+              class="u-mobile"
+            />マイノリティー投資を通じて、<br
+              class="u-mobile"
+            />投資先企業の経営陣との<br
+              class="u-mobile"
+            />信頼関係をベースに、<br
+              class="u-mobile"
+            />長期的かつ持続的な成長と<br class="u-mobile" />企業価値創造を<br
+              class="u-mobile"
+            />支援する投資家です
           </p>
           <p class="p-index-about__text">
-            主要な株主として、投資先の皆様と共に同じ船に乗り、投資先が新たな成長ステージへと進むことを目指して支援してまいります。投資先の大胆な意思決定や戦略実行を支援し、長期的かつ持続可能な価値創造を推進します。JAC には、多くの日本企業の成長を支えてきた多様なバックグラウンドを持つ人材が集結しており、その知見、経験、ネットワークを最大限に活かし 、投資先企業の発展に貢献いたします</p>
+            主要な株主として、投資先の皆様と共に同じ船に乗り、投資先が新たな成長ステージへと進むことを目指して支援してまいります。投資先の大胆な意思決定や戦略実行を支援し、長期的かつ持続可能な価値創造を推進します。JAC
+            には、多くの日本企業の成長を支えてきた多様なバックグラウンドを持つ人材が集結しており、その知見、経験、ネットワークを最大限に活かし
+            、投資先企業の発展に貢献いたします
+          </p>
         </div>
       </div>
     </section>
     <!-- /p-index-about -->
     <!-- p-index-message -->
     <section id="message" class="p-index-message">
-      <div class="p-index-message__inner l-inner u-fadeInDown" data-scroll-animation>
-        <h2 class="p-index-message__title c-section-title c-section-title--reverse"><span>ceo message</span></h2>
+      <div
+        class="p-index-message__inner l-inner u-fadeInDown"
+        data-scroll-animation
+      >
+        <h2
+          class="p-index-message__title c-section-title c-section-title--reverse"
+        >
+          <span>ceo message</span>
+        </h2>
         <div class="p-index-message__cols">
           <div class="p-index-message__body">
-            <p class="p-index-message__lead"><strong>日本企業の復権を後押し</strong></p>
+            <p class="p-index-message__lead">
+              <strong>日本企業の復権を後押し</strong>
+            </p>
             <p class="p-index-message__text">
               変化の激しい世界の政治情勢と経済環境、その中で、日本は長い期間にわたりデフレと金利がない世界を体験、またそこから派生する円安による購買力の低下など、個別企業ではコントロールできないマクロ要素によるチャレンジに取り囲まれています。そのような環境下においても、経営力により個社はその実力を発揮し、マクロ事案に負けない結果を出すことが必要です。
             </p>
@@ -88,27 +132,51 @@ bodyclass: l-index
               我が国では、会社基盤（経営力や従業員の力を含む）や事業が、本来有する潜在能力が発揮されていない可能性のある企業が散見されます。その潜在力を、事業環境や資本市場において、誰からも見える形で開花させる必要があります。そのようなことを実現させるべき、高い意思をもつ経営陣を有する会社に対して、JACは単なる株主としてだけでなく、会社のイニシアティブ実行のパートナーとして、その実現にコミットします。JACは、投資先企業と一緒に歩み、高い成長性と収益性を有する企業を生むことを目指して創設されました。強い礎をひとたび築けば、持続性のある成長力や収益力は株式市場でも高く評価され、他の日本企業もこれを追随し、グローバル市場で競争力を持つ企業が増えていくと考えています。その個別企業における努力の総和が、日本経済全体にポジティブな貢献をもたらすことを確信しています。
             </p>
             <p class="p-index-message__text">
-              ジャパン・アクティベーション・キャピタルは、強い意志を持つ日本の個社と、その先にある日本経済全体を「再起動（アクティベーション）」するお手伝いをさせていただきます。</p>
+              ジャパン・アクティベーション・キャピタルは、強い意志を持つ日本の個社と、その先にある日本経済全体を「再起動（アクティベーション）」するお手伝いをさせていただきます。
+            </p>
             <div class="p-index-message__sign">
               代表取締役社長 & CEO<span>大塚 博行</span>
             </div>
           </div>
           <figure class="p-index-message__img c-shadow-item">
-            <img src="/media/OtsukaCEOM2.jpg" alt="ジャパン・アクティベーション・キャピタル株式会社代表取締役社長 & CEO 大塚 博行" width="240"
-              height="300" decoding="async">  
+            <img
+              src="/media/OtsukaCEOM2.jpg"
+              alt="ジャパン・アクティベーション・キャピタル株式会社代表取締役社長 & CEO 大塚 博行"
+              width="240"
+              height="300"
+              decoding="async"
+            />
           </figure>
         </div>
       </div>
       <div class="p-index-message__bg">
         <picture>
-          <source srcset="/assets/img/index/bg_message_1_pc.png?2" media="(min-width: 1310px)" />
-          <img src="/assets/img/index/bg_message_1.png?3" alt="" width="390" height="1259" decoding="async">
+          <source
+            srcset="/assets/img/index/bg_message_1_pc.png?2"
+            media="(min-width: 1310px)"
+          />
+          <img
+            src="/assets/img/index/bg_message_1.png?3"
+            alt=""
+            width="390"
+            height="1259"
+            decoding="async"
+          />
         </picture>
       </div>
       <div class="p-index-message__foot">
         <picture>
-          <source srcset="/assets/img/index/bg_message_2_pc.png" media="(min-width: 500px)" />
-          <img src="/assets/img/index/bg_message_2.png" alt="" width="390" height="300" decoding="async">
+          <source
+            srcset="/assets/img/index/bg_message_2_pc.png"
+            media="(min-width: 500px)"
+          />
+          <img
+            src="/assets/img/index/bg_message_2.png"
+            alt=""
+            width="390"
+            height="300"
+            decoding="async"
+          />
         </picture>
       </div>
     </section>
@@ -116,9 +184,14 @@ bodyclass: l-index
     <!-- p-index-mission -->
     <section id="mission" class="p-index-mission">
       <div class="p-index-mission__inner l-inner">
-        <div class="p-index-mission__title-wrapper u-fadeInDown" data-scroll-animation>
+        <div
+          class="p-index-mission__title-wrapper u-fadeInDown"
+          data-scroll-animation
+        >
           <h2 class="p-index-mission__title c-section-title">
-            <span>mission</span><br><span>& goals</span>
+            <span>mission</span>
+            <br />
+            <span>& goals</span>
           </h2>
         </div>
         <p class="p-index-mission__lead u-fadeInDown" data-scroll-animation>
@@ -126,56 +199,113 @@ bodyclass: l-index
         </p>
         <div class="p-index-mission__list u-fadeInUp" data-scroll-animation>
           <div class="p-index-mission__list-inner">
-            <div class="p-index-mission__carousel swiper" data-carousel="mission">
+            <div
+              class="p-index-mission__carousel swiper"
+              data-carousel="mission"
+            >
               <ul class="p-index-mission__items swiper-wrapper">
                 <li class="p-index-mission__item swiper-slide">
                   <p class="p-index-mission__number">
-                    <span>goal</span><em>01</em>
+                    <span>goal</span>
+                    <em>01</em>
                   </p>
-                  <p class="p-index-mission__title">日本の大手企業が潜在能力を<br class="u-mobile">発揮する事を支援</p>
+                  <p class="p-index-mission__title">
+                    日本の大手企業が潜在能力を<br
+                      class="u-mobile"
+                    />発揮する事を支援
+                  </p>
                   <div class="p-index-mission__texts">
-                    <p class="u-font-bold">投資を通じて投資先をサポートし、中長期の成長期待感を醸成し、資本市場で持続性ある高い評価マルチプルにより時価総額を増大できる企業を増やすことを目指します</p>
-                    <p>投資先企業が、将来への高い「成長期待感」を株式市場やステークホルダー（顧客や従業員を含む）に感じさせることができる会社に進化することを支援します</p>
+                    <p class="u-font-bold">
+                      投資を通じて投資先をサポートし、中長期の成長期待感を醸成し、資本市場で持続性ある高い評価マルチプルにより時価総額を増大できる企業を増やすことを目指します
+                    </p>
+                    <p>
+                      投資先企業が、将来への高い「成長期待感」を株式市場やステークホルダー（顧客や従業員を含む）に感じさせることができる会社に進化することを支援します
+                    </p>
                   </div>
                   <figure class="p-index-mission__icon">
-                    <img src="/assets/img/index/icon_goal_1.svg" alt="棒グラフのアイコン" width="76" height="76" decoding="async">
+                    <img
+                      src="/assets/img/index/icon_goal_1.svg"
+                      alt="棒グラフのアイコン"
+                      width="76"
+                      height="76"
+                      decoding="async"
+                    />
                   </figure>
                 </li>
                 <li class="p-index-mission__item swiper-slide">
                   <p class="p-index-mission__number">
-                    <span>goal</span><em>02</em>
+                    <span>goal</span>
+                    <em>02</em>
                   </p>
-                  <p class="p-index-mission__title">日本の大手企業の好評価を復権</p>
+                  <p class="p-index-mission__title">
+                    日本の大手企業の好評価を復権
+                  </p>
                   <div class="p-index-mission__texts">
-                    <p class="u-font-bold">投資先企業の変革だけでなく、その会社が属する業界や日本経済全体に健全なインパクトを与えることを目指します</p>
-                    <p>投資先の成長を通じて、投資先の属する業界にも健全なインパクトをもたらし、ひいては日本経済全体の高い成長につながることを企図します</p>
+                    <p class="u-font-bold">
+                      投資先企業の変革だけでなく、その会社が属する業界や日本経済全体に健全なインパクトを与えることを目指します
+                    </p>
+                    <p>
+                      投資先の成長を通じて、投資先の属する業界にも健全なインパクトをもたらし、ひいては日本経済全体の高い成長につながることを企図します
+                    </p>
                   </div>
                   <figure class="p-index-mission__icon">
-                    <img src="/assets/img/index/icon_goal_2.svg" alt="折れ線グラフのアイコン" width="76" height="76"
-                      decoding="async">
+                    <img
+                      src="/assets/img/index/icon_goal_2.svg"
+                      alt="折れ線グラフのアイコン"
+                      width="76"
+                      height="76"
+                      decoding="async"
+                    />
                   </figure>
                 </li>
                 <li class="p-index-mission__item swiper-slide">
                   <p class="p-index-mission__number">
-                    <span>goal</span><em>03</em>
+                    <span>goal</span>
+                    <em>03</em>
                   </p>
-                  <p class="p-index-mission__title">日本の社会全体に<br class="u-mobile">好循環のスパイラルを醸成</p>
+                  <p class="p-index-mission__title">
+                    日本の社会全体に<br
+                      class="u-mobile"
+                    />好循環のスパイラルを醸成
+                  </p>
                   <div class="p-index-mission__texts">
-                    <p class="u-font-bold">日本社会全体に好循環のスパイラルを醸成することを目指します</p>
-                    <p>投資先におけるサステナビリティ活動の後押しはもちろんのこと、デジタルソリューションや人材・組織強化戦略なども用いて、投資先企業の従業員やバリューチェーンにいる中小取引先企業への貢献を促します</p>
+                    <p class="u-font-bold">
+                      日本社会全体に好循環のスパイラルを醸成することを目指します
+                    </p>
+                    <p>
+                      投資先におけるサステナビリティ活動の後押しはもちろんのこと、デジタルソリューションや人材・組織強化戦略なども用いて、投資先企業の従業員やバリューチェーンにいる中小取引先企業への貢献を促します
+                    </p>
                   </div>
                   <figure class="p-index-mission__icon">
-                    <img src="/assets/img/index/icon_goal_3.svg" alt="棒グラフのアイコン" width="76" height="76" decoding="async">
+                    <img
+                      src="/assets/img/index/icon_goal_3.svg"
+                      alt="棒グラフのアイコン"
+                      width="76"
+                      height="76"
+                      decoding="async"
+                    />
                   </figure>
                 </li>
               </ul>
             </div>
           </div>
           <div class="p-index-mission__carousel-prev swiper-button-prev">
-            <img src="/assets/img/common/icon_carousel-button-prev.svg" alt="" width="32" height="84" decoding="async">
+            <img
+              src="/assets/img/common/icon_carousel-button-prev.svg"
+              alt=""
+              width="32"
+              height="84"
+              decoding="async"
+            />
           </div>
           <div class="p-index-mission__carousel-next swiper-button-next">
-            <img src="/assets/img/common/icon_carousel-button-next.svg" alt="" width="32" height="84" decoding="async">
+            <img
+              src="/assets/img/common/icon_carousel-button-next.svg"
+              alt=""
+              width="32"
+              height="84"
+              decoding="async"
+            />
           </div>
           <div class="p-index-mission__carousel-button swiper-pagination"></div>
         </div>
@@ -185,13 +315,18 @@ bodyclass: l-index
     <!-- p-index-strategy -->
     <section id="strategy" class="p-index-strategy">
       <div class="p-index-strategy__inner l-inner">
-        <h2 class="c-section-title c-section-title--reverse u-fadeInDown" data-scroll-animation>
+        <h2
+          class="c-section-title c-section-title--reverse u-fadeInDown"
+          data-scroll-animation
+        >
           <span>strategy</span>
         </h2>
         <ul class="p-index-strategy__list">
           <li class="p-index-strategy__item u-fadeInUp" data-scroll-animation>
             <span class="p-index-strategy__number">[ 01 ]</span>
-            <p class="p-index-strategy__header">大株主として投資先経営陣を<br>後押し</p>
+            <p class="p-index-strategy__header">
+              大株主として投資先経営陣を<br />後押し
+            </p>
             <div class="p-index-strategy__body">
               <p>
                 東京証券取引所に上場する潜在能力を有する大手・中堅企業の主要な株主として、リスクテイクの後押しを行い、投資先の経営イニシアティブの決断や実行をサポートします
@@ -200,16 +335,23 @@ bodyclass: l-index
           </li>
           <li class="p-index-strategy__item u-fadeInUp" data-scroll-animation>
             <span class="p-index-strategy__number">[ 02 ]</span>
-            <p class="p-index-strategy__header">投資先経営陣との<br>パートナーシップ</p>
+            <p class="p-index-strategy__header">
+              投資先経営陣との<br />パートナーシップ
+            </p>
             <div class="p-index-strategy__body">
-              <p>パートナーシップ契約などを締結し、新たな成長ステージを目指す投資先経営陣との緊密なコミュニケーションを通じ、企業の潜在力を引き出し、成長を加速します</p>
+              <p>
+                パートナーシップ契約などを締結し、新たな成長ステージを目指す投資先経営陣との緊密なコミュニケーションを通じ、企業の潜在力を引き出し、成長を加速します
+              </p>
             </div>
           </li>
           <li class="p-index-strategy__item u-fadeInUp" data-scroll-animation>
             <span class="p-index-strategy__number">[ 03 ]</span>
-            <p class="p-index-strategy__header">事業価値創造をアクティブに<br>サポート</p>
+            <p class="p-index-strategy__header">
+              事業価値創造をアクティブに<br />サポート
+            </p>
             <div class="p-index-strategy__body">
-              <p>戦略（What）についての討議だけでなく、果敢な意思決定の伴走支援、実行に向けたリソースやノウハウの提供（How）までをサポートするプライベートエクイティ型の支援手法により、価値創造を実現します
+              <p>
+                戦略（What）についての討議だけでなく、果敢な意思決定の伴走支援、実行に向けたリソースやノウハウの提供（How）までをサポートするプライベートエクイティ型の支援手法により、価値創造を実現します
               </p>
             </div>
           </li>
@@ -217,14 +359,18 @@ bodyclass: l-index
             <span class="p-index-strategy__number">[ 04 ]</span>
             <p class="p-index-strategy__header">中長期目線でのサポート</p>
             <div class="p-index-strategy__body">
-              <p>自社株買いなどの短期的な株価向上策は提言せず、「本質的かつ持続的な会社成長」をサポートします</p>
+              <p>
+                自社株買いなどの短期的な株価向上策は提言せず、「本質的かつ持続的な会社成長」をサポートします
+              </p>
             </div>
           </li>
           <li class="p-index-strategy__item u-fadeInUp" data-scroll-animation>
             <span class="p-index-strategy__number">[ 05 ]</span>
             <p class="p-index-strategy__header">In Depth リサーチ</p>
             <div class="p-index-strategy__body">
-              <p>投資先とはNDAの締結を行い、インサイダーとして経営改革の支援を行います</p>
+              <p>
+                投資先とはNDAの締結を行い、インサイダーとして経営改革の支援を行います
+              </p>
             </div>
           </li>
         </ul>
@@ -235,8 +381,17 @@ bodyclass: l-index
     <div class="p-index-bg">
       <div class="p-index-bg__img" data-parallax data-y="30%" data-scale="1.22">
         <picture>
-          <source srcset="/assets/img/index/pic_mount_fuji_pc.jpg" media="(min-width: 768px)" />
-          <img src="/assets/img/index/pic_mount_fuji.jpg?2" alt="上空から撮影した富士山" width="" height="" decoding="async">
+          <source
+            srcset="/assets/img/index/pic_mount_fuji_pc.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            src="/assets/img/index/pic_mount_fuji.jpg?2"
+            alt="上空から撮影した富士山"
+            width=""
+            height=""
+            decoding="async"
+          />
         </picture>
       </div>
     </div>
@@ -246,11 +401,16 @@ bodyclass: l-index
       <div class="p-index-approach__bg">
         <div class="p-index-approach__inner l-inner">
           <div class="u-fadeInDown" data-scroll-animation>
-            <h2 class="p-index-approach__title c-section-title c-section-title--white">
+            <h2
+              class="p-index-approach__title c-section-title c-section-title--white"
+            >
               <span>approach</span>
             </h2>
           </div>
-          <div class="p-index-approach__lead u-fadeInDown" data-scroll-animation>
+          <div
+            class="p-index-approach__lead u-fadeInDown"
+            data-scroll-animation
+          >
             <p>
               ジャパン・アクティベーション・キャピタルは、数々の日本企業の変革を支援した経験を有するグローバル大手プライベート・エクイティ・ファンド出身者が創設しました。戦略コンサルティング会社、プライベート・エクイティ・ファンド、上場株ファンド、投資銀行、事業会社の出身者、および大手事業会社や金融機関で経営陣として変革を主導した経験を有するオペレーティング・エグゼクティブ、シニア・アドバイザーや顧問が結集しています。その多様な知見、経験、ネットワークを最大限に活用し、投資先に対して高い付加価値を提供します
             </p>
@@ -259,8 +419,10 @@ bodyclass: l-index
             </p>
           </div>
           <div class="p-index-approach__items">
-            <section class="p-index-approach__item p-index-approach__item--business u-fadeInUp"
-              data-scroll-animation>
+            <section
+              class="p-index-approach__item p-index-approach__item--business u-fadeInUp"
+              data-scroll-animation
+            >
               <div class="p-index-approach__item-header">
                 <h3 class="p-index-approach__item-title">business</h3>
                 <p class="p-index-approach__item-lead">
@@ -270,16 +432,18 @@ bodyclass: l-index
               <div class="p-index-approach__item-body">
                 <ul>
                   <li>
-                  我が国では、グローバルの競合企業対比で過少投資となっている企業が散見されます。その主な要因として、事業領域を広範囲に展開し経営リソースが分散されている、過度なリスク回避的企業文化などが挙げられます。JACでは、リスクテイクしている主要な株主として、経営陣と伴走支援し、コア事業にリソースを集中するサポートを行いながら、事業強化と改革による収益性向上とキャッシュフロー総出力強化を図ります
+                    我が国では、グローバルの競合企業対比で過少投資となっている企業が散見されます。その主な要因として、事業領域を広範囲に展開し経営リソースが分散されている、過度なリスク回避的企業文化などが挙げられます。JACでは、リスクテイクしている主要な株主として、経営陣と伴走支援し、コア事業にリソースを集中するサポートを行いながら、事業強化と改革による収益性向上とキャッシュフロー総出力強化を図ります
                   </li>
                   <li>
-                  また、成功したビジネスモデルから乖離することへの躊躇、変わりゆく事業環境への適応変化のためのノウハウ不足による経営スピード低下なども見受けられます。JACはこれら課題を抱える企業に対し、JACのリソースやノウハウを提供し、グローバル展開や新規事業の加速、ビジネスモデルのアップグレード、M&AやPMIの実行支援などを行います。またDX（デジタル・トランスフォーメーション）や戦略人事、サステナビリティ領域のプロフェッショナルも経営陣と一体となって課題解決に取り組み、統合的な支援を通じて成長の加速をサポートします
+                    また、成功したビジネスモデルから乖離することへの躊躇、変わりゆく事業環境への適応変化のためのノウハウ不足による経営スピード低下なども見受けられます。JACはこれら課題を抱える企業に対し、JACのリソースやノウハウを提供し、グローバル展開や新規事業の加速、ビジネスモデルのアップグレード、M&AやPMIの実行支援などを行います。またDX（デジタル・トランスフォーメーション）や戦略人事、サステナビリティ領域のプロフェッショナルも経営陣と一体となって課題解決に取り組み、統合的な支援を通じて成長の加速をサポートします
                   </li>
                 </ul>
               </div>
             </section>
-            <section class="p-index-approach__item p-index-approach__item--sustainability u-fadeInUp"
-              data-scroll-animation>
+            <section
+              class="p-index-approach__item p-index-approach__item--sustainability u-fadeInUp"
+              data-scroll-animation
+            >
               <div class="p-index-approach__item-header">
                 <h3 class="p-index-approach__item-title">sustainability</h3>
                 <p class="p-index-approach__item-lead">
@@ -289,16 +453,24 @@ bodyclass: l-index
               <div class="p-index-approach__item-body">
                 <ul>
                   <li>
-                  企業は、社会・環境をめぐるリスクに対応するとともに、それに伴う新たなビジネス機会を積極的捉えていく必要があります。社会・環境とともに成長する『Good Growth』の実現こそが、日本の産業を中長期的に強くし、豊かな社会を生み出します。JAC は日本企業のGood Growthを後押しし加速するために、サステナビリティ分野での豊富な知見と国内外のネットワークを活かして、事業成長・企業価値向上に資する取り組みの選択と集中、その計画策定から実行まで支援します
+                    企業は、社会・環境をめぐるリスクに対応するとともに、それに伴う新たなビジネス機会を積極的捉えていく必要があります。社会・環境とともに成長する『Good
+                    Growth』の実現こそが、日本の産業を中長期的に強くし、豊かな社会を生み出します。JAC
+                    は日本企業のGood
+                    Growthを後押しし加速するために、サステナビリティ分野での豊富な知見と国内外のネットワークを活かして、事業成長・企業価値向上に資する取り組みの選択と集中、その計画策定から実行まで支援します
                   </li>
                 </ul>
                 {{# <div class="p-index-approach__item-link"><a href="./esg/">＞ESGポリシー</a></div> #}}
               </div>
             </section>
             <div class="p-index-approach__cols">
-              <section class="p-index-approach__item p-index-approach__item--dx u-fadeInUp" data-scroll-animation>
+              <section
+                class="p-index-approach__item p-index-approach__item--dx u-fadeInUp"
+                data-scroll-animation
+              >
                 <div class="p-index-approach__item-header">
-                  <h3 class="p-index-approach__item-title">digital transformation</h3>
+                  <h3 class="p-index-approach__item-title">
+                    digital transformation
+                  </h3>
                   <p class="p-index-approach__item-lead">
                     デジタル社会を前提とした新しいビジネスモデルへのアップグレード
                   </p>
@@ -311,9 +483,14 @@ bodyclass: l-index
                   </ul>
                 </div>
               </section>
-              <section class="p-index-approach__item p-index-approach__item--ir u-fadeInUp" data-scroll-animation>
+              <section
+                class="p-index-approach__item p-index-approach__item--ir u-fadeInUp"
+                data-scroll-animation
+              >
                 <div class="p-index-approach__item-header">
-                  <h3 class="p-index-approach__item-title">investor relations</h3>
+                  <h3 class="p-index-approach__item-title">
+                    investor relations
+                  </h3>
                   <p class="p-index-approach__item-lead">
                     資本市場とのコミュニケーションとステークホルダーの期待感醸成
                   </p>
@@ -326,7 +503,10 @@ bodyclass: l-index
                   </ul>
                 </div>
               </section>
-              <section class="p-index-approach__item p-index-approach__item--hr u-fadeInUp" data-scroll-animation>
+              <section
+                class="p-index-approach__item p-index-approach__item--hr u-fadeInUp"
+                data-scroll-animation
+              >
                 <div class="p-index-approach__item-header">
                   <h3 class="p-index-approach__item-title">human resources</h3>
                   <p class="p-index-approach__item-lead">
@@ -347,19 +527,32 @@ bodyclass: l-index
       </div>
     </section>
     <!-- /p-index-approach -->
-    
+
     {{ include "templates/top-index-team.vto" }}
     {{ include "templates/top-index-news.vto" }}
 
     <!-- p-index-office -->
     <section id="office" class="p-index-office">
-      <div class="p-index-office__inner l-inner u-fadeInDown" data-scroll-animation>
-        <h2 class="c-section-title c-section-title--reverse"><span>office</span></h2>
-        <p class="p-index-office__lead">JAPAN ACTIVATION CAPITALは<br class="u-desktop">ジャパン・アクティベーション・キャピタル株式会社が運営・管理を行うファンドです。</p>
+      <div
+        class="p-index-office__inner l-inner u-fadeInDown"
+        data-scroll-animation
+      >
+        <h2 class="c-section-title c-section-title--reverse">
+          <span>office</span>
+        </h2>
+        <p class="p-index-office__lead">
+          JAPAN ACTIVATION CAPITALは<br
+            class="u-desktop"
+          />ジャパン・アクティベーション・キャピタル株式会社が運営・管理を行うファンドです。
+        </p>
         <dl class="p-index-office__list">
           <div class="p-index-office__item">
             <dt class="p-index-office__label">社名</dt>
-            <dd class="p-index-office__text">ジャパン・アクティベーション・<br class="u-mobile">キャピタル株式会社</dd>
+            <dd class="p-index-office__text">
+              ジャパン・アクティベーション・<br
+                class="u-mobile"
+              />キャピタル株式会社
+            </dd>
           </div>
           <div class="p-index-office__item">
             <dt class="p-index-office__label">代表取締役社長 ＆ CEO</dt>
@@ -367,15 +560,21 @@ bodyclass: l-index
           </div>
           <div class="p-index-office__item">
             <dt class="p-index-office__label">事業内容</dt>
-            <dd class="p-index-office__text">投資運用業及び第二種金融商品取引業</dd>
+            <dd class="p-index-office__text">
+              投資運用業及び第二種金融商品取引業
+            </dd>
           </div>
           <div class="p-index-office__item">
             <dt class="p-index-office__label">所在地</dt>
-            <dd class="p-index-office__text">〒107-0062 東京都港区南青山2-5-17<br>ポーラ青山ビルディング 11F</dd>
+            <dd class="p-index-office__text">
+              〒107-0062 東京都港区南青山2-5-17<br />ポーラ青山ビルディング 11F
+            </dd>
           </div>
           <div class="p-index-office__item">
             <dt class="p-index-office__label">連絡先</dt>
-            <dd class="p-index-office__text">contact@japanactivationcapital.com</dd>
+            <dd class="p-index-office__text">
+              contact@japanactivationcapital.com
+            </dd>
           </div>
         </dl>
       </div>
@@ -383,25 +582,41 @@ bodyclass: l-index
     <!-- /p-index-office -->
     <!-- p-index-contact -->
     <section id="contact" class="p-index-contact">
-      <div class="p-index-contact__inner l-inner u-fadeInDown" data-scroll-animation>
-        <h2 class="c-section-title c-section-title--white"><span>contact</span></h2>
+      <div
+        class="p-index-contact__inner l-inner u-fadeInDown"
+        data-scroll-animation
+      >
+        <h2 class="c-section-title c-section-title--white">
+          <span>contact</span>
+        </h2>
         <div class="p-index-contact__cols">
           <div class="p-index-contact__col">
             <p class="p-index-contact__sub-title">CONTACT US</p>
             <div class="p-index-contact__texts">
-              <p class="p-index-contact__text">ビジネスに関するお問い合わせはこちら</p>
-              <p class="p-index-contact__text"><a
-                  href="mailto:contact@japanactivationcapital.com">contact@japanactivationcapital.com</a></p>
+              <p class="p-index-contact__text">
+                ビジネスに関するお問い合わせはこちら
+              </p>
+              <p class="p-index-contact__text">
+                <a href="mailto:contact@japanactivationcapital.com"
+                >contact@japanactivationcapital.com</a>
+              </p>
             </div>
           </div>
           <div class="p-index-contact__col">
             <p class="p-index-contact__sub-title">PR AGENT</p>
             <div class="p-index-contact__texts">
-              <p class="p-index-contact__text">報道関係についての<br class="u-mobile">お問い合わせはこちら</p>
-              <p class="p-index-contact__text"><a
-                  href="mailto:contact@japanactivationcapital.com">contact@japanactivationcapital.com</a></p>
-              <p class="p-index-contact__text p-index-contact__text--mt"><span>担当者：Kskst
-                  CNC<br class="u-mobile">大谷みな子/アンドリュー・マンデル</span></p>
+              <p class="p-index-contact__text">
+                報道関係についての<br class="u-mobile" />お問い合わせはこちら
+              </p>
+              <p class="p-index-contact__text">
+                <a href="mailto:contact@japanactivationcapital.com"
+                >contact@japanactivationcapital.com</a>
+              </p>
+              <p class="p-index-contact__text p-index-contact__text--mt">
+                <span>担当者：Kskst CNC<br
+                    class="u-mobile"
+                  />大谷みな子/アンドリュー・マンデル</span>
+              </p>
             </div>
           </div>
         </div>

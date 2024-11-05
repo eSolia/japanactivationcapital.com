@@ -24,16 +24,24 @@ containerClass: bio
             <h2 class="c-card-member__name">{{ name }}</h2>
             <p class="c-card-member__team">{{ team }}</p>
             <figure class="c-card-member__img c-shadow-item">
-              <img src="{{ img }}" alt="Bio page photo for {{ name }}, {{ position }}" width="240" height="300" decoding="async"
-                loading="lazy">
+              <img
+                src="{{ img }}"
+                alt="Bio page photo for {{ name }}, {{ position }}"
+                width="240"
+                height="300"
+                decoding="async"
+                loading="lazy"
+              />
             </figure>
           </div>
         </div>
         <div class="p-entry-team__body">
           {{ bio |> md }}
           <div class="p-entry-team__button">
-            <a href="../"
-              class="c-button-arrow c-button-arrow--text-left c-button-arrow--reverse c-button-arrow--small"><span>back</span></a>
+            <a
+              href="../"
+              class="c-button-arrow c-button-arrow--text-left c-button-arrow--reverse c-button-arrow--small"
+            ><span>back</span></a>
           </div>
         </div>
       </div>

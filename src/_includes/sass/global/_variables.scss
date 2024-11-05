@@ -70,8 +70,8 @@ $breakpoints: (
 
 // mediaquery
 $mediaquerys: (
-  sm: "screen and (min-width: #{map-get($breakpoints,'sm')}px)",
-  md: "screen and (min-width: #{map-get($breakpoints,'md')}px)",
-  lg: "screen and (min-width: #{map-get($breakpoints,'lg')}px)",
-  xl: "screen and (min-width: #{map-get($breakpoints,'xl')}px)",
+  sm: "screen and (min-width: #{map-get($breakpoints, "sm")}px)",
+  md: "screen and (min-width: #{map-get($breakpoints, "md")}px)",
+  lg: "screen and (min-width: #{map-get($breakpoints, "lg")}px)",
+  xl: "screen and (min-width: #{map-get($breakpoints, "xl")}px)",
 );

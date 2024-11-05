@@ -3,49 +3,83 @@
   <div class="p-global-menu__header">
     <div class="p-global-menu__control">
       <div class="p-global-menu__button">
-        <button type="button" class="c-hamburger js-hamburger-button" aria-controls="js-global-menu"
-          aria-expanded="false" aria-label="グローバルメニューを開閉する">
-          <span class="c-hamburger__line">
-          </span>
+        <button
+          type="button"
+          class="c-hamburger js-hamburger-button"
+          aria-controls="js-global-menu"
+          aria-expanded="false"
+          aria-label="グローバルメニューを開閉する"
+        >
+          <span class="c-hamburger__line"> </span>
         </button>
       </div>
     </div>
   </div>
   <div class="p-global-menu__body">
     <div class="p-global-menu__logo">
-      <a href="{{ lang === 'ja' ? '/' : '/en/' }}" aria-label="{{ site.index.logoaria }}">
-        <img src="/assets/img/common/logo_white.svg" alt="{{ site.index.logoalt }}" width="260" height="80"
-          decoding="async">
+      <a
+        href="{{ lang === 'ja' ? '/' : '/en/' }}"
+        aria-label="{{ site.index.logoaria }}"
+      >
+        <img
+          src="/assets/img/common/logo_white.svg"
+          alt="{{ site.index.logoalt }}"
+          width="260"
+          height="80"
+          decoding="async"
+        />
       </a>
     </div>
     <nav class="p-global-menu__nav">
       <div class="p-global-menu__nav-cols">
         <div>
           <ul class="p-global-menu__nav-list">
-            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}#about">about</a></li>
-            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}#message">message</a></li>
-            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}#mission">mission & goal</a></li>
-            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}#strategy">strategy</a></li>
-            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}#approach">approach</a></li>
-            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}team/">team</a></li>
+            <li class="p-global-menu__nav-item">
+              <a href="{{ lang === 'ja' ? '/' : '/en/' }}#about">about</a>
+            </li>
+            <li class="p-global-menu__nav-item">
+              <a href="{{ lang === 'ja' ? '/' : '/en/' }}#message">message</a>
+            </li>
+            <li class="p-global-menu__nav-item">
+              <a href="{{ lang === 'ja' ? '/' : '/en/' }}#mission"
+              >mission & goal</a>
+            </li>
+            <li class="p-global-menu__nav-item">
+              <a href="{{ lang === 'ja' ? '/' : '/en/' }}#strategy">strategy</a>
+            </li>
+            <li class="p-global-menu__nav-item">
+              <a href="{{ lang === 'ja' ? '/' : '/en/' }}#approach">approach</a>
+            </li>
+            <li class="p-global-menu__nav-item">
+              <a href="{{ lang === 'ja' ? '/' : '/en/' }}team/">team</a>
+            </li>
           </ul>
         </div>
         <div>
           <ul class="p-global-menu__nav-list">
-            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}news/">news</a></li>
-            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}#office">office</a></li>
-            <li class="p-global-menu__nav-item"><a href="{{ lang === 'ja' ? '/' : '/en/' }}#contact">contact</a></li>
+            <li class="p-global-menu__nav-item">
+              <a href="{{ lang === 'ja' ? '/' : '/en/' }}news/">news</a>
+            </li>
+            <li class="p-global-menu__nav-item">
+              <a href="{{ lang === 'ja' ? '/' : '/en/' }}#office">office</a>
+            </li>
+            <li class="p-global-menu__nav-item">
+              <a href="{{ lang === 'ja' ? '/' : '/en/' }}#contact">contact</a>
+            </li>
           </ul>
           <ul class="p-global-menu__sub-list">
-          {{ for item of footer.links }}
-            <li class="p-global-menu__sub-item"><a href="{{ item.url }}" aria-label="{{ footer.linkaria }}">{{ item.text }}</a></li>
-          {{ /for }}
+            {{ for item of footer.links }}
+              <li class="p-global-menu__sub-item">
+                <a href="{{ item.url }}" aria-label="{{ footer.linkaria }}">{{
+                  item.text
+                }}</a>
+              </li>
+            {{ /for }}
           </ul>
         </div>
       </div>
     </nav>
   </div>
 </div>
-<div class="p-global-menu__overlay" id="js-global-menu-overlay">
-</div>
+<div class="p-global-menu__overlay" id="js-global-menu-overlay"></div>
 <!-- /p-global-menu -->

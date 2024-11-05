@@ -2,12 +2,14 @@ export const layout = "layouts/news_list.vto";
 
 export const ja = {
   title: "News & Media",
-  description: "社内ニュースページや外部ニュースへのリンクを含む、ジャパン・アクティベーション・キャピタル ニュース 一覧",
+  description:
+    "社内ニュースページや外部ニュースへのリンクを含む、ジャパン・アクティベーション・キャピタル ニュース 一覧",
 };
 
 export const en = {
   title: "News & Media",
-  description: "Japan Activation Capital News List with internal news pages and links to external news pages.",
+  description:
+    "Japan Activation Capital News List with internal news pages and links to external news pages.",
 };
 
 export default function* ({ search, paginate }: Lume.Data) {

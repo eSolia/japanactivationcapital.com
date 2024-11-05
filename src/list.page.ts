@@ -6,10 +6,10 @@ export const layout = "layouts/terms.vto";
 
 export default function ({ search }: Lume.Data) {
   const files = search.files();
-  
+
   return `
     <ul>
-      ${files.map(path => `<li><a href="${path}">${path}</a></li>`).join("")}
+      ${files.map((path) => `<li><a href="${path}">${path}</a></li>`).join("")}
     </ul>
   `;
 }
