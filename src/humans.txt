@@ -11,7 +11,7 @@
 
 /* SITE */
 
-    Purpose: Marketing site with basic info about JAC's mission and approach, news items and links, personnel pages.
+    Purpose: Marketing site with basic info about JAC’s mission and approach, news items and links, personnel pages.
     Languages: English / Japanese
     Build Process: Static Site Generator rebuilds on git push, using templates so that changes do not have to be made on every page manually. 
 

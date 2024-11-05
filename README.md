@@ -54,7 +54,7 @@ Get the first tag like this specifying the 0th element:
 <p class="p-entry-news__tag c-tag">{{ it.tags[0] }}</p>
 ```
 
-This works but it's not elegant: 
+This works but it’s not elegant: 
 
 ```
 <p class="p-entry-news__tag c-tag">{{ set firstKey = 0 }}{{ for key, item of it.tags }}{{ if key == firstKey }}{{ item }}{{ /if }}{{ /for }}</p>

@@ -33,11 +33,11 @@ collections:
       - label: News Title
         name: title
         widget: string
-        hint: As the news page's metadata title, enter the title of the news item, in the same language as the content. Careful, this becomes the URL slug and filename, so get it right the first time, and it's recommended to keep the length under 70 Japanese characters.
+        hint: As the news page’s metadata title, enter the title of the news item, in the same language as the content. Careful, this becomes the URL slug and filename, so get it right the first time, and it’s recommended to keep the length under 70 Japanese characters.
       - label: News Description
         name: description
         widget: text
-        hint: As the news page's metadata description, enter a short description for the news post in the same language as the content, to be used by search engines and social media.
+        hint: As the news page’s metadata description, enter a short description for the news post in the same language as the content, to be used by search engines and social media.
       - label: Language
         name: lang
         widget: select
@@ -97,7 +97,7 @@ collections:
       - label: Page Title
         name: title
         widget: string
-        hint: As the page metadata title, enter the person's name and job title, separated by a comma, in the same language as the content. 
+        hint: As the page metadata title, enter the person’s name and job title, separated by a comma, in the same language as the content. 
       - label: Page Description
         name: description
         widget: text
@@ -112,12 +112,12 @@ collections:
             name: alumniOf
             widget: string
             required: false
-            hint: Enter the person's alma mater, in the same language as the content.
+            hint: Enter the person’s alma mater, in the same language as the content.
           - label: Nationality
             name: nationality
             widget: string
             required: false
-            hint: Enter the person's nationality, in the same language as the content. 
+            hint: Enter the person’s nationality, in the same language as the content. 
       - label: Language
         name: lang
         widget: select
@@ -142,11 +142,11 @@ collections:
       - label: Full Name
         name: name
         widget: string
-        hint: Enter the person's full name, in the same language as the content.
+        hint: Enter the person’s full name, in the same language as the content.
       - label: Position
         name: position
         widget: string
-        hint: Enter the person's job title, in the same language as the content.
+        hint: Enter the person’s job title, in the same language as the content.
       - label: Short Introduction
         name: short
         widget: text
@@ -163,7 +163,7 @@ collections:
       - label: Content
         name: bio
         widget: markdown
-        hint: Enter the person's biography, in the same language as the content.
+        hint: Enter the person’s biography, in the same language as the content.
   - label: Pages
     name: pages
     create: false
