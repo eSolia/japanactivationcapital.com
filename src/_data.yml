@@ -36,8 +36,8 @@ footer:
       url: /privacy/
     - text: 反社ポリシー
       url: /antisocial/
-    - text: ESGポリシー
-      url: /esg/
+    # - text: ESGポリシー
+    #   url: /esg/
 
 site:
   title: JAPAN ACTIVATION CAPITAL
