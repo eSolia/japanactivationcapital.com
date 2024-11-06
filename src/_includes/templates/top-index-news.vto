@@ -5,7 +5,7 @@
       <h2 class="c-section-title"><span>news</span></h2>
     </div>
     <ul class="p-index-news__list">
-      {{ for item of search.pages(`type=news lang=${lang}`, "date=desc", 3) }}
+      {{ for item of search.pages(`type=news lang=${lang}`, "date=desc", 5) }}
       <li class="c-news-item">
         {{ if item.external_link }}        
         <a href="{{ item.external_link }}" class="c-news-item__link" target="_blank">
