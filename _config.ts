@@ -15,6 +15,7 @@ import picture from "lume/plugins/picture.ts";
 import pagefind from "lume/plugins/pagefind.ts";
 import { getGitDate } from "lume/core/utils/date.ts";
 import sourceMaps from "lume/plugins/source_maps.ts";
+import checkUrls from "lume/plugins/check_urls.ts";
 // import sri from "lume/plugins/sri.ts";
 
 // import cache_busting from "https://raw.githubusercontent.com/lumeland/experimental-plugins/c8778bfbf480f57a2357ab94bc22290b8bf11d12/cache_busting/mod.ts";
@@ -65,7 +66,10 @@ site.use(filterPages({
 
 // Use the source maps plugin to generate the .map files
 site.use(sourceMaps());
-
+site.use(checkUrls({
+  external: true,
+  output: "jac_broken_links.json",
+}));
 // site.use(cache_busting());
 
 // site.use(sri());
