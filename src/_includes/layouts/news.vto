@@ -24,12 +24,12 @@ layout: layouts/base.vto
       </div>
       <div class="p-entry-news__body">
         {{ if it.img }}
-          <figure>
+          <figure style="float: right; max-width: 400px;">
             <img
               src="{{ it.img }}"
               alt="{{ it.imgalt }}"
-              width="310"
-              height="175"
+              {{# width=200 #}}
+              {{# height="175" #}}
             />
           </figure>
         {{ /if }}
