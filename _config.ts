@@ -123,6 +123,7 @@ site.use(decapCMS({
 }));
 
 site.copy("assets");
+//site.copy("media");
 // site.copy([".pdf"], (file) => "pdf" + file);
 site.copy([".pdf",".jpg",".avif",".png"]);
 site.copy("humans.txt");
