@@ -15,7 +15,7 @@ import picture from "lume/plugins/picture.ts";
 import pagefind from "lume/plugins/pagefind.ts";
 import { getGitDate } from "lume/core/utils/date.ts";
 import sourceMaps from "lume/plugins/source_maps.ts";
-// import brotli from "lume/plugins/brotli.ts";
+import brotli from "lume/plugins/brotli.ts";
 import checkUrls from "lume/plugins/check_urls.ts";
 // import sri from "lume/plugins/sri.ts";
 
@@ -66,14 +66,14 @@ site.use(filterPages({
 
 // Use the source maps plugin to generate the .map files
 site.use(sourceMaps());
-// site.use(checkUrls({
-//   external: true,
-//   output: "jac_broken_links.json",
-// }));
+site.use(checkUrls({
+  external: true,
+  output: "jac_broken_links.json",
+}));
 // site.use(cache_busting());
 
 // site.use(sri());
-// site.use(brotli());
+site.use(brotli());
 
 site.preprocess([".html"], (pages) => {
   for (const page of pages) {
