@@ -15,8 +15,8 @@ import picture from "lume/plugins/picture.ts";
 import pagefind from "lume/plugins/pagefind.ts";
 import { getGitDate } from "lume/core/utils/date.ts";
 import sourceMaps from "lume/plugins/source_maps.ts";
-import brotli from "lume/plugins/brotli.ts";
-// import checkUrls from "lume/plugins/check_urls.ts";
+// import brotli from "lume/plugins/brotli.ts";
+import checkUrls from "lume/plugins/check_urls.ts";
 // import sri from "lume/plugins/sri.ts";
 
 // import cache_busting from "https://raw.githubusercontent.com/lumeland/experimental-plugins/c8778bfbf480f57a2357ab94bc22290b8bf11d12/cache_busting/mod.ts";
@@ -73,7 +73,7 @@ site.use(sourceMaps());
 // site.use(cache_busting());
 
 // site.use(sri());
-site.use(brotli());
+// site.use(brotli());
 
 site.preprocess([".html"], (pages) => {
   for (const page of pages) {
