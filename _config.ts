@@ -53,7 +53,6 @@ site.use(multilanguage({
 site.use(picture());
 site.use(transformImages({
   cache: true, // Toggle cache
-  matches: /\.(jpg|jpeg|png|webp)$/i  // This regex matches only image files
 }));
 site.use(pagefind());
 
@@ -125,7 +124,7 @@ site.use(decapCMS({
 site.copy("assets");
 //site.copy("media");
 // site.copy([".pdf"], (file) => "pdf" + file);
-site.copy([".pdf",".jpg",".avif",".png"]);
+site.copy([".pdf"]);
 site.copy("humans.txt");
 site.copy("robots.txt");
 site.copy("3d5f05c39f2742c38468b4f72fb80879.txt");
