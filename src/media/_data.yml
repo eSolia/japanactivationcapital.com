@@ -1,0 +1,5 @@
+transformImages:
+  - resize: [400]
+    format: [avif, webp, jpg, png]
+  - resize: [1000]
+    format: [avif, webp, jpg, png]
