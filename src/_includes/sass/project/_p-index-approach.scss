@@ -134,7 +134,7 @@
 .p-index-approach__item--business .p-index-approach__item-title::before {
   width: 60px;
   aspect-ratio: 60 / 35;
-  background-image: url(../img/index/icon_business.svg);
+  background-image: url(/assets/img/index/icon_business.svg);
 
   @include mq(md) {
     width: 80px;
@@ -145,7 +145,7 @@
 .p-index-approach__item--sustainability .p-index-approach__item-title::before {
   width: 59px;
   aspect-ratio: 59 / 56;
-  background-image: url(../img/index/icon_sustainability.svg);
+  background-image: url(/assets/img/index/icon_sustainability.svg);
 
   @include mq(md) {
     width: 70px;
@@ -156,7 +156,7 @@
 .p-index-approach__item--dx .p-index-approach__item-title::before {
   width: 46px;
   aspect-ratio: 46 / 56;
-  background-image: url(../img/index/icon_dx.svg);
+  background-image: url(/assets/img/index/icon_dx.svg);
 
   @include mq(md) {
     width: 58px;
@@ -167,7 +167,7 @@
 .p-index-approach__item--ir .p-index-approach__item-title::before {
   width: 40px;
   aspect-ratio: 40 / 48;
-  background-image: url(../img/index/icon_ir.svg);
+  background-image: url(/assets/img/index/icon_ir.svg);
 
   @include mq(md) {
     width: 50px;
@@ -178,7 +178,7 @@
 .p-index-approach__item--hr .p-index-approach__item-title::before {
   width: 40px;
   aspect-ratio: 40 / 48;
-  background-image: url(../img/index/icon_hr.svg);
+  background-image: url(/assets/img/index/icon_hr.svg);
 
   @include mq(md) {
     width: 50px;
