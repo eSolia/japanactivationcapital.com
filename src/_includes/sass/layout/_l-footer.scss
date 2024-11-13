@@ -17,7 +17,7 @@
   row-gap: 40px;
 
   @include mq(md) {
-    width: min(1240px + var(--padding-pc) * 2, 100%);
+    width: min((1240px + var(--padding-pc) * 2), 100%);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

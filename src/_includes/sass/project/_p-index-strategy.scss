@@ -1,14 +1,14 @@
 @use "../global" as *;
 
 .p-index-strategy {
-  background-image: url(/assets/img/index/bg_strategy.png?2);
+  background-image: url(../img/index/bg_strategy.png?2);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 150px 0 52px;
   background-color: var(--c-base);
 
   @include mq(md) {
-    background-image: url(/assets/img/index/bg_strategy_pc.png?2);
+    background-image: url(../img/index/bg_strategy_pc.png?2);
     padding: 240px 0 125px;
   }
 }
@@ -25,7 +25,6 @@
   @include mq(md) {
     display: grid;
     grid-template:
-      "number . header . ." 18px
       "number . header . body" auto
       ". . . . body" 1fr
       / auto 42fr 328fr 94fr 639fr;
@@ -74,5 +73,6 @@
   @include mq(md) {
     margin-top: 0;
     grid-area: body;
+    font-size: 18px;
   }
 }

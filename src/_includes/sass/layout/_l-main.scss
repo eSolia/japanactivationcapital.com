@@ -1,6 +1,7 @@
 @use "../global" as *;
 
-body.is-drawerActive {}
+body.is-drawerActive {
+}
 
 .l-wrapper {
   overflow-x: clip;
@@ -13,6 +14,8 @@ body.is-drawerActive {}
   min-height: 100svh;
 }
 
-.l-main > * {}
+.l-main > * {
+}
 
-.l-section {}
+.l-section {
+}
