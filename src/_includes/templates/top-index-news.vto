@@ -1,30 +1,106 @@
 <!-- p-index-news -->
-<section class="p-index-news">
+<section id="#news" class="p-index-news">
   <div class="p-index-news__inner l-inner u-fadeInDown" data-scroll-animation>
     <div class="p-index-news__title">
-      <h2 class="c-section-title"><span>news</span></h2>
+      <h2 class="c-section-title"><span>news &</span><br><span>media</span></h2>
     </div>
-    <ul class="p-index-news__list">
-      {{ for item of search.pages(`type=news lang=${lang}`, "date=desc", 5) }}
-      <li class="c-news-item">
-        {{ if item.external_link }}        
-        <a href="{{ item.external_link }}" class="c-news-item__link" target="_blank">
-          <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(undefined, lang) }}</time>
-          <p class="c-news-item__tag c-tag">{{ item.tags[0] }}</p>
-          <p class="c-news-item__title">{{ item.title }}</p>
-          <div class="c-news-item__arrow"><span class="c-circle-arrow"></span></div>
-        </a>
-        {{ else }}
-        <a href="{{ item.url }}" class="c-news-item__link">
-          <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(undefined, lang) }}</time>
-          <p class="c-news-item__tag c-tag">{{ item.tags[0] }}</p>
-          <p class="c-news-item__title">{{ item.title }}</p>
-          <div class="c-news-item__arrow"><span class="c-circle-arrow"></span></div>
-        </a>
-        {{ /if }}
-      </li>
-      {{ /for }}
-    </ul>
+    <div class="p-index-news__tabs">
+      <section class="tab" id="third-tab">
+        <ul class="p-index-news__list">
+          {{ for item of search.pages(`type=news Media lang=${lang}`, "date=desc", 5) }}
+          <li class="c-news-item">
+            {{ if item.external_link }}
+            <a href="{{ item.external_link }}" class="c-news-item__link" target="_blank">
+              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(undefined, lang) }}</time>
+              <p class="c-news-item__tag c-tag">{{ item.tags[0] }}</p>
+              <p class="c-news-item__title">{{ item.title }}</p>
+              <div class="c-news-item__arrow"><span class="c-circle-arrow"></span></div>
+            </a>
+            {{ else }}
+            <a href="{{ item.url }}" class="c-news-item__link">
+              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(undefined, lang) }}</time>
+              <p class="c-news-item__tag c-tag">{{ item.tags[0] }}</p>
+              <p class="c-news-item__title">{{ item.title }}</p>
+              <div class="c-news-item__arrow"><span class="c-circle-arrow"></span></div>
+            </a>
+            {{ /if }}
+          </li>
+          {{ /for }}
+        </ul>
+
+
+        <nav>
+          <a href="#first-tab">ALL</a>
+          <a href="#second-tab">NEWS</a>
+          <a href="#third-tab" class="active">MEDIA</a>
+        </nav>
+      </section>
+      <section class="tab" id="second-tab">
+        <ul class="p-index-news__list">
+          {{ for item of search.pages(`type=news News lang=${lang}`, "date=desc", 5) }}
+          <li class="c-news-item">
+            {{ if item.external_link }}
+            <a href="{{ item.external_link }}" class="c-news-item__link" target="_blank">
+              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(undefined, lang) }}</time>
+              <p class="c-news-item__tag c-tag">{{ item.tags[0] }}</p>
+              <p class="c-news-item__title">{{ item.title }}</p>
+              <div class="c-news-item__arrow"><span class="c-circle-arrow"></span></div>
+            </a>
+            {{ else }}
+            <a href="{{ item.url }}" class="c-news-item__link">
+              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(undefined, lang) }}</time>
+              <p class="c-news-item__tag c-tag">{{ item.tags[0] }}</p>
+              <p class="c-news-item__title">{{ item.title }}</p>
+              <div class="c-news-item__arrow"><span class="c-circle-arrow"></span></div>
+            </a>
+            {{ /if }}
+          </li>
+          {{ /for }}
+        </ul>
+
+
+        <nav>
+          <a href="#first-tab">ALL</a>
+          <a href="#second-tab" class="active">NEWS</a>
+          <a href="#third-tab">MEDIA</a>
+        </nav>
+      </section>
+      <section class="tab" id="first-tab">
+        <ul class="p-index-news__list">
+          {{ for item of search.pages(`type=news lang=${lang}`, "date=desc", 5) }}
+          <li class="c-news-item">
+            {{ if item.external_link }}
+            <a href="{{ item.external_link }}" class="c-news-item__link" target="_blank">
+              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(undefined, lang) }}</time>
+              <p class="c-news-item__tag c-tag">{{ item.tags[0] }}</p>
+              <p class="c-news-item__title">{{ item.title }}</p>
+              <div class="c-news-item__arrow"><span class="c-circle-arrow"></span></div>
+            </a>
+            {{ else }}
+            <a href="{{ item.url }}" class="c-news-item__link">
+              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(undefined, lang) }}</time>
+              <p class="c-news-item__tag c-tag">{{ item.tags[0] }}</p>
+              <p class="c-news-item__title">{{ item.title }}</p>
+              <div class="c-news-item__arrow"><span class="c-circle-arrow"></span></div>
+            </a>
+            {{ /if }}
+          </li>
+          {{ /for }}
+        </ul>
+
+
+        <nav>
+          <a href="#first-tab" class="active">ALL</a>
+          <a href="#second-tab">NEWS</a>
+          <a href="#third-tab">MEDIA</a>
+        </nav>
+      </section>
+    </div>
+
+
+
+
+
     <div class="p-index-news__button">
       <a href="./news/" class="c-button-arrow c-button-arrow--text-right"><span>read more</span></a>
     </div>
