@@ -36,10 +36,10 @@ document.addEventListener("DOMContentLoaded", function () {
     loop: true,
     spaceBetween: 10,
     autoplay: {
-      delay: 5000,
+      delay: 4000,
       disableOnInteraction: false,
     },
-    speed: 1500,
+    speed: 1000,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
