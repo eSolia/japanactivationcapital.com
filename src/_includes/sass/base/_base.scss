@@ -19,3 +19,21 @@ body {
 html[lang="en"] body {
   letter-spacing: 0.05em;
 }
+
+html[lang="en"] {
+  letter-spacing: 0.05em;
+  text-align: left;
+  -webkit-hyphens: auto;
+  -webkit-hyphenate-limit-before: 3;
+  -webkit-hyphenate-limit-after: 3;
+  -webkit-hyphenate-limit-chars: 6 3 3;
+  -webkit-hyphenate-limit-lines: 2;
+  -webkit-hyphenate-limit-last: always;
+  -webkit-hyphenate-limit-zone: 8%;
+  hyphens: auto !important;
+  hyphenate-character: "-";
+  hyphenate-limit-chars: 6 3 3;
+  hyphenate-limit-lines: 2;
+  hyphenate-limit-last: always;
+  hyphenate-limit-zone: 8%;
+}
