@@ -9,26 +9,3 @@ html {
   background-color: #121250;
 }
 
-/* The browser correctly supports hyphenation */
-// html[lang="en"] {
-//   text-align: left;
-//   -webkit-hyphens: auto;
-//   -webkit-hyphenate-limit-before: 3;
-//   -webkit-hyphenate-limit-after: 3;
-//   -webkit-hyphenate-limit-chars: 6 3 3;
-//   -webkit-hyphenate-limit-lines: 2;
-//   -webkit-hyphenate-limit-last: always;
-//   -webkit-hyphenate-limit-zone: 8%;
-//   hyphens: auto;
-//   hyphenate-character: "-";
-//   hyphenate-limit-chars: 6 3 3;
-//   hyphenate-limit-lines: 2;
-//   hyphenate-limit-last: always;
-//   hyphenate-limit-zone: 8%;
-// }
-
-/* The browser does NOT correctly support hyphenation */
-// html[lang="ja"] {
-//   text-align: left;
-//   hyphens: none;
-// }
