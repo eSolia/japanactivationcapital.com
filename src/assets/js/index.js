@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
     loop: true,
     spaceBetween: 10,
     autoplay: {
-      delay: 4000,
+      delay: 6500,
       disableOnInteraction: false,
     },
     speed: 1000,
