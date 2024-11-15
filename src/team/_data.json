@@ -1,5 +1,6 @@
 {
   "type": "bio",
+  "date": "Git Last Modified",
   "layout": "layouts/bio.vto",
   "priority": 0.9,
   "metas": {
