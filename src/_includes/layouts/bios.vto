@@ -20,11 +20,7 @@ containerClass: bios
       <section class="p-archive-team__block">
         <h2 class="c-section-sub-title">Investment Team</h2>
         <ul class="p-archive-team__list">
-          {{
-            for 
-            item of search.pages(`tags*=Investment type=bio lang=${lang}`, "weight")
-
-          }}
+          {{ for item of search.pages(`tags*=Investment type=bio lang=${lang}`, "weight") }}
             <li>
               <a
                 href="{{ item.url }}"
@@ -53,11 +49,7 @@ containerClass: bios
           Special Value <br class="u-mobile" />Creation Team
         </h2>
         <ul class="p-archive-team__list">
-          {{
-            for 
-            item of search.pages(`tags*=ValueCreate type=bio lang=${lang}`, "weight")
-
-          }}
+          {{ for item of search.pages(`tags*=ValueCreate type=bio lang=${lang}`, "weight") }}
             <li>
               <a
                 href="{{ item.url }}"
@@ -84,11 +76,7 @@ containerClass: bios
       <section class="p-archive-team__block">
         <h2 class="c-section-sub-title">CEO Office</h2>
         <ul class="p-archive-team__list">
-          {{
-            for 
-            item of search.pages(`tags*=CEOOffice type=bio lang=${lang}`, "weight")
-
-          }}
+          {{ for item of search.pages(`tags*=CEOOffice type=bio lang=${lang}`, "weight") }}
             <li>
               <a
                 href="{{ item.url }}"
@@ -112,14 +100,40 @@ containerClass: bios
           {{ /for }}
         </ul>
       </section>
+
+      <section class="p-archive-team__block">
+        <h2 class="c-section-sub-title">Investor Relations Team</h2>
+        <ul class="p-archive-team__list">
+          {{ for item of search.pages(`tags*=InvestorRelations type=bio lang=${lang}`, "weight") }}
+            <li>
+              <a
+                href="{{ item.url }}"
+                class="c-card-member c-card-member--small"
+              >
+                <p class="c-card-member__role">{{ item.position }}</p>
+                <p class="c-card-member__name">{{ item.name }}</p>
+                <figure class="c-card-member__img c-shadow-item">
+                  <img
+                    src="{{ item.img }}"
+                    alt="Bio page list thumbnail for {{ item.name }}"
+                    width="240"
+                    height="300"
+                    decoding="async"
+                    loading="lazy"
+                    transform-images="avif webp jpg 400@2"
+                  />
+                </figure>
+              </a>
+            </li>
+          {{ /for }}
+        </ul>
+      </section>
+
+
       <section class="p-archive-team__block">
         <h2 class="c-section-sub-title">Corporate Team</h2>
         <ul class="p-archive-team__list">
-          {{
-            for 
-            item of search.pages(`tags*=Corporate type=bio lang=${lang}`, "weight")
-
-          }}
+          {{ for item of search.pages(`tags*=Corporate type=bio lang=${lang}`, "weight") }}
             <li>
               <a
                 href="{{ item.url }}"
@@ -143,12 +157,11 @@ containerClass: bios
           {{ /for }}
         </ul>
       </section>
+
       <section class="p-archive-team__block">
         <h2 class="c-section-sub-title">Board Members</h2>
         <ul class="p-archive-team__list">
-          {{
-            for item of search.pages(`tags*=Board type=bio lang=${lang}`, "weight")
-          }}
+          {{ for item of search.pages(`tags*=Board type=bio lang=${lang}`, "weight") }}
             <li>
               <a
                 href="{{ item.url }}"
@@ -175,11 +188,7 @@ containerClass: bios
       <section class="p-archive-team__block">
         <h2 class="c-section-sub-title">Advisors</h2>
         <ul class="p-archive-team__list">
-          {{
-            for 
-            item of search.pages(`tags*=Advisor type=bio lang=${lang}`, "weight")
-
-          }}
+          {{ for item of search.pages(`tags*=Advisor type=bio lang=${lang}`, "weight") }}
             <li>
               <a
                 href="{{ item.url }}"
