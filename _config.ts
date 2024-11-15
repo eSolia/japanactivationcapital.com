@@ -89,7 +89,6 @@ site.preprocess([".html"], (pages) => {
 //   page.content = page.content.replace('defer=""', 'defer');
 // });
 
-
 // site.process([".html"], (pages) => {
 //   for (const page of pages) {
 //     page.content = page.content.replaceAll(/[“”]/g, '"').replaceAll(/[‘’]/g, "'");
@@ -122,6 +121,7 @@ site.use(decapCMS({
 }));
 
 site.copy("assets");
+site.copy("rinji");
 //site.copy("media");
 // site.copy([".pdf"], (file) => "pdf" + file);
 site.copy([".pdf"]);
