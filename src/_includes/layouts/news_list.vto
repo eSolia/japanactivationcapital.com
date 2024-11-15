@@ -116,9 +116,7 @@ containerClass: news
           <!-- NEWS TAB 2 -->
           <div id="tab-2" class="c-tab__content" aria-hidden="true">
             <ul class="p-archive-news__list">
-              {{
-                for item of search.pages(`type=news News lang=${lang}`, "date=desc")
-              }}
+              {{ for item of search.pages(`type=news News lang=${lang}`, "date=desc") }}
                 <li class="c-news-item c-news-item--archive">
                   {{ if item.external_link }}
                     <a
@@ -160,9 +158,7 @@ containerClass: news
           <!-- NEWS TAB 3 -->
           <div id="tab-3" class="c-tab__content" aria-hidden="true">
             <ul class="p-archive-news__list">
-              {{
-                for item of search.pages(`type=news Media lang=${lang}`, "date=desc")
-              }}
+              {{ for item of search.pages(`type=news Media lang=${lang}`, "date=desc") }}
                 <li class="c-news-item c-news-item--archive">
                   {{ if item.external_link }}
                     <a
