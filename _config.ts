@@ -121,7 +121,6 @@ site.use(decapCMS({
 }));
 
 site.copy("assets");
-site.copy("rinji");
 //site.copy("media");
 // site.copy([".pdf"], (file) => "pdf" + file);
 site.copy([".pdf"]);
