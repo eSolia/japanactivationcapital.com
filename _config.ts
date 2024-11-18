@@ -16,6 +16,7 @@ import picture from "lume/plugins/picture.ts";
 import pagefind from "lume/plugins/pagefind.ts";
 import { getGitDate } from "lume/core/utils/date.ts";
 import sourceMaps from "lume/plugins/source_maps.ts";
+import svgo from "lume/plugins/svgo.ts";
 import brotli from "lume/plugins/brotli.ts";
 import minifyHTML from "lume/plugins/minify_html.ts";
 import robots from "lume/plugins/robots.ts";
@@ -84,6 +85,7 @@ site.use(sourceMaps());
 // site.use(cache_busting());
 
 // site.use(sri());
+site.use(svgo(/* Options */));
 site.use(brotli());
 site.use(minifyHTML(/* Options */));
 // Give access only to Google and Bing
