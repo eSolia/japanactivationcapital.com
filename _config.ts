@@ -1,4 +1,5 @@
 import lume from "lume/mod.ts";
+import googleFonts from "lume/plugins/google_fonts.ts";
 import multilanguage from "lume/plugins/multilanguage.ts";
 import favicon from "lume/plugins/favicon.ts";
 import metas from "lume/plugins/metas.ts";
@@ -40,6 +41,14 @@ const site = lume(
     location: new URL("https://japanactivationcapital.com"),
   },
 );
+
+site.use(googleFonts({
+  cssFile: "css/styles.scss",
+  placeholder: "/* lume-google-fonts-here */",
+  fonts: {
+    display: "https://fonts.google.com/share?selection.family=Josefin+Sans:ital,wght@0,100..700;1,100..700",
+    text: "https://fonts.google.com/share?selection.family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap",
+}}));
 
 site.use(date({
   locales: { enUS, ja },
