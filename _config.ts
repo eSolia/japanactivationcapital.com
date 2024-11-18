@@ -17,6 +17,8 @@ import pagefind from "lume/plugins/pagefind.ts";
 import { getGitDate } from "lume/core/utils/date.ts";
 import sourceMaps from "lume/plugins/source_maps.ts";
 import brotli from "lume/plugins/brotli.ts";
+import minifyHTML from "lume/plugins/minify_html.ts";
+import robots from "lume/plugins/robots.ts";
 // import checkUrls from "lume/plugins/check_urls.ts";
 // import sri from "lume/plugins/sri.ts";
 
@@ -83,6 +85,35 @@ site.use(sourceMaps());
 
 // site.use(sri());
 site.use(brotli());
+site.use(minifyHTML(/* Options */));
+// Give access only to Google and Bing
+site.use(robots({
+  allow: ["Googlebot", "Feedfetcher-Google", "Google Favicon", "Googlebot-Image", "Googlebot-Mobile", "Googlebot-News", "Googlebot-Video", "GoogleOther", "Bingbot", "msnbot", "msnbot-media", "Yandex", "YandexBot", "YandexImages", "DuckDuckBot", "DuckDuckGo-Favicons-Bot", "Yahoo! Slurp", "archive.org_bot", "heritrix", "Arquivo-web-crawler", "ia-archiver", "ia_archiver-web.archive.org", "Nicecrawler"],
+  disallow: ["CCBot", "ChatGPT-User", "GPTBot", "DuckAssistBot", "Google-Extended", "AdsBot-Google", "AdsBot-Google-Mobile", "anthropic-ai", "cohere-ai", "omgilibot", "omgili", "FacebookBot", "Meta-ExternalFetcher", "Meta-ExternalAgent", "AI2Bot", "Baiduspider", "Baiduspider-image", "Bytespider", "Diffbot", "Kangaroo Bot", "Timpibot", "Webzio-Extended", "Amazonbot", "Applebot", "OAI-SearchBot", "PerplexityBot", "YouBot", "008", "Dataprovider.com", "dcrawl", "HTTrack", "HTTrack 3.0", "MetaInspector", "newspaper", "Nutch", "Offline Explorer", "OpenindexSpider", "Scrapy", "SeznamBot", "Sogou web spider"],
+  rules: [
+    {
+      userAgent: "*",
+      disallow: "/6e77746e/",
+    },
+    {
+      userAgent: "*",
+      disallow: "jac_index.html",
+    },
+    {
+      userAgent: "*",
+      disallow: "jac_tree.html",
+    },
+    {
+      userAgent: "*",
+      disallow: "jump2jac.html",
+    },
+    {
+      userAgent: "*",
+      disallow: "jac_site.zip",
+    },
+  ],
+}));
+
 
 site.preprocess([".html"], (pages) => {
   for (const page of pages) {
@@ -134,7 +165,6 @@ site.copy("assets");
 // site.copy([".pdf"], (file) => "pdf" + file);
 site.copy([".pdf"]);
 site.copy("humans.txt");
-site.copy("robots.txt");
 site.copy("3d5f05c39f2742c38468b4f72fb80879.txt");
 site.copy("_redirects");
 site.copy("favicon.svg");
