@@ -8,10 +8,10 @@ id: bio_Kinoshita
 weight: 670
 name: 木下 紗希
 position: <nobr>インベストメント・<wbr>プロフェッショナル</nobr>
-short: "  "
+team: Investment Team
 img: /media/kinoshitathp_3045-3.jpg
 tags:
-  - Core
+  - Investment
 bio: |-
   JAC参画以前は、大手投資銀行にてコンシューマー・自動車業界を中心に、大手企業並びにスタートアップ企業の資金調達、IPO、M&A等に従事。
 

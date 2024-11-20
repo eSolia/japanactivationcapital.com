@@ -13,10 +13,10 @@ id: bio_Satake
 weight: 570
 name: 佐竹 謙
 position: <nobr>チーフ・オペレーティング・<wbr>オフィサー</nobr>
-short: "  "
+team: Corporate Team
 img: /media/SatakeTHP_3333-3-square.jpg
 tags:
-  - Core
+  - Corporate
 bio: >-
   WEB3.0業界の大手Animoca Brandsの日本法人のマネージング・ディレクター、主に日本での投資とファイナンスの担当を経て参画。\
 

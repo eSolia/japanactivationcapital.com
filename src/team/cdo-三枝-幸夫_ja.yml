@@ -9,10 +9,10 @@ id: bio_Saegusa
 weight: 610
 name: 三枝 幸夫
 position: <nobr>チーフ・デジタル・<wbr>オフィサー</nobr>
-short: "  "
+team: Special Value Creation Team
 img: /media/SaegusaTHP_3559-3-square.jpg
 tags:
-  - Core
+  - ValueCreate
 bio: >-
   2021年度Japan CDO of the Year受賞。\
 

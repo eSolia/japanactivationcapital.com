@@ -1,0 +1,40 @@
+@use "../global" as *;
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  font-family: var(--base-font);
+  font-size: 16px;
+  color: var(--c-text);
+  background-color: var(--c-base);
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  word-break: auto-phrase;
+}
+
+// 英語
+html[lang="en"] body {
+  letter-spacing: 0.05em;
+  word-break: normal;
+}
+
+html[lang="en"] {
+  letter-spacing: 0.05em;
+  text-align: left;
+  -webkit-hyphens: auto;
+  -webkit-hyphenate-limit-before: 3;
+  -webkit-hyphenate-limit-after: 3;
+  -webkit-hyphenate-limit-chars: 6 3 3;
+  -webkit-hyphenate-limit-lines: 2;
+  -webkit-hyphenate-limit-last: always;
+  -webkit-hyphenate-limit-zone: 8%;
+  hyphens: auto !important;
+  hyphenate-character: "-";
+  hyphenate-limit-chars: 6 3 3;
+  hyphenate-limit-lines: 2;
+  hyphenate-limit-last: always;
+  hyphenate-limit-zone: 8%;
+}

@@ -8,10 +8,10 @@ id: bio_kobayashi
 weight: 677
 name: 小林 幸輝
 position: <nobr>インベストメント・<wbr>プロフェッショナル</nobr>
-short: "  "
+team: Investment Team
 img: /media/kobayashi2.jpg
 tags:
-  - Core
+  - Investment
 bio: >
   JAC参画以前は、投資ファンドにてエンターテイメント業界及びコンシューマー・リテール業界を中心に多くの投資案件に関与。それ以前は金融機関にてM&Aアドバイザリー業務、IPOアドバイザリー業務に従事。\
 

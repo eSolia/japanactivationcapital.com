@@ -1,17 +1,50 @@
 ---
-layout: ./base.vto
-containerClass: news
+layout: layouts/base.vto
 ---
-<section class="news" id="news-detail">
-  <div class="inner">
-    <h1 class="new-title">{{ title }}</h1>
-    {{ if it.img }}
-    <div class="news-photo">
-      <img src="{{ it.img }}" alt="{{ it.imgalt }}" width="400" transform-images="avif webp jpg 400@2">
-    </div>
-    {{ /if }}
-    <div class="txt from-markdown">
-      {{ content }}
+
+<main class="l-subpage">
+  <!-- p-sub-page-header -->
+  <div class="p-sub-page-header">
+    <div class="p-sub-page-header__inner l-inner">
+      <h1 class="c-section-title c-section-title--small"><span>news</span></h1>
     </div>
   </div>
-</section>
+  <!-- /p-sub-page-header -->
+  <div class="p-entry-news">
+    <div class="l-inner l-inner--s">
+      <div class="p-entry-news__header">
+        <!-- <a href="../../" class="c-news-item__link"> -->
+        <time
+          datetime="{{ it.date |> date(undefined, lang) }}"
+          class="p-entry-news__date c-date"
+        >{{ it.date |> date(undefined, lang) }}</time>
+        <p class="p-entry-news__tag c-tag">{{ it.tags[0] }}</p>
+        <h2 class="p-entry-news__title">{{ it.title }}</h2>
+        <!-- </a> -->
+      </div>
+      <div class="p-entry-news__body">
+        {{ if it.img }}
+          <figure style="float: right; max-width: 400px;">
+            <img
+              src="{{ it.img }}"
+              alt="{{ it.imgalt }}"
+              {{# width=200 #}}
+              {{# height="175" #}}
+            />
+          </figure>
+        {{ /if }}
+        {{ content }}
+      </div>
+      {{# <div class="p-entry-news__pager">
+        <div class="p-entry-news__button">
+          <a href="../../"
+            class="c-button-arrow c-button-arrow--text-left c-button-arrow--reverse c-button-arrow--small"><span>back</span></a>
+        </div>
+        <div class="p-entry-news__button">
+          <a href="../../"
+            class="c-button-arrow c-button-arrow--text-right c-button-arrow--small"><span>next</span></a>
+        </div>
+      </div> #}}
+    </div>
+  </div>
+</main>

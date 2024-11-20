@@ -8,11 +8,11 @@ lang: ja
 id: bio_sakoh
 weight: 640
 name: 酒向 麻子
-position: <nobr>マネージング・<wbr>ディレクター<wbr>（IR担当）</nobr>
-short: "  "
+position: <nobr>マネージング・<wbr>ディレクター</nobr>
+team: Investor Relations Team
 img: /media/sakoh0730g.jpg
 tags:
-  - Core
+  - InvestorRelations
 bio: |-
   ニューヨーク拠点のプレースメント・エージェントのシルバーリーフパートナーズのマネージング・ディレクターを経て参画。\
   様々な戦略のオルタナティブ投資ファンドマネジャーの米国および日系機関投資家向けファンドレイズをサポート。\

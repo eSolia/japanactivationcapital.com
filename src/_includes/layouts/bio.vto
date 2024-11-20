@@ -1,17 +1,52 @@
 ---
-layout: ./base.vto
+layout: layouts/base.vto
 containerClass: bio
 ---
-<section class="bio" id="bio-view">
-  <div class="inner">
-    <div class="bio-view-header">
-      <img src="{{ it.img }}" alt="Bio page photo for {{ name }}, {{ position }}" width="350" transform-images="avif webp jpg 350@2">
-      <h1 class="new-title">{{ name }}</h1>
-      <h3>{{ position }}</h3>
-      <p>{{ short }}</p>
-    </div>
-    <div class="txt from-markdown">
-      {{ bio |> md }}
+
+<main class="l-subpage">
+  <!-- p-sub-page-header -->
+  <div class="p-sub-page-header">
+    <div class="p-sub-page-header__inner l-inner">
+      <div class="p-sub-page-header__rows">
+        <h1 class="c-section-title"><span>team</span></h1>
+        <p class="p-sub-page-header__text">{{ site.team.topcopy }}</p>
+      </div>
     </div>
   </div>
-</section>
+  <!-- /p-sub-page-header -->
+  <!-- p-entry-team -->
+  <div class="p-entry-team">
+    <div class="l-inner">
+      <div class="p-entry-team__cols">
+        <div class="p-entry-team__img">
+          <div class="c-card-member">
+            <h2 class="c-card-member__name">{{ name }}</h2>
+            <p class="c-card-member__role">{{ position }}</p>
+            <p class="c-card-member__team">{{ team }}</p>
+            <figure class="c-card-member__img c-shadow-item">
+              <img
+                src="{{ img }}"
+                alt="Bio page photo for {{ name }}, {{ position }}"
+                width="240"
+                height="300"
+                decoding="async"
+                loading="lazy"
+                transform-images="avif webp jpg 400@2"
+              />
+            </figure>
+          </div>
+        </div>
+        <div class="p-entry-team__body">
+          {{ bio |> md }}
+          <div class="p-entry-team__button">
+            <a
+              href="../"
+              class="c-button-arrow c-button-arrow--text-left c-button-arrow--reverse c-button-arrow--small"
+            ><span>back</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /p-entry-team -->
+</main>

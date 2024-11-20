@@ -1,0 +1,9 @@
+@use "sass:map";
+@use "./variables" as v;
+
+// メディアクエリ
+@mixin mq($mediaquery: md) {
+  @media #{map.get(v.$mediaquerys, $mediaquery)} {
+    @content;
+  }
+}

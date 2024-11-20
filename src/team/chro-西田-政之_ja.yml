@@ -11,10 +11,10 @@ id: bio_nishida
 weight: 620
 name: 西田 政之
 position: <nobr>チーフ・ヒューマンリソース・<wbr>オフィサー</nobr>
-short: "  "
+team: Special Value Creation Team
 img: /media/nishidasq.jpg
 tags:
-  - Core
+  - ValueCreate
 bio: >-
   HR Award 2022 企業人事部門　最優秀賞受賞。\
 

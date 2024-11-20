@@ -1,0 +1,104 @@
+@use "../global" as *;
+
+.p-index-mv {
+  height: 100svh;
+  min-height: 420px;
+  // position: relative;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+
+  @include mq(md) {
+    min-height: 500px;
+  }
+}
+
+.p-index-mv__inner {
+  height: inherit;
+  min-height: inherit;
+  position: relative;
+  z-index: 1;
+}
+
+.p-index-mv__cols {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 15px 12px 20px;
+
+  @include mq(md) {
+    display: contents;
+  }
+}
+
+.p-index-mv__logo {
+  width: 155px;
+
+  @include mq(md) {
+    width: min(260px, calc(260 / 1190 * 100vw));
+    position: absolute;
+    top: min(90px, calc(90 / 1190 * 100vw));
+    left: min(100px, calc(100 / 1190 * 100vw));
+  }
+}
+
+.p-index-mv__control {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+
+  @include mq(md) {
+    position: absolute;
+    top: 20px;
+    right: 32px;
+    column-gap: 35px;
+  }
+}
+
+.p-index-mv__texts {
+  font-family: var(--second-font);
+  color: var(--c-text-white);
+  padding: 0 20px;
+  position: absolute;
+  top: 140px;
+
+  @include mq(md) {
+    top: auto;
+    bottom: max(55px, calc(55 / 1190 * 100vw));
+    padding: 0 70px;
+  }
+}
+
+.p-index-mv__main-text {
+  font-style: italic;
+  font-weight: 600;
+  font-size: max(24px, calc(24 / 390 * 100vw));
+  letter-spacing: -0.02em;
+
+  @include mq(md) {
+    font-size: max(42px, calc(42 / 1440 * 100vw));
+    line-height: 1.229;
+  }
+
+  @include mq(lg) {
+    font-size: max(48px, calc(48 / 1440 * 100vw));
+  }
+}
+
+.p-index-mv__bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+}
+
+.p-index-mv__bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  @include mq(md) {
+    object-position: right;
+  }
+}

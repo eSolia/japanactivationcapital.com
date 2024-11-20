@@ -1,0 +1,64 @@
+@use "../global" as *;
+
+.c-card-member {
+  display: grid;
+  color: var(--c-primary);
+}
+
+.c-card-member__role {
+  margin-top: 20px;
+}
+
+.c-card-member__name {
+  margin-top: 5px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.c-card-member__team {
+  margin-top: 15px;
+  font-family: var(--second-font);
+  font-style: italic;
+  font-weight: 300;
+
+  @include mq(md) {
+    margin-top: 20px;
+  }
+}
+
+.c-card-member__img {
+  order: -1;
+}
+
+.c-card-member__img img {
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 240 / 300;
+}
+
+// c-card-member--small
+.c-card-member--small .c-card-member__role {
+  margin-top: 12px;
+  font-size: 14px;
+
+  @include mq(md) {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+}
+
+.c-card-member--small .c-card-member__name {
+  margin-top: 0;
+  font-size: 20px;
+
+  @include mq(md) {
+    margin-top: 5px;
+    font-size: 22px;
+  }
+}
+
+// 英語
+html[lang="en"] .c-card-member__role,
+html[lang="en"] .c-card-member__name {
+  letter-spacing: 0.1em;
+}

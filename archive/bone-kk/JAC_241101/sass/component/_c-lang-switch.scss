@@ -1,0 +1,45 @@
+@use "../global" as *;
+
+.c-lang-switch {
+  --_theme-color: var(--c-base);
+  --_theme-font-color: #b3b3b3;
+  display: flex;
+}
+
+.c-lang-switch__link {
+  display: inline-block;
+  font-family: var(--second-font);
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--_theme-font-color);
+  padding: 10px;
+}
+
+.c-lang-switch__link.is-active {
+  color: var(--_theme-color);
+}
+
+.c-lang-switch__link:nth-of-type(2) {
+  position: relative;
+}
+
+.c-lang-switch__link:nth-of-type(2)::before {
+  content: "";
+  width: 1px;
+  height: 1em;
+  background-color: var(--_theme-color);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+
+// c-lang-switch--primary
+.c-lang-switch--primary {
+  --_theme-color: var(--c-primary);
+}
+
+// c-lang-switch--white
+.c-lang-switch--white {
+  --_theme-font-color: var(--c-text-white);
+}

@@ -13,3 +13,49 @@ coding and help with migrating this site from static HTML to Lume.
 - Fonts: Google Noto Sans for English and Japanese body text
   - Display font on headings is Adobe "Wedding Gothic ATF" 
 - Editing: client can use decapCMS to edit News and Bio items, as well as CEO greeting message 
+
+### Lume Tips
+
+Count child pages: 
+
+```
+<!-- Investment Teamここから -->
+<div id="tab-1" class="c-tab__content c-tab__content--hidden" aria-hidden="false">
+  <div class="p-index-team__list-wrapper" data-team-list>
+      {{ set investmentcount = search.pages(`tags*=Investment type=bio lang=${lang}`, "weight").length }}
+      <ul class="p-index-team__list" data-investmentcount="{{ investmentcount }}">
+        {{ for item of search.pages(`tags*=Investment type=bio lang=${lang}`, "weight") }}
+          <li class="p-index-team__item">
+            <a href="{{ item.url }}" class="c-card-member">
+              <p class="c-card-member__role">{{ item.position }}</p>
+              <p class="c-card-member__name">{{ item.name }}</p>
+              <figure class="c-card-member__img c-shadow-item">
+                <img src="{{ item.img }}" alt="Bio page list thumbnail for {{ item.name }}, {{ item.position }}" width="240" height="300"
+                  decoding="async" transform-images="avif webp jpg 240@2">
+              </figure>
+            </a>
+          </li>
+        {{ /for }}
+      </ul>
+  </div>
+</div>
+<!-- Investment Teamここまで -->
+```
+
+Transform images at end of img tag: 
+
+```
+<img src="{{ item.img }}" alt="Bio page list thumbnail for {{ item.name }}, {{ item.position }}" width="240" height="300" decoding="async" transform-images="avif webp jpg 240@2">
+```
+
+Get the first tag like this specifying the 0th element: 
+
+```
+<p class="p-entry-news__tag c-tag">{{ it.tags[0] }}</p>
+```
+
+This works but it’s not elegant: 
+
+```
+<p class="p-entry-news__tag c-tag">{{ set firstKey = 0 }}{{ for key, item of it.tags }}{{ if key == firstKey }}{{ item }}{{ /if }}{{ /for }}</p>
+```

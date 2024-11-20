@@ -8,10 +8,10 @@ id: bio_Nakamura
 weight: 560
 name: 中村 佳太
 position: パートナー
-short: "  "
+team: Investment Team
 img: /media/NakamuraTHP_3798-3-square.jpg
 tags:
-  - Core
+  - Investment
 bio: |-
   モルガン・スタンレー投資銀行本部を経て参画。\
   国内大手企業の資金調達、IPO、M&A、投資家対応等に加え、スタートアップ企業のファイナンス案件にも従事。\
