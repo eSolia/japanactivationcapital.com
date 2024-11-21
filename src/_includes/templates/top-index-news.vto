@@ -3,6 +3,7 @@
   <div class="p-index-news__inner l-inner u-fadeInDown" data-scroll-animation>
     <div class="p-index-news__title">
       <h2 class="c-section-title"><span>news &</span><br><span>media</span></h2>
+      {{ if lang == "ja" }}{{set dfmt = "JPDATE"}}{{ else }}{{set dfmt = "USDATE"}}{{/if}}
     </div>
     <div class="p-index-news__tabs">
       <section class="tab" id="third-tab">
@@ -11,14 +12,14 @@
           <li class="c-news-item">
             {{ if item.external_link }}
             <a href="{{ item.external_link }}" class="c-news-item__link" target="_blank">
-              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(undefined, lang) }}</time>
+              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(dfmt, lang) }}</time>
               <p class="c-news-item__tag c-tag">{{ item.tags[0] }}</p>
               <p class="c-news-item__title">{{ item.title }}</p>
               <div class="c-news-item__arrow"><span class="c-circle-arrow"></span></div>
             </a>
             {{ else }}
             <a href="{{ item.url }}" class="c-news-item__link">
-              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(undefined, lang) }}</time>
+              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(dfmt, lang) }}</time>
               <p class="c-news-item__tag c-tag">{{ item.tags[0] }}</p>
               <p class="c-news-item__title">{{ item.title }}</p>
               <div class="c-news-item__arrow"><span class="c-circle-arrow"></span></div>
@@ -41,14 +42,14 @@
           <li class="c-news-item">
             {{ if item.external_link }}
             <a href="{{ item.external_link }}" class="c-news-item__link" target="_blank">
-              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(undefined, lang) }}</time>
+              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(dfmt, lang) }}</time>
               <p class="c-news-item__tag c-tag">{{ item.tags[0] }}</p>
               <p class="c-news-item__title">{{ item.title }}</p>
               <div class="c-news-item__arrow"><span class="c-circle-arrow"></span></div>
             </a>
             {{ else }}
             <a href="{{ item.url }}" class="c-news-item__link">
-              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(undefined, lang) }}</time>
+              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(dfmt, lang) }}</time>
               <p class="c-news-item__tag c-tag">{{ item.tags[0] }}</p>
               <p class="c-news-item__title">{{ item.title }}</p>
               <div class="c-news-item__arrow"><span class="c-circle-arrow"></span></div>
@@ -71,14 +72,14 @@
           <li class="c-news-item">
             {{ if item.external_link }}
             <a href="{{ item.external_link }}" class="c-news-item__link" target="_blank">
-              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(undefined, lang) }}</time>
+              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(dfmt, lang) }}</time>
               <p class="c-news-item__tag c-tag">{{ item.tags[0] }}</p>
               <p class="c-news-item__title">{{ item.title }}</p>
               <div class="c-news-item__arrow"><span class="c-circle-arrow"></span></div>
             </a>
             {{ else }}
             <a href="{{ item.url }}" class="c-news-item__link">
-              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(undefined, lang) }}</time>
+              <time datetime="{{ item.date |> date(undefined, lang) }}" class="c-news-item__date c-date">{{ item.date |> date(dfmt, lang) }}</time>
               <p class="c-news-item__tag c-tag">{{ item.tags[0] }}</p>
               <p class="c-news-item__title">{{ item.title }}</p>
               <div class="c-news-item__arrow"><span class="c-circle-arrow"></span></div>

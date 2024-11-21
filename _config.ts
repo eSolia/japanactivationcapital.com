@@ -55,6 +55,10 @@ site.use(googleFonts({
 
 site.use(date({
   locales: { enUS, ja },
+  formats: {
+    "USDATE": "MM-dd-yyyy",
+    "JPDATE": "yyyy-MM-dd",
+  },
 }));
 
 site.use(multilanguage({
