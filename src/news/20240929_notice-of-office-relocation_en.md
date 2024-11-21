@@ -30,6 +30,6 @@ initiatives. We thank you for all your support and look forward to a continuing
 and prosperous business relationship.\
 \
 New address: POLA Aoyama Building 11F, 2-5-17, Minami-Aoyama, Minato-ku, Tokyo
-107-0062, Japan.\
+107-0062, Japan\
 \
 Website: <https://japanactivationcapital.com/>
