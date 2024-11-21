@@ -71,7 +71,7 @@ collections:
       - label: Featured Image
         name: img
         widget: image
-        default: /media/logo.png
+        default: /media/jac_logo_wb.png
         hint: Upload the featured image for the news post (defaults to the logo). The system will automatically resize it for use in the site. You can also opt to remove the image.
         required: false
       - label: Featured Image Alt Text
