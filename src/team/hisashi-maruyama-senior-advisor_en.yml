@@ -13,7 +13,7 @@ id: bio_Maruyama
 weight: 1044
 name: Hisashi Maruyama
 position: Senior Advisor
-team: Advisors
+short: " "
 img: /media/maruyama.jpg
 tags:
   - Advisor
@@ -26,4 +26,5 @@ bio: >-
 
   \
 
-  Mr. Maruyama currently serves as an Independent Director of Zensho Holdings.
+  Mr. Maruyama currently serves as an Independent Director of Zensho Holdings and Yokogawa Electric Corporation.
+team: Advisors
