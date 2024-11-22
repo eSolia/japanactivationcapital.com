@@ -19,6 +19,7 @@ containerClass: news
         <h2 class="c-section-title"><span>news &</span><br><span>media</span></h2>
       </div> -->
       <div class="p-index-news__tabs">
+      {{# Set the default date format based on the language #}}
       {{ if lang == "ja" }}{{set dfmt = "JPDATE"}}{{ else }}{{set dfmt = "USDATE"}}{{/if}}
         <section class="tab" id="third-tab">
           <nav>
