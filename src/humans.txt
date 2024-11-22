@@ -7,13 +7,13 @@
     Contact: https://japanactivationcapital.com/en#contact
     Design: https://honehone-rock.com/
     Lume SSG Generator Dev: Óscar Otero https://oscarotero.com/
-    Infrastructure: Rick Cogley https://esolia.com
+    Infrastructure, Site Ops: Rick Cogley, eSolia Inc. https://esolia.com
 
 /* SITE */
 
     Purpose: Marketing site with basic info about JAC’s mission and approach, news items and links, personnel pages.
     Languages: English / Japanese
-    Build Process: Static Site Generator rebuilds on git push, using templates so that changes do not have to be made on every page manually. 
+    Build Process: Static Site Generator rebuilds on git push, using templates so that changes do not have to be made on every page manually.
 
 /* TECHNOLOGY */
 
@@ -33,5 +33,5 @@
     20240522 - separate team listing page into sections based on singleton page tags
     20240623 - launch on new domain due to company name change
     20240701 - forward from old domain to new
-	202411 - launch new Bone KK design
+	  20241119 - launch new Bone KK design
 
