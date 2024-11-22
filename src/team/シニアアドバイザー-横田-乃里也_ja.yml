@@ -12,7 +12,7 @@ lang: ja
 id: bio_Yokota
 weight: 1150
 name: 横田 乃里也
-position: シニア・アドバイザー
+position: <nobr>シニア・<wbr>アドバイザー</nobr>
 team: Advisors
 img: /media/yokotasq.jpg
 tags:

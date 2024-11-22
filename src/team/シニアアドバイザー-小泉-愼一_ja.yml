@@ -12,7 +12,7 @@ lang: ja
 id: bio_Koizumi
 weight: 1029
 name: 小泉 愼一
-position: シニア・アドバイザー
+position: <nobr>シニア・<wbr>アドバイザー</nobr>
 team: Advisors
 img: /media/koizumisq.jpg
 tags:

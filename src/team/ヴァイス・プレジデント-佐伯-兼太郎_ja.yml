@@ -10,7 +10,7 @@ lang: ja
 id: bio_Saeki
 weight: 655
 name: 佐伯 兼太郎
-position: ヴァイス・プレジデント
+position: <nobr>ヴァイス・<wbr>プレジデント</nobr>
 team: Investment Team
 img: /media/saeki4.jpg
 tags:

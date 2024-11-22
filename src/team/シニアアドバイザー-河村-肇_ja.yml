@@ -9,7 +9,7 @@ lang: ja
 id: bio_kawamura
 weight: 1023
 name: 河村 肇
-position: シニア・アドバイザー
+position: <nobr>シニア・<wbr>アドバイザー</nobr>
 team: Advisors
 img: /media/kawamura1.jpg
 tags:
