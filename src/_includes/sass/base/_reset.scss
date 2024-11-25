@@ -67,17 +67,17 @@ body {
 }
 
 :where(
-    :any-link,
-    button,
-    [type="button"],
-    [type="reset"],
-    [type="submit"],
-    label[for],
-    select,
-    summary,
-    [role="tab"],
-    [role="button"]
-  ) {
+  :any-link,
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"],
+  label[for],
+  select,
+  summary,
+  [role="tab"],
+  [role="button"]
+) {
   cursor: pointer;
 }
 

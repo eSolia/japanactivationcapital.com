@@ -38,7 +38,8 @@ cms.collection(
       name: "title",
       type: "text",
       label: "News Item Title",
-      description: "As the news page’s metadata title, enter the title of the news item, in the same language as the content. Careful, this becomes the URL slug and filename, so get it right the first time, and it’s recommended to keep the length under 70 Japanese characters.",
+      description:
+        "As the news page’s metadata title, enter the title of the news item, in the same language as the content. Careful, this becomes the URL slug and filename, so get it right the first time, and it’s recommended to keep the length under 70 Japanese characters.",
       attributes: {
         required: true,
       },
@@ -47,7 +48,8 @@ cms.collection(
       name: "description",
       type: "textarea",
       label: "News Item Description",
-      description: "As the news page’s metadata description, enter a short description for the news post in the same language as the content, to be used by search engines and social media.",
+      description:
+        "As the news page’s metadata description, enter a short description for the news post in the same language as the content, to be used by search engines and social media.",
       attributes: {
         required: true,
       },
@@ -75,7 +77,8 @@ cms.collection(
       name: "id",
       type: "text",
       label: "ID to group Language Pairs",
-      description: "This links the languages of a news item, so use e.g. 20231215A for both Japanese and English, then 20231215B, ...C, etc, for subsequent news items on that day.",
+      description:
+        "This links the languages of a news item, so use e.g. 20231215A for both Japanese and English, then 20231215B, ...C, etc, for subsequent news items on that day.",
     },
     {
       name: "tags",
@@ -100,7 +103,8 @@ cms.collection(
       name: "img",
       type: "file",
       label: "Featured Image",
-      description: "Upload the featured image for the news post (defaults to the logo). You can also opt to remove the image.",
+      description:
+        "Upload the featured image for the news post (defaults to the logo). You can also opt to remove the image.",
       attributes: {
         accept: "image/*",
         required: false,
@@ -122,7 +126,8 @@ cms.document({
       name: "priority",
       type: "number",
       label: "Priority for sitemap",
-      description: "1 is highest priority, 0 is lowest priority, and you can set decimal numbers in between like 0.9.",
+      description:
+        "1 is highest priority, 0 is lowest priority, and you can set decimal numbers in between like 0.9.",
       attributes: {
         required: false,
         min: 0,
@@ -131,7 +136,7 @@ cms.document({
       },
     },
     "content: markdown",
-  ]
+  ],
 });
 
 cms.document({
@@ -145,7 +150,8 @@ cms.document({
       name: "priority",
       type: "number",
       label: "Priority for sitemap",
-      description: "1 is highest priority, 0 is lowest priority, and you can set decimal numbers in between like 0.9.",
+      description:
+        "1 is highest priority, 0 is lowest priority, and you can set decimal numbers in between like 0.9.",
       attributes: {
         required: false,
         min: 0,
@@ -154,16 +160,17 @@ cms.document({
       },
     },
     "content: markdown",
-  ]
+  ],
 });
 
 cms.document({
   name: "ld-person",
-  description: "Edit the content of the ld-person script for the person, which will appear in the head of the about page",
+  description:
+    "Edit the content of the ld-person script for the person, which will appear in the head of the about page",
   store: "_includes/templates/ld-person.vto",
   fields: [
     "content: markdown",
-  ]
-})
+  ],
+});
 
 export default cms;

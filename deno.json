@@ -18,7 +18,8 @@
   "fmt": {
     "exclude": [
       "_site",
-      "src/assets"
+      "src/assets",
+      "archive"
     ]
   }
 }
