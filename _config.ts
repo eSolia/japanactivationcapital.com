@@ -49,9 +49,12 @@ site.use(googleFonts({
   cssFile: "css/styles.scss",
   placeholder: "/* lume-google-fonts-here */",
   fonts: {
-    display: "https://fonts.google.com/share?selection.family=Josefin+Sans:ital,wght@0,100..700;1,100..700",
-    text: "https://fonts.google.com/share?selection.family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap",
-}}));
+    display:
+      "https://fonts.google.com/share?selection.family=Josefin+Sans:ital,wght@0,100..700;1,100..700",
+    text:
+      "https://fonts.google.com/share?selection.family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap",
+  },
+}));
 
 site.use(date({
   locales: { enUS, ja },
@@ -94,8 +97,73 @@ site.use(brotli());
 site.use(minifyHTML(/* Options */));
 // Give access only to Google and Bing
 site.use(robots({
-  allow: ["Googlebot", "Feedfetcher-Google", "Google Favicon", "Googlebot-Image", "Googlebot-Mobile", "Googlebot-News", "Googlebot-Video", "GoogleOther", "Bingbot", "msnbot", "msnbot-media", "Yandex", "YandexBot", "YandexImages", "DuckDuckBot", "DuckDuckGo-Favicons-Bot", "Yahoo! Slurp", "archive.org_bot", "heritrix", "Arquivo-web-crawler", "ia-archiver", "ia_archiver-web.archive.org", "Nicecrawler"],
-  disallow: ["CCBot", "ChatGPT-User", "GPTBot", "DuckAssistBot", "Google-Extended", "AdsBot-Google", "AdsBot-Google-Mobile", "anthropic-ai", "cohere-ai", "omgilibot", "omgili", "FacebookBot", "Meta-ExternalFetcher", "Meta-ExternalAgent", "AI2Bot", "Baiduspider", "Baiduspider-image", "Bytespider", "Diffbot", "Kangaroo Bot", "Timpibot", "Webzio-Extended", "Amazonbot", "Applebot", "OAI-SearchBot", "PerplexityBot", "YouBot", "008", "Dataprovider.com", "dcrawl", "HTTrack", "HTTrack 3.0", "MetaInspector", "newspaper", "Nutch", "Offline Explorer", "OpenindexSpider", "Scrapy", "SeznamBot", "Sogou web spider"],
+  allow: [
+    "Googlebot",
+    "Feedfetcher-Google",
+    "Google Favicon",
+    "Googlebot-Image",
+    "Googlebot-Mobile",
+    "Googlebot-News",
+    "Googlebot-Video",
+    "GoogleOther",
+    "Bingbot",
+    "msnbot",
+    "msnbot-media",
+    "Yandex",
+    "YandexBot",
+    "YandexImages",
+    "DuckDuckBot",
+    "DuckDuckGo-Favicons-Bot",
+    "Yahoo! Slurp",
+    "archive.org_bot",
+    "heritrix",
+    "Arquivo-web-crawler",
+    "ia-archiver",
+    "ia_archiver-web.archive.org",
+    "Nicecrawler",
+  ],
+  disallow: [
+    "CCBot",
+    "ChatGPT-User",
+    "GPTBot",
+    "DuckAssistBot",
+    "Google-Extended",
+    "AdsBot-Google",
+    "AdsBot-Google-Mobile",
+    "anthropic-ai",
+    "cohere-ai",
+    "omgilibot",
+    "omgili",
+    "FacebookBot",
+    "Meta-ExternalFetcher",
+    "Meta-ExternalAgent",
+    "AI2Bot",
+    "Baiduspider",
+    "Baiduspider-image",
+    "Bytespider",
+    "Diffbot",
+    "Kangaroo Bot",
+    "Timpibot",
+    "Webzio-Extended",
+    "Amazonbot",
+    "Applebot",
+    "OAI-SearchBot",
+    "PerplexityBot",
+    "YouBot",
+    "008",
+    "Dataprovider.com",
+    "dcrawl",
+    "HTTrack",
+    "HTTrack 3.0",
+    "MetaInspector",
+    "newspaper",
+    "Nutch",
+    "Offline Explorer",
+    "OpenindexSpider",
+    "Scrapy",
+    "SeznamBot",
+    "Sogou web spider",
+  ],
   rules: [
     {
       userAgent: "*",
@@ -119,7 +187,6 @@ site.use(robots({
     },
   ],
 }));
-
 
 site.preprocess([".html"], (pages) => {
   for (const page of pages) {

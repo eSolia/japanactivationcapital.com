@@ -15,7 +15,7 @@
   z-index: 3;
 
   @include mq(md) {
-    width: min((940px + var(--padding-pc) * 2), 100%);
+    width: min(940px + var(--padding-pc) * 2, 100%);
   }
 }
 

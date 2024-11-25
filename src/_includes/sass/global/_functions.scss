@@ -19,5 +19,9 @@
 @function mm($maxfz: 16, $minfz: 16, $maxvp: 1100, $minvp: 767) {
   $px: math.div($minvp, 100);
   $slope: math.div(($maxfz - $minfz), (($maxvp - $minvp) * 0.01));
-  @return clamp(#{$minfz}px, (#{$minfz}px + (1vw - #{$px}px) * #{$slope}), #{$maxfz}px);
+  @return clamp(
+    #{$minfz}px,
+    #{$minfz}px + (1vw - #{$px}px) * #{$slope},
+    #{$maxfz}px
+  );
 }
