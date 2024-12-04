@@ -1,26 +1,45 @@
-title: Katsushi Yamamoto, Vice President
-description: >-
-  Katsushi Yamamoto is a Vice President of Japan Activation Capital.
-
-  Before joining Japan Activation Capital, he was a Manager at A.T. Kearney. He has extensive experiences in strategy, organization, business process optimization, digital transformation, and business due diligences across multiple industries especially in the automotive, transportation and industrials.
+title: Suguru Matsufuji, Vice President
+description: Suguru Matsufuji is a Vice President of Japan Activation Capital.
+  Prior to joining Japan Activation Capital, he served as Vice President at
+  Aspirant Group, where he focused on fund administration and investor
+  relations, including managing annual general meetings and quarterly reporting
+  to investors. He began his career at Tokyo Tanshi Co., working as an
+  interdealer broker in the Japanese Government Bond repo market and writing
+  market reports for clients.
 ldPerson:
   nationality: Japanese
 lang: en
-id: bio_Yamamoto
-weight: 660
-name: Katsushi Yamamoto
+id: bio_Matsufuji
+weight: 605
+name: Suguru Matsufuji
 position: Vice President
-team: Investment Team
-img: /media/yamamotothp_2967-2.jpg
+short: " "
+img: /media/matsufuji.jpg
 tags:
-  - Investment
-bio: >-
-  Katsushi Yamamoto is a Vice President of Japan Activation Capital.\
+  - Corporate
+bio: "Suguru Matsufuji is a Vice President of Japan Activation Capital.\\
 
-  \
+  \\
 
-  Before joining Japan Activation Capital, he was a Manager at A.T. Kearney. He has extensive experiences in strategy, organization, business process optimization, digital transformation, and business due diligences across multiple industries especially in the automotive, transportation and industrials.\
+  Prior to joining Japan Activation Capital, he served as Vice President at
+  Aspirant Group, where he focused on fund administration and investor
+  relations, including managing annual general meetings and quarterly reporting
+  to investors.\\
 
-  \
+  \\
 
-  Mr. Yamamoto holds a Bachelor and a Master of Engineering from The University of Tokyo
+  He began his career at Tokyo Tanshi Co., working as an interdealer broker in
+  the Japanese Government Bond repo market and writing market reports for
+  clients.\\
+
+  \\
+
+  Mr. Matsufuji holds a B.A in Economics from The University of Tokyo, and is
+  a US Certified Public Accountant (Washington state).
+
+
+  \\ 
+
+
+  \ "
+team: Investment Team
