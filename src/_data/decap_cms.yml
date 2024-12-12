@@ -154,10 +154,10 @@ collections:
         name: position
         widget: string
         hint: Enter the person’s job title, in the same language as the content.
-      - label: Short Introduction
-        name: short
+      - label: Bio Page Team
+        name: team
         widget: text
-        hint: Enter a short biographical sentence about the person.
+        hint: Enter team name, confirming and being consistent with other members of the team.
       - label: Image
         name: img
         widget: image

@@ -10,7 +10,7 @@ id: bio_Matsufuji
 weight: 605
 name: 松藤 卓
 position: ヴァイス・<wbr>プレジデント
-short: " "
+team: Corporate Team
 img: /media/matsufuji.jpg
 tags:
   - Corporate
@@ -20,4 +20,3 @@ bio: |-
   それ以前は、東京短資に勤務。日本国債レポ市場においてブローカー業務に従事する傍ら、取引先向けの市況レポートを執筆。\
   \
   学歴：東京大学経済学部経済学科卒 米国公認会計士（ワシントン州）
-team: Corporate Team
