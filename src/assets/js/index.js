@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const secondSection = document.querySelector("[data-second-section]");
   const followingHeader = document.querySelector("[data-following-header]");
 
-  window.addEventListener("scroll", () => {
+  globalThis.addEventListener("scroll", () => {
     const sectionRect = secondSection.getBoundingClientRect();
 
     if (sectionRect.top <= 0) {
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   getMvHeight();
-  window.addEventListener("resize", getMvHeight);
+  globalThis.addEventListener("resize", getMvHeight);
 });
 
 // スライダー
@@ -82,7 +82,7 @@ for (const item of items) {
 }
 
 // スクロールアニメーション
-window.addEventListener("load", () => {
+globalThis.addEventListener("load", () => {
   const scrollElms = document.querySelectorAll("[data-scroll-animation]");
   scrollElms.forEach((scrollElm) => {
     ScrollTrigger.create({

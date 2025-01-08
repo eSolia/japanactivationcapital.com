@@ -5,7 +5,7 @@
   const viewport = document.querySelector('meta[name="viewport"]');
   function switchViewport() {
     const value =
-      window.outerWidth > 390
+      globalThis.outerWidth > 390
         ? "width=device-width,initial-scale=1"
         : "width=390";
     if (viewport.getAttribute("content") !== value) {
