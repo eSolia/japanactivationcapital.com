@@ -10,7 +10,7 @@ import { enUS } from "npm:date-fns/locale/en-US";
 import { ja } from "npm:date-fns/locale/ja";
 import filterPages from "lume/plugins/filter_pages.ts";
 import sass from "lume/plugins/sass.ts";
-// import purgecss from "lume/plugins/purgecss.ts";
+import purgecss from "lume/plugins/purgecss.ts";
 import lightningcss from "lume/plugins/lightningcss.ts";
 import transformImages from "lume/plugins/transform_images.ts";
 import picture from "lume/plugins/picture.ts";
@@ -79,7 +79,7 @@ site.use(pagefind());
 
 site.use(favicon());
 site.use(sass());
-// site.use(purgecss());
+site.use(purgecss());
 site.use(lightningcss());
 site.use(metas());
 site.use(filterPages({
@@ -236,7 +236,8 @@ site.use(decapCMS({
   path: "/6E77746E/",
 }));
 
-site.copy("assets");
+site.copy("assets/img");
+site.loadAssets([".js"]);
 //site.copy("media");
 // site.copy([".pdf"], (file) => "pdf" + file);
 site.copy([".pdf"]);
