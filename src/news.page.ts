@@ -3,13 +3,13 @@ export const layout = "layouts/news_list.vto";
 export const ja = {
   title: "News & Media",
   description:
-    "社内ニュースページや外部ニュースへのリンクを含む、ジャパン・アクティベーション・キャピタル ニュース 一覧",
+    "当ページは社内ニュースページや外部ニュースへのリンクを含む、ジャパン・アクティベーション・キャピタル ニュース 一覧で、カテゴリに分かれており、クリックすると記事全文を表示したり、外部リンクに移動することができます。",
 };
 
 export const en = {
   title: "News & Media",
   description:
-    "Japan Activation Capital News List with internal news pages and links to external news pages.",
+    "The news page shows a list of Japan Activation Capital news with internal news pages and links to external news pages, broken up into categories, which can be clicked on to view the full article or jump to an external link.",
 };
 
 export default function* ({ search, paginate }: Lume.Data) {
