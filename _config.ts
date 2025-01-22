@@ -97,7 +97,16 @@ site.use(sourceMaps());
 // site.use(sri());
 site.use(svgo(/* Options */));
 site.use(brotli());
-site.use(minifyHTML(/* Options */));
+
+site.use(minifyHTML({
+  extensions: [".html"],
+  options: {
+    keep_spaces_between_attributes: true,
+    do_not_minify_doctype: true,
+    keep_closing_tags: true,
+    keep_html_and_head_opening_tags: true,
+  },
+}));
 // Give access only to Google and Bing
 site.use(robots({
   allow: [
