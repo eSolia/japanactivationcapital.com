@@ -47,7 +47,7 @@ such as employees, customers, and suppliers.\
 
 <div align="center">
 <br>
-<img src= "/media/JAC_logo_p0_RGB.png" width="80%">
+<img src= "/media/JAC_logo_p0_RGB.png" width="80%" alt="JAC logo">
 </div>
 <br>
 
