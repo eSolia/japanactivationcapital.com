@@ -21,6 +21,7 @@ import svgo from "lume/plugins/svgo.ts";
 import brotli from "lume/plugins/brotli.ts";
 import minifyHTML from "lume/plugins/minify_html.ts";
 import robots from "lume/plugins/robots.ts";
+import jsonLd from "lume/plugins/json_ld.ts";
 // import checkUrls from "lume/plugins/check_urls.ts";
 // import sri from "lume/plugins/sri.ts";
 
@@ -107,6 +108,7 @@ site.use(minifyHTML({
     keep_html_and_head_opening_tags: true,
   },
 }));
+site.use(jsonLd());
 // Give access only to Google and Bing
 site.use(robots({
   allow: [

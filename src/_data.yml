@@ -9,7 +9,15 @@ metas:
   generator: true
   "twitter:label1": Author
   "twitter:data1": =site.author
-
+jsonLd:
+  "@type": WebSite
+  url: =url
+  headline: =metas.title
+  name: =site.title
+  description: =metas.description
+  author:
+    "@type": Organization
+    name: =site.author
 menu:
   - text: Mission & Goal
     url: /#mission
