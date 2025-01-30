@@ -19,7 +19,7 @@ import { getGitDate } from "lume/core/utils/date.ts";
 import sourceMaps from "lume/plugins/source_maps.ts";
 import svgo from "lume/plugins/svgo.ts";
 import brotli from "lume/plugins/brotli.ts";
-import minifyHTML from "lume/plugins/minify_html.ts";
+// import minifyHTML from "lume/plugins/minify_html.ts";
 import robots from "lume/plugins/robots.ts";
 import jsonLd from "lume/plugins/json_ld.ts";
 // import checkUrls from "lume/plugins/check_urls.ts";
@@ -99,15 +99,15 @@ site.use(sourceMaps());
 site.use(svgo(/* Options */));
 site.use(brotli());
 
-site.use(minifyHTML({
-  extensions: [".html"],
-  options: {
-    keep_spaces_between_attributes: true,
-    do_not_minify_doctype: true,
-    keep_closing_tags: true,
-    keep_html_and_head_opening_tags: true,
-  },
-}));
+// site.use(minifyHTML({
+//   extensions: [".html"],
+//   options: {
+//     keep_spaces_between_attributes: true,
+//     do_not_minify_doctype: true,
+//     keep_closing_tags: true,
+//     keep_html_and_head_opening_tags: true,
+//   },
+// }));
 site.use(jsonLd());
 // Give access only to Google and Bing
 site.use(robots({
