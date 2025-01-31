@@ -13,6 +13,7 @@ ldPerson:
 lang: ja
 id: bio_Harada
 weight: 530
+draft: true
 name: 原田 秀一
 position: パートナー
 team: Investment Team
