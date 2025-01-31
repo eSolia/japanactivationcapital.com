@@ -140,7 +140,7 @@ site.use(robots({
   rules: [
     {
       userAgent: "*",
-      disallow: "/6e77746e/",
+      disallow: "/6E77746E/",
     },
     {
       userAgent: "*",
@@ -192,7 +192,7 @@ site.preprocess([".html"], (pages) => {
 // }))
 
 site.use(sitemap({
-  query: "external_link=undefined",
+  query: "external_link=undefined url!=/6E77746E/",
   lastmod: "lastmod",
   priority: "priority",
   filename: "sitemap.xml",
